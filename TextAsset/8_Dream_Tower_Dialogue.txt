@@ -1,0 +1,206 @@
+8 天堂梦之塔
+备注
+- 不确定在这里模仿Gogi是否合适, 或许可以让他在玩家靠近时慌忙跑开
+- 整体概念是攀登一座(?)巨型塔楼群的顶端
+- 塔楼下层附近有兜帽恶魔类生物, 对话风格压抑消沉
+- 攀登到一定高度后, 会遇到守门者类的生物, 对话偏向积极鼓舞
+- 背景的海洋中漂浮着过往梦境的残片
+- 最后一座塔的顶端伫立着长翅膀的巨型守门者, 它面前放着最后一块梦之水晶碎片
+- 到达特定高度后, 氛围/音乐/环境音都会发生变化
+- 重生点会随着攀登高度不断上移
+- 会不会太说教了??
+恶魔哥布林
+哥布林1
+[title=reject_1_begin]
+弃民: 我们是被丢弃的, 是 <color=#8a2727><b>被排斥者</b></color>. 你眼前的每一个我们, 生来就注定是可被随意舍弃的存在.
+弃民: 看来你也被丢进这堆弃物里了.
+弃民: 这里除了陈旧的记忆什么都没有. 早已被遗忘的梦境残片. [event=4]
+弃民: 在很远的前方, 有人在等你. 现在就出发, 不然就会变成我们中的一员.
+[title=reject_1_end]
+哥布林2
+[title=reject_2_begin]
+弃民: 眼前的景象辽阔无垠, 充满无限可能, 可一切都显得如此空洞荒芜, 无人问津.
+弃民: 我们曾向往更宏大的事物, 可就像这片风景一样, 或许我们的梦也蒙上了太多阴霾.
+弃民: [question=00]事情本不必如此, 可从来没人试着去改变. 你怎么看?
+[choice]毫无意义.[newtalk start=answer_reject_2_no_begin break=answer_reject_2_no_end]
+[choice]还有希望.[newtalk start=answer_reject_2_yes_begin break=answer_reject_2_yes_end]
+[title=reject_2_end]
+哥布林2 选项1
+[title=answer_reject_2_no_begin]
+弃民: 你说得对. 这不过是一片冰冷漆黑、满是漠然的虚无海洋, 我们都在其中慢慢沉溺.
+弃民: 或许一切本该如此, 自有定数. 宇宙向来随心所欲. 活在这可悲的小小世界里, 也就这点好处了.
+[title=answer_reject_2_no_end]
+哥布林2 选项2
+[title=answer_reject_2_yes_begin]
+弃民: 身在这种地方, 还能抱有这么高的期望. 你的话或许某天能鼓舞到某个人.
+弃民: 又或许你只是个傻子. 乐观、热忱、幸福……这些东西早就消亡殆尽了.
+[title=answer_reject_2_yes_end]
+哥布林3-1
+[title=reject_3-1_begin]
+弃民: 我早就记不清时间了, 但偶尔还能看见模糊的身影从我身边经过.
+弃民: 坐在这里的时候我总会想, 我怎么会落到这般境地? 我做了什么选择, 才一步步走到了这里?
+弃民: 这些年来我徒劳地做着自认为正确的选择, 规划着余生, 却也清楚地知道, 未来光明的希望渺茫得可怜.
+弃民: 或许某天我会想明白吧. 大概率不会. 谁知道呢.
+[title=reject_3-1_end]
+哥布林3
+[title=reject_3_begin]
+弃民: 吃的……来点吃的……什么都行……什么都可以……
+弃民: 成堆的垃圾……成团的污秽……没用的破烂……
+[title=reject_3_end]
+哥布林4
+[title=reject_4_begin]
+弃民: 我日日夜夜躺在这里, 盼着闭上眼睛再醒来时, 能看到一个不一样的地方.
+弃民: 地面又冷又硬, 好在永不停歇的燃烧瓦砾还能暖着我的后背.
+[title=reject_4_end]
+哥布林5
+[title=reject_5_begin]
+弃民: 我曾做过一个梦, 梦里世间万物都被重新排布, 悄悄偏移了些许位置.
+弃民: 或许只挪动了几英寸、几英尺, 可所有人都因此变得更快乐了.
+弃民: 我想, 那个梦所有成真的可能, 最后都流落到了这里.
+弃民: 我会用无尽的余生去重新找寻它们, 你也一样.
+[title=reject_5_end]
+哥布林6
+[title=reject_6_begin]
+弃民: 我待在这里的时间久到记不清了, 却从来没去过第二座塔.
+弃民: 我随时都能走, 我们谁都可以, 可每走一步, 我的身体就变得越发沉重迟缓.
+弃民: [question=01]哪怕是去最近的地方, 我都要花上好几天. 我还是继续在这儿歇着吧.
+[choice]说得对.[newtalk start=answer_reject_6_no_begin break=answer_reject_6_no_end]
+[choice]再试试吧.[newtalk start=answer_reject_6_yes_begin break=answer_reject_6_yes_end]
+[title=reject_6_end]
+哥布林6 选项1
+[title=answer_reject_6_no_begin]
+弃民: 是啊……歇着挺好. 就……坐着……待在这儿. 太轻松了……舒服.
+[title=answer_reject_6_no_end]
+哥布林6 选项2
+[title=answer_reject_6_yes_begin]
+弃民: 不……我不知道……我认识的人都想留下来, 或许我也该这样. 我再想想吧.
+[title=answer_reject_6_yes_end]
+哥布林7
+[title=reject_7_begin]
+弃民: 在被强行拽进这个世界之前, 对周遭一切视而不见的日子, 是多么幸福啊.
+弃民: 把一个灵魂从虚无中扯出来, 塞进这副血肉之躯, 再把生命扔进这台绞肉机, 得有多狂妄才做得出来.
+弃民: 我的思维停滞不前, 认知永远停留在不够用的层面. 我想回去.
+[title=reject_7_end]
+哥布林8
+[title=reject_8_begin]
+弃民: 前方真的什么都没有了吗? 只有一成不变的重复. 不可能……我不信.
+弃民: 外面一定还有更多值得探寻的东西, 不该只有这些. 我撑不下去了. 太痛苦了.
+弃民: [question=02]我到底哪里做错了?
+[choice]全错了.[newtalk start=answer_reject_8_no_begin break=answer_reject_8_no_end]
+[choice]坚持下去.[newtalk start=answer_reject_8_yes_begin break=answer_reject_8_yes_end]
+[title=reject_8_end]
+哥布林8 选项1
+[title=answer_reject_8_no_begin]
+弃民: 不可能……我只是照着我学到的、经历过的去做而已……
+弃民: 如果全都是错的, 我……我不知道还能怎么办. 我得好好想想.
+[title=answer_reject_8_no_end]
+哥布林8 选项2
+[title=answer_reject_8_yes_begin]
+弃民: 你……真的这么觉得吗? 我可以……我会的. 哪怕要花上月、年、几十年, 我也会抵达我想去的地方.
+弃民: 谢……谢谢你这么说.
+[title=answer_reject_8_yes_end]
+立方小天使
+下层守门者
+[title=Gatekeeper_0_begin]
+守门者: 异数来临了. 我是居间者. 我们见证了你一路走来的所有进程.
+守门者: 但你的旅途尚未结束. 你面前矗立着 <color=#e0d33f><b>三根由你自身铸就的支柱</b></color>.
+守门者: 这片梦境的某处存在着出口, 且只为你一人存在. 它在呼唤你.
+守门者: [question=0]留下, 还是继续前行? 选择权在你手中.
+[choice]继续前行.[newtalk start=answer_cube0_yes_begin break=answer_cube0_yes_end]
+[choice]留下.[newtalk start=answer_cube0_no_begin break=answer_cube0_no_end]
+[title=Gatekeeper_0_end]
+[title=answer_cube0_yes_begin]
+守门者: 现在出发, 登上你面前的 <color=#e0d33f><b>三根支柱</b></color>.[event=0]
+[title=answer_cube0_yes_end]
+[title=answer_cube0_no_begin]
+守门者: 你将与我们一同承受苦难.
+[title=answer_cube0_no_end]
+中层守门者
+[title=Gatekeeper_1_begin]
+守门者: 我们都曾是追梦者. 关于家人的回忆, 对物质的执念, 还有空中的王国.
+守门者: 然后噩梦降临了, 从未停歇. 如今我们活在由过往碎片拼凑成的混沌世界里.
+守门者: 很不幸你误入了这般困境. 你不属于这里.
+守门者: [question=1]留下, 还是继续前行? 选择权在你手中.
+[choice]继续前行.[newtalk start=answer_cube1_yes_begin break=answer_cube1_yes_end]
+[choice]留下.[newtalk start=answer_cube1_no_begin break=answer_cube1_no_end]
+[title=Gatekeeper_1_end]
+[title=answer_cube1_yes_begin]
+守门者: 这是我们中无数人求而不得的选择. 现在出发吧.[event=1]
+[title=answer_cube1_yes_end]
+[title=answer_cube1_no_begin]
+守门者: 你将与我们一同承受苦难.
+[title=answer_cube1_no_end]
+顶层守门者
+[title=Gatekeeper_2_begin]
+守门者: 推……动……方块……
+守门者: 为……终局……做好准备……
+[title=Gatekeeper_2_end]
+[title=Gatekeeper_3_begin]
+守门者: [question=2]留下……还是离开……?
+[choice]离开.[newtalk start=answer_cube2_yes_begin break=answer_cube2_yes_end]
+[choice]留下.[newtalk start=answer_cube2_no_begin break=answer_cube2_no_end]
+[title=Gatekeeper_3_end]
+[title=answer_cube2_yes_begin]
+守门者: 你……走吧……
+守门者: 再……见.[event=5]
+[title=answer_cube2_yes_end]
+[title=answer_cube2_no_begin]
+守门者: 承受苦难……
+[title=answer_cube2_no_end]
+顶端方块
+[title=Cube_0_begin]
+[question=3]是否激活方块?
+[choice]是.[newtalk start=answer_cube3_yes_begin break=answer_cube3_yes_end]
+[choice]否.[newtalk start=answer_cube3_no_begin break=answer_cube3_no_end]
+[title=Cube_0_end]
+[title=answer_cube3_yes_begin]
+你已激活方块. 可以继续前进. [event=2]
+[title=answer_cube3_yes_end]
+[title=answer_cube3_no_begin]
+方块保持未激活状态.
+[title=answer_cube3_no_end]
+巨型天使之王
+[title=angel_big_0_begin]
+???: 不必害怕. 我一直在等你, 追梦者, 这个梦境世界的所有生灵, 以及过往世界的生灵, 都在等你.
+???: 我们知道你远道而来, 克服了重重阻碍. 有些微不足道, 有些冗长乏味, 更多的骇人可怖, 但一切都是必经之路.
+???: 你追寻的最后一样东西就在这里. 自时间诞生之初它便在此, 落入你手中之时, 你的旅途便会圆满.
+???: [question=4]如果你想得到答案, 我可以解答你所有的疑问.
+[choice]你是什么?[newtalk start=answer_angel_1_begin break=answer_angel_1_end]
+[choice]我在追寻什么?[newtalk start=answer_angel_2_begin break=answer_angel_2_end]
+[choice]Gogi在哪里?[newtalk start=answer_angel_3_begin break=answer_angel_3_end]
+[choice]……[newtalk start=answer_angel_4_begin break=answer_angel_4_end]
+[title=angel_big_0_end]
+天使选项1
+[title=answer_angel_1_begin]
+???: 我有很多身份. 观察者. 统筹者. 守护者. 创世的先知.
+???: 时至今日发生的一切, 都是仅凭我的意志预先定下的进程.
+???: [question=5]你的行动、你的选择、你触动过的生命, 共同将你引向了这里. 无论好坏, 皆是宿命.
+[choice]我在追寻什么?[newtalk start=answer_angel_2_begin break=answer_angel_2_end]
+[choice]Gogi在哪里?[newtalk start=answer_angel_3_begin break=answer_angel_3_end]
+[choice]……[newtalk start=answer_angel_4_begin break=answer_angel_4_end]
+[title=answer_angel_1_end]
+天使选项2
+[title=answer_angel_2_begin]
+???: 你在追寻虚空梦之水晶的完整形态. 这段追寻的时间, 远比你能想象的更漫长. 重聚水晶是解开一切的关键.
+???: [question=6]最后一块碎片完好无损, 自被带到这里起便从未被动过. 但追寻它的人, 不止你一个.
+[choice]你是什么?[newtalk start=answer_angel_1_begin break=answer_angel_1_end]
+[choice]Gogi在哪里?[newtalk start=answer_angel_3_begin break=answer_angel_3_end]
+[choice]……[newtalk start=answer_angel_4_begin break=answer_angel_4_end]
+[title=answer_angel_2_end]
+天使选项3
+[title=answer_angel_3_begin]
+???: 梦境守护者还活着. 他的肉身已陷入深度休眠很久了, 没有任何事物能将他从这场沉睡中唤醒.
+???: 也正因如此, 他抵御噩梦的力量大幅衰弱. 你必须解救他, 赶在这个世界彻底崩塌、坠入黑暗之前.
+???: [question=7]你的时间不多了, 追梦者. 水晶重聚耗时越久, 噩梦就会变得越发可怖.
+[choice]你是什么?[newtalk start=answer_angel_1_begin break=answer_angel_1_end]
+[choice]我在追寻什么?[newtalk start=answer_angel_2_begin break=answer_angel_2_end]
+[choice]……[newtalk start=answer_angel_4_begin break=answer_angel_4_end]
+[title=answer_angel_3_end]
+天使选项4
+[title=answer_angel_4_begin]
+???: 仔细听我说, 追梦者. 在踏上这段旅程的最后一程时, 请铭记你一路走来的所有付出.
+???: 没有你, 这些世界会持续扭曲崩坏, 化作无法挽回的恐怖异象. 你是那把锁, 碎片是那把钥匙.
+???: 我必须离开了. 谜题的最后一块正在等你. 光芒会指引你前往.
+???: 这是我留给你的最后讯息. 我们会在另一段人生、另一场梦境里重逢.
+???: 再会.
+[title=answer_angel_4_end]

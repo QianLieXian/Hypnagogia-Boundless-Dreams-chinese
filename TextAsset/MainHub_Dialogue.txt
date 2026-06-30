@@ -1,0 +1,176 @@
+Main Hub Dialogue
+MAIN HUB 00
+HYPNO INTRO
+[title=hypno_0_intro_begin]
+???: 嗯...你似乎误闯入了一场奇妙的梦境. 有意思. 真是...凑巧.[event=1]
+???: 欢迎来到你目前所知一切事物的枢纽. 遗憾的是，现在你所知的还并不算多.
+???: 随着事件逐步展开，你或许能发挥自己的作用. 你瞧，事态已经脱离了常态.
+Hypno: 抱歉，是我失礼了. 我名叫<color=#b642f5><b>Hypno</b></color>... 是此地的<i>守护者</i>.
+Hypno: [question=0]我猜你肯定满腹疑问，也可能什么都不想问.
+[choice]我们在哪?[newtalk start=hypno_choice_1_begin break=hypno_choice_1_end]
+[choice]发生什么事了?[newtalk start=hypno_choice_2_begin break=hypno_choice_2_end]
+[choice]够了.[newtalk start=hypno_choice_3_begin break=hypno_choice_3_end]
+[title=hypno_0_intro_end]
+HYPNO CHOICE 1 WHERE
+[title=hypno_choice_1_begin]
+Hypno: 我们当然是在<color=#fffc36><b>梦境枢纽</b></color>里. 它的起源并不重要，对你而言它只是达成目的的通道.
+Hypno: [question=1]这是一片临时空间，用来在不同世界之间穿梭. 打个比方，就像一套相互连通的管道与隧道.
+[choice]发生什么事了?[newtalk start=hypno_choice_2_begin break=hypno_choice_2_end]
+[choice]够了.[newtalk start=hypno_choice_3_begin break=hypno_choice_3_end]
+[title=hypno_choice_1_end]
+[title=hypno_choice_2_begin]
+Hypno: [question=2]珍贵的<color=#42f5e6><b>梦境水晶</b></color>意外...碎裂了. 碎片散落在意识各处. 失去了它，一切都变得动荡而残破.
+[choice]梦境...水晶?[newtalk start=hypno_choice_2_1_begin break=hypno_choice_2_1_end]
+[choice]我们在哪?[newtalk start=hypno_choice_1_begin break=hypno_choice_1_end]
+[choice]够了.[newtalk start=hypno_choice_3_begin break=hypno_choice_3_end]
+[title=hypno_choice_2_end]
+HYPNO CHOICE 2-1 CRYSTAL
+[title=hypno_choice_2_1_begin]
+Hypno: 没错，就是<color=#42f5e6><b>梦境水晶</b></color>. 你可以把它看作一颗鲜活跳动的心脏，承载着你所有想象过与未曾想象的一切. 就是我们头顶悬浮着的那个东西.
+Hypno: [question=3]完整状态下，它管控着所有意识与潜意识信息的流动. 可一旦碎裂，万物就会失控地肆意生长.
+[choice]碎片?[newtalk start=hypno_choice_2_2_begin break=hypno_choice_2_2_end]
+[choice]我们在哪?[newtalk start=hypno_choice_1_begin break=hypno_choice_1_end]
+[choice]够了.[newtalk start=hypno_choice_3_begin break=hypno_choice_3_end]
+[title=hypno_choice_2_1_end]
+HYPNO CHOICE 2-2 REMNANTS
+[title=hypno_choice_2_2_begin]
+Hypno: 没错...有了你的帮助，我们就能把<color=#42f5e6"><b>梦境水晶</b></color>的碎片带回枢纽，为这个世界重建亟需的<i>平衡</i>.
+Hypno: [question=4]穿过传送门前往各个梦境，寻找水晶的碎块. 这就是你的任务，你的使命.
+[choice]再说一遍.[newtalk start=hypno_choice_2_3_begin break=hypno_choice_2_3_end]
+[choice]我们在哪?[newtalk start=hypno_choice_1_begin break=hypno_choice_1_end]
+[choice]我准备好了.[newtalk start=hypno_choice_33_begin break=hypno_choice_33_end]
+[title=hypno_choice_2_2_end]
+HYPNO CHOICE 2-3 REPEAT
+[title=hypno_choice_2_3_begin]
+Hypno: 嗯? 你刚才没在听吗? 我再解释一次. 但当心，这片梦境空间维持不了多久. 就像我之前说的...
+Hypno: [question=5]珍贵的<color=#42f5e6"><b>梦境水晶</b></color>意外...碎裂了. 碎片散落在意识各处. 失去了它，一切都变得动荡而残破.
+[choice]梦境...水晶?[newtalk start=hypno_choice_2_1_begin break=hypno_choice_2_1_end]
+[choice]我们在哪?[newtalk start=hypno_choice_1_begin break=hypno_choice_1_end]
+[choice]够了.[newtalk start=hypno_choice_3_begin break=hypno_choice_3_end]
+[title=hypno_choice_2_3_end]
+HYPNO CHOICE 3 PASS
+[title=hypno_choice_3_begin]
+Hypno: 好，好，当然. 没人想在这耽搁太久. 你还有很多地方要去，很多人要见，还有些东西要...取回.
+Hypno: 最后提醒一句. 虽说你只需要进入指定的梦境，但还有一些梦境，可以说...<color=#fffc36"><b>隐藏</b></color>在更阴暗的角落.
+Hypno: 换句话说，别让你的探索欲消退得<i>太快</i>. 去吧. 我们都在看着你...[event=0]
+[title=hypno_choice_3_end]
+[title=hypno_choice_33_begin]
+Hypno: 看来你不想浪费时间，很好. 学得很快. 接下来就看你能否在旅途中保持这份劲头了...[event=2]
+Hypno: 最后提醒一句. 虽说你只需要进入指定的梦境，但还有一些梦境，可以说...<color=#fffc36"><b>隐藏</b></color>在更阴暗的角落.
+Hypno: 换句话说，别让你的探索欲消退得<i>太快</i>. 去吧. 我们都在看着你...[event=0]
+[title=hypno_choice_33_end]
+HYPNO CHOICE 3 PASS AGAIN
+[title=hypno_choice_3_1_begin]
+Hypno: 很好. 带着碎片尽快回来. 这个世界的力量每分每秒都在衰弱.
+[title=hypno_choice_3_1_end]
+HYPNO TALK AGAIN
+[title=hypno_0_repeat_begin]
+Hypno: [question=6]嗯...看来你还有疑问? 我已经迫不及待等你踏上旅程了.
+[choice]我们在哪?[newtalk start=hypno_choice_1_begin break=hypno_choice_1_end]
+[choice]发生什么事了?[newtalk start=hypno_choice_2_begin break=hypno_choice_2_end]
+[choice]没什么.[newtalk start=hypno_choice_3_1_begin break=hypno_choice_3_1_end]
+[title=hypno_0_repeat_end]
+----------------
+[title=hypno_choice_no_begin]
+Hypno: 哼. 抱歉，年纪大了，差点忘了你和我们相处的时间有限. 小心行事...
+[title=hypno_choice_no_end]
+MAIN HUB 02
+[title=hypno_mist_begin]
+Hypno: 看来你收集到了第一块碎片，不错...非常好. 你做起事来似乎很得心应手.
+Hypno: 不过我看得出来，你还没认真思考过周遭的环境. 只是像其他人一样单纯身处其中.
+Hypno: [question=7]告诉我，趁现在话题正好——你觉得其他人怎么样?
+[choice]他们很友善.[newtalk start=hypno_mist_choice0_begin break=hypno_mist_choice0_end]
+[choice]他们很讨厌.[newtalk start=hypno_mist_choice1_begin break=hypno_mist_choice1_end]
+[choice]他们很霸道.[newtalk start=hypno_mist_choice2_begin break=hypno_mist_choice2_end]
+[choice]我得走了.[newtalk start=hypno_choice_no_begin break=hypno_choice_no_end]
+[title=hypno_mist_end]
+[title=hypno_mist_choice0_begin]
+Hypno: 哼. <b>友善</b>是吗? 用这么简单的词形容这么简单的物种，也不管事实是否如此.
+Hypno: 有人会说这么想太天真了. 那些生物展露的恶意往往比善意更多.
+Hypno: 至于你，你帮忙回收碎片的举动倒是印证了善意的一面. 或许现在下定论还为时过早...?
+Hypno: 闲话少说. 保持警惕. 我会注视着你.
+[title=hypno_mist_choice0_end]
+[title=hypno_mist_choice1_begin]
+Hypno: <b>讨厌?</b> 哈哈. 你在开玩笑吧，但对周遭世界如此漠视又无礼的物种，这话倒也有几分道理.
+Hypno: 抱歉——没必要跟你讲这么宽泛又敏感的话题. 你肯定有自己的看法.
+Hypno: 纠结太久也没什么意义，不过...我也只是听别人这么说罢了.
+Hypno: 闲话少说. 保持警惕. 我会注视着你.
+[title=hypno_mist_choice1_end]
+[title=hypno_mist_choice2_begin]
+Hypno: 你觉得<b>霸道</b>? 有意思的想法. 我觉得很多人都想摆脱他人的烦扰，自在生活.
+Hypno: 讽刺的是，他们自己却在不知不觉中对他人施压. 不得不说，这是个奇怪又愚昧的循环.
+Hypno: 别让这种无关紧要的间接束缚左右你的决定，这才是明智之举. 我也只是听别人这么说罢了.
+Hypno: 闲话少说. 保持警惕. 我会注视着你.
+[title=hypno_mist_choice2_end]
+MAIN HUB 03
+[title=hypno_bamboo_begin]
+Hypno: 已经收集到第二块碎片了? 你的速度很快，能撑过这场艰苦考验的耐心也同样难得.
+Hypno: 要是我没被束缚在这个所谓的"梦境枢纽"里，我会出手帮你的. 它现在只剩一副衰败的躯壳，虚弱又不堪一击...
+Hypno: 它和我的力量都在持续衰退. 很快就会只剩下无尽的虚空与空洞的梦境. 你必须加快速度.
+Hypno: 闲话少说. 保持警惕. 我会注视着你.
+[title=hypno_bamboo_end]
+MAIN HUB 05
+[title=hypno_space_begin]
+Hypno: 动作真快...我一直在这边密切关注. 看来你已经走到一半了，很棒.
+Hypno: 梦境是转瞬即逝的东西. 即便你从一个梦境前往下一个，你的一部分也会永远留在原地. 但要当心...
+Hypno: [question=8]很多生物都表里不一. 无论在什么地方，信任都是珍贵的东西. 你信任谁?
+[choice]你.[newtalk start=hypno_space_choice0_begin break=hypno_space_choice0_end]
+[choice]Gogi.[newtalk start=hypno_space_choice1_begin break=hypno_space_choice1_end]
+[choice]我自己.[newtalk start=hypno_space_choice2_begin break=hypno_space_choice2_end]
+[choice]谁都不信.[newtalk start=hypno_space_choice3_begin break=hypno_space_choice3_end]
+[title=hypno_space_end]
+[title=hypno_space_choice0_begin]
+Hypno: <b>我?</b> 很感谢你有这份心意，但信任一个刚认识的人实在太过鲁莽.
+Hypno: 不过我也清楚，我对大多数生物都有这种吸引力. 有人说，和气场最有压迫感的人交朋友是件好事.
+Hypno: 话就说到这. 保持警惕. 我会注视着你.
+[title=hypno_space_choice0_end]
+[title=hypno_space_choice1_begin]
+Hypno: <b>Gogi?</b> 你真觉得这个玩忽职守的梦境守护者值得信任? 最需要他的时候，他直接抛下了自己的职责.
+Hypno: 相信这么一个粗心又不负责任的家伙说的话，是很不明智的. 不过...我不会干涉你的选择.
+Hypno: 话就说到这. 保持警惕. 我会注视着你.
+[title=hypno_space_choice1_end]
+[title=hypno_space_choice2_begin]
+Hypno: 这是把双刃剑. 只完全信任<b>你自己</b>，会通向很多条道路...其中有些路你走了可能会后悔.
+Hypno: 提醒一句...到头来，你的困境与破局之法都是你自己造成的. 你只能怪你自己.
+Hypno: 话就说到这. 保持警惕. 我会注视着你.
+[title=hypno_space_choice2_end]
+[title=hypno_space_choice3_begin]
+Hypno: 洞察力不错，但或许并不明智. 谁都不信就永远不会失望，可把心封得太死...
+Hypno: ...你迟早会遇到独自无法解决的难题. 所以信任要花在刀刃上.
+Hypno: 话就说到这. 保持警惕. 我会注视着你.
+[title=hypno_space_choice3_end]
+MAIN HUB 06
+[title=hypno_mansion_begin]
+Hypno: 这股力量的涌动...这股强烈的能量...我能感受到<color=#42f5e6"><b>碎片</b></color>正在慢慢把力量归还回水晶.
+Hypno: [question=9]它们分离残缺的时间越久...事态就越不稳定. 梦境也会变得越发恐怖.
+[choice]我害怕.[newtalk start=hypno_mansion_afraid_begin break=hypno_mansion_afraid_end]
+[choice]我能做到.[newtalk start=hypno_mansion0_begin break=hypno_mansion0_end]
+[choice]帽子不错.[newtalk start=hypno_mansion_hat_begin break=hypno_mansion_hat_end]
+[title=hypno_mansion_end]
+[title=hypno_mansion_afraid_begin]
+Hypno: 恐惧是很自然的感受. 越深入梦境世界，恐惧就会越深. 克服恐惧是你成功的关键...[newtalk start=hypno_mansion0_begin break=hypno_mansion0_end]
+[title=hypno_mansion_afraid_end]
+[title=hypno_mansion_hat_begin]
+Hypno: 多谢夸奖，但现在不是说这种轻松幼稚话的时候. 正好提醒你一句，别分心...[newtalk start=hypno_mansion0_begin break=hypno_mansion0_end]
+[title=hypno_mansion_hat_end]
+[title=hypno_mansion0_begin]
+Hypno: 前方的道路绝非胆小者能走的. 你的耐力...毅力...决心...都会受到考验.
+Hypno: 不过梦境空间里或许还有一些受控的区域<color=#fffc36"><b>隐藏</b></color>在某些地方.
+Hypno: 祝你好运... 
+[title=hypno_mansion0_end]
+MAIN HUB 08
+[title=hypno_tower_begin]
+Hypno: 差不多到时候了. <color=#42f5e6"><b>水晶</b></color>即将复原，催眠梦境空间即将落幕，力量也将恢复，这一切都要归功于你.
+Hypno: 你一路坚持下来的表现远超预期，为此我要称赞你. 不过旅程还没结束，记住...
+Hypno: 那些卑微的生物会对你撒谎、编造谎言，他们只想独自掌控梦境空间. 听信他们是很愚蠢的.
+Hypno: 在最后的时刻直面真实的自己. 克服软弱. 迎接救赎. 直面终局.
+[title=hypno_tower_end]
+[title=guide_0_begin]
+???: 哇，你通关了<b>整个游戏</b>是吗? 至少是通关了主线关卡. 不管怎样，欢迎来到<i>梦境选择枢纽!</i>
+???: 在这里你不仅可以随意重访任意主线世界，还能了解每个世界的幕后设定!
+???: 所以，要是你之前错过了<color=#fffc36"><b>隐藏关卡</b></color>或者其他有意思的内容，现在就是补全的好机会. 很酷吧?
+???: 哦，差点忘了! 老大偷偷跟我说了个内部消息. 据说这里还藏着一个藏得极深的<b>秘密</b>...
+???: <i>(这话可不是我告诉你的啊.)</i> 
+
+玩得开心!
+[title=guide_0_end]

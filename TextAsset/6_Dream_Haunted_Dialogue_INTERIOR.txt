@@ -1,0 +1,335 @@
+6_梦魇幽魂 室内对话
+[title=door_front_begin]
+这是一面实心墙.
+[title=door_front_end]
+---------------
+第1轮
+---------------
+主厅
+[title=door_dining_begin]
+这扇门被一股无形的灵体力量锁住了.
+[title=door_dining_end]
+[title=door_cellar_begin]
+当你靠近这扇门时，后颈的汗毛根根倒竖，手臂上布满了鸡皮疙瘩.
+好在这扇门刚好是锁着的.
+[title=door_cellar_end]
+幽灵国王
+[title=ghost_king_0_begin]
+幽灵国王：哦...有访客.你和我相似，却又不同.并非血肉之躯，却怀揣着某种执念.
+幽灵国王：又或许，你和我一样漫无目的.你看，很久很久以前，我失去了我的<color=#db3630><b>心脏</b></color>.如今那里只剩一个空洞.
+幽灵国王：一同失去的，还有我寻找它的意志.但你...看来你很擅长帮助他人.
+幽灵国王：[question=00]你觉得呢...陌生的闯入之魂——你愿意帮我找回它吗？
+[choice]愿意.[newtalk start=king_yes_begin break=king_yes_end]
+[choice]不必了.[newtalk start=king_no_begin break=king_no_end]
+[title=ghost_king_0_end]
+[title=king_yes_begin]
+幽灵国王：乘电梯下到地窖去吧，我最后一眼看到那颗失落的<color=#db3630><b>心脏</b></color>就是在那里.我那<i>地下室之下的地下室</i>.我再也不敢踏足那里了.
+幽灵国王：唉，那扇门的钥匙也不知遗失在了何处...真是悲剧.你得先找到它.去吧.[event=7]
+[title=king_yes_end]
+[title=king_no_begin]
+幽灵国王：我将继续为那些早已被遗忘的罪孽，承受永恒的刑罚.愿你还会回来.[event=8]
+[title=king_no_end]
+[title=ghost_king_00_begin]
+幽灵国王：冷漠的闯入者回来了...这栋宅子还没吞噬你吗？时间越来越近了...
+幽灵国王：[question=00]你愿意帮一位满怀悔恨的国王，找回他失落已久的<color=#db3630><b>心脏</b></color>吗？
+[choice]愿意.[newtalk start=king_yes_begin break=king_yes_end]
+[choice]不必了.[newtalk start=king_no_begin break=king_no_end]
+[title=ghost_king_00_end]
+幽灵国王（重复对话）
+[title=ghost_king_0_repeat_begin]
+幽灵国王：你空手而归了.我会继续等待，等我失落的<color=#db3630><b>心脏</b></color>回来.
+[title=ghost_king_0_repeat_end]
+座钟
+[title=clock_0_begin]
+这座落满灰尘的落地座钟指针与钟摆都已僵住，却仍在滴答作响.
+[title=clock_0_end]
+普通书架
+[title=bookshelf_0_begin]
+这只是个普通的书架.没什么特别的地方.
+[title=bookshelf_0_end]
+左侧卧室
+[title=ghost_0_begin]
+幽灵：我...我现在没法和你说话.我得...集中精神.脑子乱成一团.
+幽灵：我...我已经拖延太久了.好几年了...？还是更久？
+幽灵：只要...我只要集中精神就好.头疼个不停.像要炸开一样.
+看样子它正想写完一本<color=#e0d33f><b>书</b></color>之类的东西.
+[title=ghost_0_end]
+[title=ghost_0_repeat_begin]
+幽灵的头一下下机械地撞在桌面上.完全没有注意到你.
+桌上摊开着一本<color=#e0d33f><b>书</b></color>，能看到其中的段落.
+《格瑞索恩的狂喜》 \n第一章 - 第2页
+"'孤身一人你孱弱不堪，成群结队你依旧不堪一击.而我即是你们的全部.我的意志坚不可摧，我要融入所有无辜者的梦境.'"
+"下方那渺小的生物目睹着眼前铺天盖地、狰狞可怖的黑暗漩涡，露出了可悲的神情."
+"它开口道：'你腐化的意志令我俯首称臣，但我绝不会为你妄图摧毁的一切屈膝——'"
+剩下的书页都不见了.
+[title=ghost_0_repeat_end]
+右侧卧室
+[title=lockeddoor_0_begin]
+"冷酷无情的赫尔姆斯菲尔德女公爵"
+"愿她的灵魂永眠 \n于赫尔姆斯菲尔德庄园之下"
+[title=lockeddoor_0_end]
+[title=ghost_1_begin]
+沉睡的幽灵：呼...噜...他们永远也...找不到的...嘿嘿...
+沉睡的幽灵：呼...噜...<color=#e0d33f><b>密道...</b></color>
+[title=ghost_1_end]
+[title=ghost_1_repeat1_begin]
+沉睡的幽灵：呼...噜...藏好了...天衣无缝...呼...
+沉睡的幽灵：呼...书...架...
+沉睡的幽灵：呼...噜...噜...
+[title=ghost_1_repeat1_end]
+[title=ghost_sleeping_begin]
+不安的幽灵：呼...噜...出不去...
+(这只幽灵在睡梦中辗转反侧.)
+不安的幽灵：呼...噜...噜...就在这.....
+不安的幽灵：呼...噜...<color=#e0d33f><b>另一个房间...</b></color>
+[title=ghost_sleeping_end]
+机关书架
+[title=bookshelf_1_begin]
+凑近细看，你能感觉到书架后方透出一丝凉风.
+有一本书的书脊微微凸了出来.之前它就在那儿吗？
+[question=0]你要把这本书按进去吗？
+[choice]要.[newtalk start=answer_book_yes_begin break=answer_book_yes_end]
+[choice]不要.[newtalk start=answer_book_no_begin break=answer_book_no_end]
+[title=bookshelf_1_end]
+书架（不按）
+[title=answer_book_no_begin]
+你没有去碰书架.
+[title=answer_book_no_end]
+书架（按下）
+[title=answer_book_yes_begin]
+你把凸出来的书按了进去.传来一声机关卡合的轻响.[event=0]
+[title=answer_book_yes_end]
+图书室
+[title=ghost_maid_0_begin]
+幽灵：哦，你好呀，小家伙.你可吓了我一跳.没想到这么晚了还有人会到这里来.
+幽灵：哎呀，真是不好意思.图书室最近有点失修.你看，乱得一塌糊涂.
+幽灵：到处都丢着些零碎东西.你要是在找什么，说不定就在这儿.
+幽灵：失陪了，我得收拾这堆可爱的杂物.小心那些倒下来的书架，好吗？
+[title=ghost_maid_0_end]
+[title=note_begin]
+桌上放着一张皱巴巴的纸，上面写着些什么.是一篇日记.
+<i>六--月 1日\n这会是我卸任前的最后一篇日记.思绪纷乱.</i>
+<i>女公爵今天准许我出门了.还是得戴着项圈，但天气还不错.</i>
+<i>自从她和国王不再说话之后，她就把自己关在了地下室里.</i>
+<i>她一直让园丁把尸体从地窖门运进去.我不知道是为什么.</i>
+<i>我想那块碎片也影响到她了.只不̷过是时间问题，在̵̦̔那̷之前---</i>
+没有更多内容了.
+[title=note_end]
+钥匙
+[title=key_0_begin]
+一把老旧的黄铜钥匙.天知道这东西怎么会出现在这种地方.
+[question=001]钥匙上挂着个小牌，写着"地窖门 - 请勿遗失".\n要捡起来吗？
+[choice]要.[newtalk start=answer_key0_yes_begin break=answer_key0_yes_end]
+[choice]不要.[newtalk start=answer_key0_no_begin break=answer_key0_no_end]
+[title=key_0_end]
+[title=answer_key0_yes_begin]
+你收下了这把钥匙.[event=11]
+[title=answer_key0_yes_end]
+[title=answer_key0_no_begin]
+你没有拿钥匙.
+[title=answer_key0_no_end]
+------
+第2轮
+------
+冰箱 1
+[title=fridge_0_begin]
+这里放着一台散发着腐臭的冰箱.门扣上挂着一把挂锁.
+再看你捡到的那把黄铜钥匙，上面的小牌现在只写着"冰箱"两个字.
+[question=1]你要试试用这把钥匙打开吗？
+[choice]要.[newtalk start=answer_fridge_yes_begin break=answer_fridge_yes_end]
+[choice]不要.[newtalk start=answer_fridge_no_begin break=answer_fridge_no_end]
+[title=fridge_0_end]
+冰箱（打开）
+[title=answer_fridge_yes_begin]
+你把黄铜钥匙插进冰箱的挂锁里.你向后退了一步，一股令人作呕的气味从里面飘了出来.[event=1]
+[title=answer_fridge_yes_end]
+冰箱（不打开）
+[title=answer_fridge_no_begin]
+你没有去碰冰箱.但你的好奇心迟早会占上风.
+[title=answer_fridge_no_end]
+心脏 1
+[title=heart_0_begin]
+一颗鲜活跳动的<color=#db3630><b>心脏</b></color>，差不多有篮球那么大.它扭来扭去，仿佛有自己的意识.
+你捡起心脏，带在了身上.
+[title=heart_0_end]
+心脏怪物 1
+[title=monster_0_begin]
+[jitter=5 angle=0]快跑.[/jitter]
+[title=monster_0_end]
+幽灵国王
+[title=ghost_king_1_begin]
+幽灵国王：啊，你终于回来了.而且我看到，你带回了那颗曾经失落的<color=#db3630><b>心脏</b></color>.
+幽灵国王：多亏了你，我终于能重新变得完整.希望你找它的时候没受太多苦头.
+幽灵国王：作为最诚挚的谢意，我想把这件传家宝送给你.它的诅咒对我已经不起作用了.
+幽灵国王：它曾被深埋在一片早已被遗忘的土地下，在我家族中传承了许多代.
+幽灵国王：你一定会用得上它的.我不敢说它的诅咒是否还在.再次感谢你...我的家门永远为你敞开.
+[title=ghost_king_1_end]
+[title=ghost_king_11_begin]
+幽灵国王：冷漠的旅人仍在这栋令人作呕的宅子里徘徊，不知是为了什么.
+幽灵国王：我永远感激你，也欢迎你留在这栋受诅咒的房子里，尽管它能给你的慰藉少得可怜.
+幽灵国王：只要待得够久，大厅里的幽魂都会和迷途之人成为朋友...
+[title=ghost_king_11_end]
+糖果关后的幽灵国王
+[title=ghost_king_2_begin]
+幽灵国王：嗯？你看起来像是见了鬼一样.希望这栋曾经辉煌如今只剩空壳的宅子没给你添太多麻烦.
+幽灵国王：以前也有人来过，最后都待得太舒服不肯走了...阴郁的氛围总会影响一些人.
+幽灵国王：唉，扯远了.我的心脏重新燃起了生机，我必须再次感谢你找回了它.
+幽灵国王：后会有期...旅人.
+[title=ghost_king_2_end]
+美术馆紧锁的门
+[title=secret_door0_begin]
+这里有一扇锁着的门.看起来和其他的门不太一样...
+没有<color=#e0d33f><b>钥匙</b></color>的话打不开.
+[title=secret_door0_end]
+[title=secret_key_begin]
+图书室的幽灵掉了一把<color=#e0d33f><b>看不出用途的钥匙</b></color>.
+标签上一片空白，说不定能开什么东西...你决定把它带上.
+[title=secret_key_end]
+[title=secret_door1_begin]
+你用幽灵掉的那把<color=#e0d33f><b>钥匙</b></color>打开了门.
+[title=secret_door1_end]
+钢琴谜题
+[title=piano_0_begin]
+乐谱已经褪色得看不清了.角落潦草地写着一行字.
+"找出<color=#e0d33f><b>亡者议会</b></color>的正确顺序，前路自会为你敞开."
+[question=2]你要试着按下琴键吗？
+[choice]要.[newtalk start=answer_piano_yes_begin break=answer_piano_yes_end]
+[choice]不要.[newtalk start=answer_piano_no_begin break=answer_piano_no_end]
+[title=piano_0_end]
+[title=answer_piano_yes_begin]
+[question=3]你要按下哪个琴键？
+[choice]F键.[newtalk start=piano_key_wrong_begin break=piano_key_wrong_end]
+[choice]G键.[newtalk start=piano_key_wrong_begin break=piano_key_wrong_end]
+[choice]A键.[newtalk start=piano_key_correct0_begin break=piano_key_correct0_end]
+[choice]B键.[newtalk start=piano_key_wrong_begin break=piano_key_wrong_end]
+[choice]C键.[newtalk start=piano_key_wrong_begin break=piano_key_wrong_end]
+[title=answer_piano_yes_end]
+[title=answer_piano_no_begin]
+你决定不去碰这架钢琴.谁知道里面栖着什么灵体.
+[title=answer_piano_no_end]
+[title=piano_key_wrong_begin]
+你按下了琴键.[event=6]
+好像不对...
+[title=piano_key_wrong_end]
+[title=piano_key_correct0_begin]
+你按下了琴键.[event=10]
+[question=4]再按一个？
+[choice]F键.[newtalk start=piano_key_wrong_begin break=piano_key_wrong_end]
+[choice]G键.[newtalk start=piano_key_correct1_begin break=piano_key_correct1_end]
+[choice]A键.[newtalk start=piano_key_wrong_begin break=piano_key_wrong_end]
+[choice]B键.[newtalk start=piano_key_wrong_begin break=piano_key_wrong_end]
+[choice]C键.[newtalk start=piano_key_wrong_begin break=piano_key_wrong_end]
+[title=piano_key_correct0_end]
+[title=piano_key_correct1_begin]
+你按下了琴键.[event=9]
+[question=5]再按一个？
+[choice]F键.[newtalk start=piano_key_wrong_begin break=piano_key_wrong_end]
+[choice]G键.[newtalk start=piano_key_wrong_begin break=piano_key_wrong_end]
+[choice]A键.[newtalk start=piano_key_wrong_begin break=piano_key_wrong_end]
+[choice]B键.[newtalk start=piano_key_correct2_begin break=piano_key_correct2_end]
+[choice]C键.[newtalk start=piano_key_wrong_begin break=piano_key_wrong_end]
+[title=piano_key_correct1_end]
+[title=piano_key_correct2_begin]
+你按下了琴键.[event=5]
+[question=55]再按一个？
+[choice]F键.[newtalk start=piano_key_correct22_begin break=piano_key_correct22_end]
+[choice]G键.[newtalk start=piano_key_wrong_begin break=piano_key_wrong_end]
+[choice]A键.[newtalk start=piano_key_wrong_begin break=piano_key_wrong_end]
+[choice]B键.[newtalk start=piano_key_wrong_begin break=piano_key_wrong_end]
+[choice]C键.[newtalk start=piano_key_wrong_begin break=piano_key_wrong_end]
+[title=piano_key_correct2_end]
+[title=piano_key_correct22_begin]
+你按下了琴键.[event=4]
+[question=55]再按一个？
+[choice]F键.[newtalk start=piano_key_wrong_begin break=piano_key_wrong_end]
+[choice]G键.[newtalk start=piano_key_wrong_begin break=piano_key_wrong_end]
+[choice]A键.[newtalk start=piano_key_wrong_begin break=piano_key_wrong_end]
+[choice]B键.[newtalk start=piano_key_wrong_begin break=piano_key_wrong_end]
+[choice]C键.[newtalk start=piano_key_correct3_begin break=piano_key_correct3_end]
+[title=piano_key_correct22_end]
+[title=piano_key_correct3_begin]
+你按下了琴键.[event=3]
+房间里传来一声细微的金属咔嗒声...[event=2]
+[title=piano_key_correct3_end]
+[title=piano_done_begin]
+再碰琴键已经按不下去了.
+[title=piano_done_end]
+书籍
+[title=book_0_begin]
+桌上摊开着一本<color=#e0d33f><b>书</b></color>，能看到其中的段落.
+《格瑞索恩的狂喜》 \n第一章 - 第1页
+"那渺小的生物妄图推翻伟大的暗影，最终沦为了警示他人的下场.失败如影随形."
+"伟大的暗影带着无上的威严回应道：'你我本就不属于同一个世界.这份存在，只能有一个主人.'"
+"漆黑的身影张开四张突出的颌骨，继续用一种粗粝刺耳的<b>倒序</b>语言说着什么."
+剩下的书页都不见了.
+[title=book_0_end]
+[title=book_2_begin]
+桌上摊开着一本<color=#e0d33f><b>书</b></color>，能看到其中的段落.
+《格瑞索恩的狂喜》 \n第一章 - 第3页
+"——尽管眼前的世界不堪一击，但我的意志你永远无法撼动.我会把你送回你那可悲的诞生之地，那污秽的深渊."
+"暗影痛苦地扭动着身躯，一团由腐肉、脓疮和种种不可名状之物组成的肉块不断起伏.它俯身逼近渺小的对手."
+"一阵回响传来，从中诞生出一声铺天盖地、无穷无尽的嘶吼.暗影此刻化作了一副无法用言语形容的、骇人至极的模样."
+剩下的书页都不见了.
+[title=book_2_end]
+[title=book_3_begin]
+桌上摊开着一本<color=#e0d33f><b>书</b></color>，能看到其中的段落.
+《格瑞索恩的狂喜》 \n第一章 - 第4页
+"磨牙霍霍，利爪森森.纯粹的怒火凝成实体.黑暗与梦魇的汪洋化身，笼罩在渺小的生物面前."
+"一只布满尖刺的巨手从虚空中探出，指尖混乱而诡异地螺旋展开，笼罩了大地仅剩的一切."
+"黑暗中传来一声微弱的铃响，轻得几乎听不见.铃铛挂在生物的颈间，里面盛着宇宙间所有的生命."
+剩下的书页都不见了.
+[title=book_3_end]
+[title=book_4_begin]
+桌上摊开着一本<color=#e0d33f><b>书</b></color>，能看到其中的段落.
+《格瑞索恩的狂喜》 \n第一章 - 第5页
+"一道宇宙级的光辉能量迸发开来，发出一声庄严的长啸，吞噬了步步紧逼的黑暗，将天空映得一片通明."
+"暗影的血肉被炽烈的光芒灼伤，发出撕心裂肺的痛嚎.这由无数魔物聚成的存在，用它众多的眼睛目睹了这绝美的景象."
+"它带着焦黑的身躯倒在生物面前，宿命已定.沐浴在耀眼圣光中的生物开口道：'我将消逝于死亡，但我会永远活在你的梦境之中.'"
+没有更多内容了.
+[title=book_4_end]
+画作
+[title=painting_0_begin]
+《野心兄弟》
+[title=painting_0_end]
+[title=painting_1_begin]
+《集会之夜》
+[title=painting_1_end]
+[title=painting_2_begin]
+"布兰伯特的<color=#ebe72a><b>A</b></color>lexander Marple"
+[title=painting_2_end]
+[title=painting_3_begin]
+"戈德里奇的Lucille Lockwood"
+[title=painting_3_end]
+[title=painting_33_begin]
+《澄澈之态》
+[title=painting_33_end]
+[title=painting_4_begin]
+"格林厄姆的<color=#ebe72a><b>G</b></color>orgio Bryton"
+[title=painting_4_end]
+[title=painting_5_begin]
+《弃绝之欲》
+[title=painting_5_end]
+[title=painting_6_begin]
+"费尔堡的Lorcan Anworth"
+[title=painting_6_end]
+[title=painting_7_begin]
+"韦斯霍尔的Spencer Allencourt"
+[title=painting_7_end]
+[title=painting_8_begin]
+"安伯福德的Clarice Barnes"
+[title=painting_8_end]
+[title=painting_9_begin]
+"罗斯文的Oscar Brimsey"
+[title=painting_9_end]
+[title=painting_10_begin]
+"帕尔基特的<color=#ebe72a><b>F</b></color>rancis Remington"
+[title=painting_10_end]
+[title=painting_11_begin]
+"..."
+[title=painting_11_end]
+[title=painting_12_begin]
+"布莱顿的<color=#ebe72a><b>C</b></color>hristopher Rennoch"
+[title=painting_12_end]
+[title=painting_13_begin]
+"安道尔的<color=#ebe72a><b>B</b></color>ranlen Wilford"
+[title=painting_13_end]

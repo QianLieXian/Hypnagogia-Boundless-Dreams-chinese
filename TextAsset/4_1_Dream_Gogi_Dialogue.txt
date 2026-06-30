@@ -1,0 +1,67 @@
+高吉试炼 对话文本
+梦境水晶 前置任务引言
+[title=gem_int0_begin]
+一枚失落沉寂的<color=#03cffc><b>梦境水晶</b></color>... 它在某种凝滞状态下失去了力量.
+来自异处, 异时... 另一位造梦者. 重拾梦境的自由, 藏于两条纯净之途之间.
+[title=gem_int0_end]
+右侧梦境水晶
+[title=gem_right0_begin]
+一枚被滔天梦魇幻象侵蚀的<color=#03cffc><b>梦境水晶</b></color>.
+它是无数不眠夜的根源, 将梦境揉进现实, 将现实融于梦境.
+它的求生意志早已消磨殆尽. 但它仍可重归纯净.
+[question=0]净化这份腐化?
+[choice]是.[newtalk start=gem_right0_yes_begin break=gem_right0_yes_end]
+[choice]否.[newtalk start=gem_right0_no_begin break=gem_right0_no_end]
+[title=gem_right0_end]
+右侧梦境水晶 选择是
+[title=gem_right0_yes_begin]
+你倾尽力量净化了水晶. 它需要时间来恢复.[event=0]
+[title=gem_right0_yes_end]
+右侧梦境水晶 选择否
+[title=gem_right0_no_begin]
+你跳着离开了这枚腐化的水晶.[event=2]
+[title=gem_right0_no_end]
+右侧梦境水晶 重复对话
+[title=gem_right0_repeat_begin]
+[question=0]净化这份腐化?
+[choice]是.[newtalk start=gem_right0_yes_begin break=gem_right0_yes_end]
+[choice]否.[newtalk start=gem_right0_no_begin break=gem_right0_no_end]
+[title=gem_right0_repeat_end]
+左侧梦境水晶
+[title=gem_left0_begin]
+一枚开裂被弃的<color=#03cffc><b>梦境水晶</b></color>, 孑然一身, 了无生机.
+它曾赠予无数爱与欢愉, 如今却只余下悲伤.
+空洞的外壳深处, 仍藏着一丝希望的火种. 它的灵光可以重归完整.
+[question=0]净化这份腐化?
+[choice]是.[newtalk start=gem_left0_yes_begin break=gem_left0_yes_end]
+[choice]否.[newtalk start=gem_left0_no_begin break=gem_left0_no_end]
+[title=gem_left0_end]
+左侧梦境水晶 选择是
+[title=gem_left0_yes_begin]
+你倾尽力量净化了水晶. 它需要时间来恢复.[event=1]
+[title=gem_left0_yes_end]
+左侧梦境水晶 选择否
+[title=gem_left0_no_begin]
+你跳着离开了这枚腐化的水晶.[event=3]
+[title=gem_left0_no_end]
+左侧梦境水晶 重复对话
+[title=gem_left0_repeat_begin]
+[question=0]净化这份腐化?
+[choice]是.[newtalk start=gem_left0_yes_begin break=gem_left0_yes_end]
+[choice]否.[newtalk start=gem_left0_no_begin break=gem_left0_no_end]
+[title=gem_left0_repeat_end]
+梦境水晶 任务后引言
+[title=gem_int1_begin]
+<color=#03cffc><b>梦境水晶</b></color>重新脉动起微弱的生命气息. 复苏之路漫长, 但终将圆满.
+随着生机复苏, 它离开这片险地, 踏上归途. 你的目标也大抵如此.
+[title=gem_int1_end]
+恶魔雕像
+[title=statue_begin]
+一座纪念碑, 铭刻着所有你不愿再入梦的事物. 那些会化作梦魇的存在.
+它想要夺走你的野心, 幻想与灵感... 这份欲望永远不会满足.
+[title=statue_end]
+镜子
+[title=mirror_begin]
+你所认定的自我的倒影. 但那真的是你吗? 镜面的另一端藏着什么?
+平行时间线里的平行世界. 一端是现实, 另一端是梦魇. \n直面真实的自己.
+[title=mirror_end]

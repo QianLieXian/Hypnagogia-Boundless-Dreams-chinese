@@ -1,0 +1,585 @@
+15_Dream_Forest Dialogue
+NOTES
+- 飘浮的骷髅头, 名叫沙拉姆? 可担任向导? 也可以设定为野性的小哥布林生物. 或许是顶着燃烧骷髅头的野性小哥布林.
+- 诡异的门是一尊拟人化石魔像. 设定名字为塞拉(Thera)
+- 每间挑战房间都有专属门扉NPC? 赞登, 阿维登, 昂登, 鲁登
+- 全程对话精简, 仅设置少量NPC台词与谜题提示
+- 整体剧情设定: 这里是诡异门扉魔像的梦境, 你闯入了其中. 她希望你帮她完成某件事
+- 诡异门扉魔像被树根困住, 挡住了主庭院传送门. 每完成一间挑战房间可清除一条树根, 她的对话会同步更新
+- 每间挑战房间末尾会出现一颗符文光球, 你必须将其带回主庭院
+- 每间挑战房间均包含平台跳跃挑战, 陷阱门, 会以某种方式用到解谜球, 并设有1道专属谜题
+- 挑战房间1: 基础平台跳跃与移动平台
+
+PICKUPS
+[title=pickup_hookshot_begin]
+宝箱之中, 你找到了<color=#fcba03><b>抓钩</b></color>!
+按下X键或RB键, 可钩住部分墙面上的特殊节点.
+[title=pickup_hookshot_end]
+
+[title=pickup_map_begin]
+宝箱之中, 你找到了<color=#fcba03><b>迷宫地图</b></color>!
+按下F键或返回键即可切换地图显示. 这下你再也不会迷路了!
+[title=pickup_map_end]
+
+[title=pickup_ring0_begin]
+一只华丽的大型宝箱静置在此, 与之前的箱子截然不同.
+[question=50]你要试着打开它吗?
+[choice]要.[newtalk start=ring0_yes_begin break=ring0_yes_end]
+[choice]不要.[newtalk start=ring0_no_begin break=ring0_no_end]
+[title=pickup_ring0_end]
+
+[title=ring0_yes_begin]
+你试着打开宝箱.[event=9]
+[title=ring0_yes_end]
+
+[title=ring0_no_begin]
+你没有碰这只宝箱.[event=10]
+[title=ring0_no_end]
+
+[title=pickup_ring1_begin]
+箱内放着<color=#00b3ff><b>棱彩圣器</b></color>.
+一枚由斑斓矿石打造的精美指环, 散发着令人目眩的能量光晕.
+它尺寸太大, 没法戴在手指上, 但你还是把它收了起来.
+[title=pickup_ring1_end]
+
+[title=pickup_bomb_begin]
+宝箱之中, 你找到了<color=#fcba03><b>樱桃炸弹</b></color>!
+按下R键或左摇杆投掷炸弹, 炸弹将在4秒后爆炸. \n<color=#ff0000><b>警告</b></color> - 请勿食用.
+[title=pickup_bomb_end]
+
+[title=pickup_vinebomb_begin]
+宝箱之中, 你找到了<color=#42f563><b>鸭鸭炸弹</b></color>! 威力强劲!
+按下R键或左摇杆投掷集束炸弹, 炸弹将在4秒后爆炸. \n<color=#fcba03><b>备注</b></color> - 不是真鸭子.
+[title=pickup_vinebomb_end]
+
+[title=pickup_key_white_begin]
+宝箱之中, 你找到了一把<color=#81aee6><b>白银钥匙</b></color>!
+拾取这把钥匙后, 可开启任意<b>一扇</b>白银锁.
+[title=pickup_key_white_end]
+
+[title=pickup_key_gallery_begin]
+宝箱之中, 你找到了一把<color=#ff00d0><b>神秘钥匙</b></color>!
+你不禁好奇, 这把钥匙能打开什么?
+[title=pickup_key_gallery_end]
+
+ROUND 1
+GALLERY DOOR
+[title=door_gallery_begin]
+这扇摇摇欲坠的栅栏门上, 锁着一把特殊的锁具.
+[title=door_gallery_end]
+
+MID-ROOM
+[title=golem_0_begin]
+???: 呃, 我要怎么进去啊? 要是有个比我个子小的人来帮忙就好了...
+[title=golem_0_end]
+
+[title=golem_1_begin]
+???: 嗯? 谁在那儿?[event=11]
+???: 什, 什么? 你... 森林里遇到的那个人! 你怎么会在这里?!
+???: 先是跑来跟我搭讪, 现在又闯进我的<b>梦境</b>里? 你疯了吧![event=12]
+???: 哦, 我懂了. 就是对我念念不忘是吧? 不得不说, 你这操作也太怪了. <i>怪得离谱</i>. 行吧, 我就在这儿, 如假包换.
+???: 啧, 没人教过你什么叫边界感吗? 算了, 我没空跟你扯, 我还有事要做.
+???: [question=0]不过... 话说回来, 你出现在这儿说不定也算是歪打正着. 说不定你能帮我解决个小麻烦...
+[choice]帮什么?[newtalk start=golem_yes0_begin break=golem_yes0_end]
+[choice]不用了谢谢.[newtalk start=golem_no0_begin break=golem_no0_end]
+[title=golem_1_end]
+
+[title=golem_yes0_begin]
+???: 哈! 我就知道你会感兴趣. 我就说你闯到这儿来, 总不会只是为了想吸引我注意吧.[newtalk start=golem_2_begin break=golem_2_end]
+[title=golem_yes0_end]
+
+[title=golem_no0_begin]
+???: 切. 听着- 你跟我一样困在这儿了, 除了往前走别无选择. 所以好歹<i>装装样子</i>做点事行不行?[newtalk start=golem_2_begin break=golem_2_end]
+[title=golem_no0_end]
+
+[title=golem_2_begin]
+???: 算了, 既然都困在这儿了, 不如先认识一下. \n我叫<color=#ed2d1f><b>塞拉</b></color>.
+塞拉: [question=1]...你呢?
+[choice]嗯... 呃... 那个...[newtalk start=golem_answer0_begin break=golem_answer0_end]
+[choice]无名之辈.[newtalk start=golem_answer1_begin break=golem_answer1_end]
+[choice]（继续搭讪）[newtalk start=golem_answer2_begin break=golem_answer2_end]
+[title=golem_2_end]
+
+[title=golem_answer0_begin]
+塞拉: 怎么, 紧张得说不出话了? 没想到我会让你这么局促啊. 你这幅样子, 可是会让我越来越膨胀的哦.[newtalk start=golem_3_begin break=golem_3_end]
+[title=golem_answer0_end]
+
+[title=golem_answer1_begin]
+塞拉: 哦哟, 可太<i>神秘</i>了, 真是个未解之谜啊. 行了别装了, 你这套骗不了人的.[newtalk start=golem_3_begin break=golem_3_end]
+[title=golem_answer1_end]
+
+[title=golem_answer2_begin]
+塞拉: 你这点套路我都摸透了. 省省吧, 老掉牙了. 咱们成熟点行吗?[newtalk start=golem_3_begin break=golem_3_end]
+[title=golem_answer2_end]
+
+[title=golem_3_begin]
+塞拉: 行吧, 随便你. 反正我也没必要知道你是谁. 就按我之前对你的称呼好了- <i>怪人</i>.
+塞拉: 听着- 这座神圣神殿被某种力量扰乱了, 而我正在寻找一件... <color=#00b3ff><b>珍贵圣器</b></color>.
+塞拉: 可惜这些该死的门道都太窄了, 我这伟岸的身躯钻不过去. 但你就不一样了, 尺寸刚刚好. 所以就得麻烦你跑一趟了.
+塞拉: 很简单- 我们得赶到前方的主庭院, 但路上挡着一堆蠢得离谱的谜题. 懂我意思了吧?
+塞拉: ...看你一脸懵. 唉, 你就想办法把这扇门打开, 然后回这儿来找我. 你肯定能搞定的.
+[title=golem_3_end]
+
+[title=golem_repeat0_begin]
+塞拉: 不是吧? 这才刚开局你就迷路了? 没试着去那边的房间看看吗?
+塞拉: <i>（我已经预感到接下来会有多煎熬了.）</i>
+[title=golem_repeat0_end]
+
+MID-ROOM -------- LEFT ROOM
+MID-ROOM -------- RIGHT ROOM
+
+ROUND 2
+[title=golem_4_begin]
+塞拉: 哦, 哦...! 没想到你这么快就找到钥匙了... 行啊, 还不赖, 还不赖.[event=12]
+塞拉: 对了, 听着- 我有种预感, 主庭院离这儿不远了. 我能感觉到.
+塞拉: 这道门太窄了我钻不过去, 得另找条路绕过去.
+塞拉: 行了, 你先往前走吧. 赶紧的, 免得咱俩都在这儿无聊到发霉.
+[title=golem_4_end]
+
+[title=golem_4_repeat_begin]
+塞拉: 对了, 我刚想起来... 刚才你瞎转悠的时候, 我捡到了一张<color=#fcba03><b>地图</b></color>.
+塞拉: [question=02]你应该用得上. 要不要?
+[choice]给我.[newtalk start=golem_map0_yes_begin break=golem_map0_yes_end]
+[choice]不用了谢谢.[newtalk start=golem_map0_no_begin break=golem_map0_no_end]
+[title=golem_4_repeat_end]
+
+[title=golem_map0_no_begin]
+塞拉: 哼. 还觉得自己用不着是吧? 我才不在乎呢...
+塞拉: ...才怪.
+塞拉: 切, 随便你, 吃亏的是你. 改变主意了就说一声.
+[title=golem_map0_no_end]
+
+[title=golem_map0_yes_begin]
+塞拉: 哎哎哎- 别急啊, 急性子. 先答我一道小谜语再说.
+塞拉: 答对了, 我二话不说就给你. 可要是答错了...
+塞拉: ...这东西就归我了![newtalk start=golem_map1_begin break=golem_map1_end]
+[title=golem_map0_yes_end]
+
+[title=golem_map1_begin]
+塞拉: 行, 听好了. 对你来说应该很简单吧?
+塞拉: [question=03]如果<b>POST</b>对应1234... \n...<b>FLIRT</b>对应56784... \n...那<b>FROST</b>对应什么?
+[choice]58243[newtalk start=map_answer_wrong_begin break=map_answer_wrong_end]
+[choice]58234[newtalk start=map_answer_correct_begin break=map_answer_correct_end]
+[choice]52384[newtalk start=map_answer_wrong_begin break=map_answer_wrong_end]
+[choice]43285[newtalk start=map_answer_wrong_begin break=map_answer_wrong_end]
+[title=golem_map1_end]
+
+[title=map_answer_wrong_begin]
+塞拉: 嗯...[event=8]
+塞拉: 不对. 勇气可嘉! 我还以为你解这种简单谜语很拿手呢.
+塞拉: 可惜咯... 看来这小东西归我了! 嘿嘿嘿.[event=5]
+[title=map_answer_wrong_end]
+
+[title=map_answer_correct_begin]
+塞拉: 嗯...[event=7]
+塞拉: 哇! 还真答对了! 切, 真是的, 看来我果然不是出谜语的料.
+塞拉: 行吧算你厉害, 我说到做到, 这就给你.
+塞拉: 东西就在那边的大宝箱里. 加油哦, 怪人.[event=6]
+[title=map_answer_correct_end]
+
+[title=golem_map_wrong_begin]
+塞拉: 迷路了? 哼. 要是刚才谜语答对了, 哪至于这样.
+塞拉: 算了, 错过就错过吧, 人生嘛. 你先往前走, 我去找别的路.
+[title=golem_map_wrong_end]
+
+[title=golem_map_correct_begin]
+塞拉: 行了行了知道了. 不就答对个破谜语吗, 有什么好显摆的.
+塞拉: 赶紧往前走吧, 我们待会儿见.
+[title=golem_map_correct_end]
+
+ROUND 3
+SHADOW ROOM
+[title=shadowroom_0_begin]
+这里立着一块饱经风霜的古老铭牌. \n上面刻着...
+"命运之路, 将由昨日<color=#ebc934><b>十枚埋藏的残片</b></color>铺就."
+[title=shadowroom_0_end]
+
+BOULDER
+[title=boulder_0_begin]
+一块巨石显然是从上方的岩壁坠落下来, 堵在了这里.
+看起来没有别的路能绕过去...[event=0]
+[title=boulder_0_end]
+
+[title=golem_boulder0_begin]
+塞拉: 喂, 怪人!
+塞拉: 哈哈! 不会吧, 一块破石头就把你难住了? 唉, 你可真没用![event=0]
+塞拉: 让开! 看我的...
+[title=golem_boulder0_end]
+
+[title=golem_boulder1_begin]
+塞拉: 看到没? 全靠腿发力. 算你走运, 有我在这儿帮你干重活, 是吧?[event=0]
+塞拉: 才, 才不是我乐意帮你呢...
+塞拉: 赶紧... 继续走吧, 庭院就在前面了.[event=1]
+[title=golem_boulder1_end]
+
+COURTYARD
+[title=golem_5_begin]
+塞拉: 糟糕...
+[title=golem_5_end]
+
+[title=golem_6_begin]
+塞拉: 这棵树... 这是<color=#fcba03><b>生命之树</b></color>, 在梦境世界里有着举足轻重的地位.
+塞拉: 近来的变故褪去了它的色彩, 让它停止了生长. 可怜的小家伙...[event=0][newtalk start=golem_6_1_begin break=golem_6_1_end]
+[title=golem_6_end]
+
+[title=golem_6_1_begin]
+塞拉: [question=2]我们得想办法治好它. 可我... 它需要我守在身边. 我一个人办不到.
+[choice]我来帮你.[newtalk start=golem_6_yes_begin break=golem_6_yes_end]
+[choice]不关我的事.[newtalk start=golem_6_no_begin break=golem_6_no_end]
+[title=golem_6_1_end]
+
+[title=golem_6_no_begin]
+塞拉: 哇, 你能不能再<i>冷血</i>一点? 对一个无辜受苦的生灵见死不救, 也太残忍了.
+塞拉: 你这样可讨不到我的好感. 反正我们哪儿也去不了, 你最好再想想.[event=1]
+[title=golem_6_no_end]
+
+[title=golem_6_yes_begin]
+塞拉: 你愿意帮忙? 还演起英勇骑士了是吧? 行吧, 确实有点出乎我意料.
+塞拉: [question=3]不过你能走到这里, 也不算奇怪. 你身上有种真正冒险者的特质.
+[choice]呃, 这个嘛...[newtalk start=golem_7_0_begin break=golem_7_0_end]
+[choice]那当然.[newtalk start=golem_7_1_begin break=golem_7_1_end]
+[title=golem_6_yes_end]
+
+[title=golem_7_0_begin]
+塞拉: 哎呀, 别这么谦虚嘛! 你平时都这么不爱听夸奖的?[newtalk start=golem_7_begin break=golem_7_end]
+[title=golem_7_0_end]
+
+[title=golem_7_1_begin]
+塞拉: 行了别装了, 太自负迟早会栽跟头的.[newtalk start=golem_7_begin break=golem_7_end]
+[title=golem_7_1_end]
+
+[title=golem_7_begin]
+塞拉: 好了好了, 听我说. 这件事对我很重要. 我必须找到那件<color=#00b3ff><b>圣器</b></color>, 而治愈<color=#fcba03><b>生命之树</b></color>是第一步.
+塞拉: 接下来又要考验你的冒险本领了. 去神殿四周找找线索吧.
+塞拉: 我就留在这儿, 守在<color=#fcba03><b>生命之树</b></color>旁边.[event=2]
+[title=golem_7_end]
+
+REPEAT
+[title=golem_6_1_repeat_begin]
+塞拉: 啧, 又是你. 想通了吗? <color=#fcba03><b>生命之树</b></color>还等着救治呢.
+塞拉: [question=22]我们得想办法治好它. 可我... 它需要我守在身边. 我一个人办不到.
+[choice]我来帮你.[newtalk start=golem_6_yes1_begin break=golem_6_yes1_end]
+[choice]不关我的事.[newtalk start=golem_6_no1_begin break=golem_6_no1_end]
+[title=golem_6_1_repeat_end]
+
+[title=golem_6_no1_begin]
+塞拉: 你这样可讨不到我的好感. 反正我们哪儿也去不了, 你最好再想想.
+[title=golem_6_no1_end]
+
+[title=golem_6_yes1_begin]
+塞拉: 你愿意帮忙? 还演起英勇骑士了是吧? 行吧, 确实有点出乎我意料.
+塞拉: [question=33]不过你能走到这里, 也不算奇怪. 你身上有种真正冒险者的气质.
+[choice]呃, 这个嘛...[newtalk start=golem_7_0_begin break=golem_7_0_end]
+[choice]那当然.[newtalk start=golem_7_1_begin break=golem_7_1_end]
+[title=golem_6_yes1_end]
+
+[title=golem_7_2_begin]
+塞拉: 哎呀, 别这么谦虚嘛. 偶尔接受下夸奖怎么了? 真是的.[newtalk start=golem_77_begin break=golem_77_end]
+[title=golem_7_2_end]
+
+[title=golem_7_3_begin]
+塞拉: 行了别装了, 太自负迟早会栽跟头的.[newtalk start=golem_77_begin break=golem_77_end]
+[title=golem_7_3_end]
+
+[title=golem_77_begin]
+塞拉: 好了好了, 听我说. 这件事对我很重要. 我必须找到那件<color=#00b3ff><b>圣器</b></color>, 而治愈<color=#fcba03><b>生命之树</b></color>是第一步.
+塞拉: 接下来又要考验你的冒险本领了. 去神殿四周找找线索吧.
+塞拉: 我就留在这儿, 守在<color=#fcba03><b>生命之树</b></color>旁.[event=1]
+[title=golem_77_end]
+
+[title=golem_7_repeat_begin]
+塞拉: 又迷路了? 别放弃啊, 我们马上就能解开谜团了, 一起加油.
+[title=golem_7_repeat_end]
+
+ROUND 4 BALL 1
+[title=plaque_redroom_begin]
+这里立着一块饱经风霜的古老铭牌. \n上面刻着...
+"三色三形, <color=#ebc934><b>错位排布</b></color>. 圣物归位, 重现迷途."
+[title=plaque_redroom_end]
+
+TALKHOLDER
+[title=golem_8_0_begin]
+塞拉: 快看快看! 你做的事见效了! <color=#fcba03><b>生命之树</b></color>正在恢复色彩!
+塞拉: 继续加油, 小怪人!
+[title=golem_8_0_end]
+
+TALKTRIGGER
+[title=golem_8_0_repeat_begin]
+塞拉: 收回四颗光球中的一颗后, 养分似乎正在回流到<color=#fcba03><b>生命之树</b></color>的根系中.
+塞拉: 但它还很虚弱, 去找剩下的几颗吧. 快点!
+[title=golem_8_0_repeat_end]
+
+ROUND 5 BALL 2
+[title=plaque_greenroom_begin]
+这里立着一块饱经风霜的古老铭牌. \n上面刻着...
+"<color=#ebc934><b>三座沉埋基座</b></color>, 唤醒黏液深渊深处的沉眠之石."
+[title=plaque_greenroom_end]
+
+TALKHOLDER
+[title=golem_8_1_begin]
+塞拉: <color=#fcba03><b>生命之树</b></color>正在慢慢恢复生机! 已经完成一半了.
+塞拉: 别放弃, 我相信你可以的!
+[title=golem_8_1_end]
+
+TALKTRIGGER
+[title=golem_8_1_repeat_begin]
+塞拉: 从我记事起, 就一直梦到这座神殿, 却始终找不到我遗失的那件<color=#00b3ff><b>圣器</b></color>.
+塞拉: 它对我而言无比珍贵. 如果能在这里找到它, 我终于就能放下过去了.
+[title=golem_8_1_repeat_end]
+
+ROUND 6 BALL 3
+[title=plaque_yellowroom_begin]
+这里立着一块饱经风霜的古老铭牌. \n上面刻着...
+"思维敏捷, <color=#ebc934><b>步履如风</b></color>. 与山竞速, 步入幽谷."
+[title=plaque_yellowroom_end]
+
+TALKHOLDER
+[title=golem_8_2_begin]
+塞拉: <color=#fcba03><b>生命之树</b></color>的枝干几乎已经恢复活力了!
+塞拉: 我都能感觉到空气变得愈发澄澈明亮了.
+[title=golem_8_2_end]
+
+TALKTRIGGER
+[title=golem_8_2_repeat_begin]
+塞拉: 庭院里的阴霾正在一点点消散. 你太厉害了!
+塞拉: 但还没结束... <color=#fcba03><b>生命之树</b></color>还需要最后一步.
+[title=golem_8_2_repeat_end]
+
+ROUND 7 ALL BALLS COLLECTED, CATHEDRAL
+[title=plaque_blueroom_begin]
+这里立着一块饱经风霜的古老铭牌. \n上面刻着...
+"隐现符文, 昭示重聚之钥. 冰封挚友, <color=#ebc934><b>铺就通途</b></color>."
+[title=plaque_blueroom_end]
+
+TALKHOLDER (TRIGGER CUTSCENE AFTER THIS)
+[title=golem_8_3_begin]
+塞拉: 你做到了! 快看, <color=#fcba03><b>生命之树</b></color>的枝叶重新繁茂起来了![event=0]
+[title=golem_8_3_end]
+
+ROUND 8 --- CUTSCENE DIALOGUE
+[title=golem_cutscene0_begin]
+<color=#fcba03><b>生命之树</b></color>的盛景已然完全复苏.
+[title=golem_cutscene0_end]
+
+[title=golem_cutscene1_begin]
+我... 想跟你说句心里话. 一开始我其实没抱什么希望.
+[title=golem_cutscene1_end]
+
+[title=golem_cutscene2_begin]
+你做到了我一个人永远做不到的事. 看来你... 也没那么怪嘛.
+[title=golem_cutscene2_end]
+
+[title=golem_cutscene22_begin]
+唉, 我不太会说这些. 我想说的是-
+[title=golem_cutscene22_end]
+
+[title=golem_cutscene23_begin]
+从来没有人这样帮过我. 所以... 谢谢你.
+[title=golem_cutscene23_end]
+
+[title=golem_cutscene3_begin]
+说也奇怪, 你给我一种很熟悉的感觉. 就好像我们认识了一辈子.
+[title=golem_cutscene3_end]
+
+[title=golem_cutscene4_begin]
+好了, 接下来只剩最后一段路了.
+[title=golem_cutscene4_end]
+
+[title=golem_cutscene5_begin]
+等等- 这树怎么回事? 它的门还被缠着.
+[title=golem_cutscene5_end]
+
+[title=golem_cutscene6_begin]
+它还缺一样东西... 那件<color=#00b3ff><b>圣器</b></color>. 对了!
+[title=golem_cutscene6_end]
+
+[title=golem_cutscene7_begin]
+好, 就差最后一步了! 放置那些光球肯定触发了什么变化.
+[title=golem_cutscene7_end]
+
+[title=golem_cutscene8_begin]
+圣器一定就在神殿里的某个地方. 这件事就交给你了!
+[title=golem_cutscene8_end]
+
+TALKTRIGGER (GOLEM WAITING IN FRONT OF TREE DOOR)
+[title=golem_wait_repeat_begin]
+塞拉: 找到那件<color=#00b3ff><b>圣器</b></color>了吗? 它肯定就在神殿里面的某处.
+塞拉: 我也想跟你一起去, 可是... <color=#fcba03><b>生命之树</b></color>仍在指引我守在这里.
+塞拉: 我就在这儿等你回来.
+[title=golem_wait_repeat_end]
+
+RETURN TO TREE WITH RING
+[title=lifetree_0_begin]
+...
+<color=#fcba03><b>生命之树</b></color>发出舒缓的低鸣, 一股暖意涌上你的心头.
+在生命之树的感召下, <color=#00b3ff><b>棱彩圣器</b></color>泛起淡淡的微光.
+[title=lifetree_0_end]
+
+LOST WOODS
+[title=plaque_lostwoods_begin]
+这里立着一块饱经风霜的古老铭牌. \n上面刻着...
+"唯有追随<color=#ebc934><b>森林乐章</b></color>之人, 方能窥见真正的命运."
+[title=plaque_lostwoods_end]
+
+FAIRY FOUNTAIN
+[title=fairy_0_begin]
+???: 你好呀! 来了个疲惫的小家伙, 看起来迷路了呢!
+???: [question=00]喂, 你迷路了吗? 是不是呀?
+[choice]是.[newtalk start=fairy_yes0_begin break=fairy_yes0_end]
+[choice]不是.[newtalk start=fairy_no0_begin break=fairy_no0_end]
+[title=fairy_0_end]
+
+[title=fairy_no0_begin]
+???: 哼, 小骗子! 小骗子! 走开啦!
+[title=fairy_no0_end]
+
+[title=fairy_yes0_begin]
+???: 哦, 真的迷路啦? 我们一点都不意外, 看你样子就经常迷路.
+???: [question=01]那我再问你一个小问题. 来, 靠近一点...
+[choice]凑近.[newtalk start=fairy_yes1_begin break=fairy_yes1_end]
+[choice]后退.[newtalk start=fairy_no1_begin break=fairy_no1_end]
+[title=fairy_yes0_end]
+
+[title=fairy_no1_begin]
+???: 哼, 真没意思! 没意思!
+[title=fairy_no1_end]
+
+[title=fairy_yes1_begin]
+???: [question=02]<i>psst psst</i>... 再靠近点...
+[choice]再凑近点.[newtalk start=fairy_yes2_begin break=fairy_yes2_end]
+[choice]后退.[newtalk start=fairy_no1_begin break=fairy_no1_end]
+[title=fairy_yes1_end]
+
+[title=fairy_yes2_begin]
+???: <i>psst psst</i> ... [event=3]
+???: [question=03]...你是不是丢东西了?!!
+[choice]是, 是的...[newtalk start=fairy_liar_begin break=fairy_liar_end]
+[choice]没, 没有...[newtalk start=fairy_true_begin break=fairy_true_end]
+[title=fairy_yes2_end]
+
+[title=fairy_liar_begin]
+???: 哼! 你撒谎也太烂了! 我最讨厌骗子了!
+[title=fairy_liar_end]
+
+[title=fairy_true_begin]
+???: 嘿嘿, 我们知道你没丢. 就是想看看你有多诚实嘛!
+???: 你这么诚实, 该给你点奖励, 那边宝箱里的东西就归你啦!
+???: 你看起来累坏了, 好好休息一下吧.[event=4]
+小精灵轻轻吻了你一下. 你获得了<color=#7deb34><b>+15点魔法灵力</b></color>, 至少感觉是这样.
+[title=fairy_true_end]
+
+/////// NEED TO COMPLETE
+GOLEM CHAPEL FINAL DIALOGUE
+[title=golem_final0_begin]
+塞拉: 你终于来了... 走到终点了. 一切都回归了它本该有的样子.
+塞拉: 我就知道你闯入这里绝非偶然. 一路披荆斩棘走过神殿的长廊... 你真的很了不起.
+塞拉: 找到了我遗失了那么久的<color=#00b3ff><b>指环</b></color>... 真的谢谢你, 为我费了这么多功夫.
+塞拉: 虽然我们只在竹林里有过短暂的交谈, 却好像已经认识了一辈子.
+塞拉: 你身上有种难以言喻的特质, 总能激励我成为更好的自己.
+塞拉: 从一开始我就觉得, 你和别人不一样. 没错, 我觉得你或许就是那个人...
+塞拉: 所以... 我想知道... 我想问你-
+塞拉: [question=04]-你愿意成为那个带给我幸福的人吗?
+[choice]我愿意.[newtalk start=golem_good0_begin break=golem_good0_end]
+[choice]对不起.[newtalk start=golem_bad0_begin break=golem_bad0_end]
+[title=golem_final0_end]
+
+GOOD END
+[title=golem_good0_begin]
+你取出了那件<color=#00b3ff><b>圣器</b></color>.[event=0]
+塞拉: 这枚<color=#00b3ff><b>棱彩之戒</b></color>... 我在梦里寻觅了它太久太久, 久到无法用言语形容.[event=5]
+塞拉: 一直等着... 等着有人帮我找到它. 现在, 那个人终于出现了.
+塞拉: 虽然有点怪怪的, 但没关系, 我们每个人都有古怪的一面.
+塞拉: 你还有很多重要的事要去完成, 还有很多人等着你去救赎.[event=4]
+塞拉: 我只想让你知道, 你改变了我的人生.
+塞拉: 你让我感到无比...
+塞拉: 幸福.[event=1]
+[title=golem_good0_end]
+
+BAD END
+[title=golem_bad0_begin]
+塞拉: 我...[event=2]
+塞拉: 没关系, 别道歉.
+塞拉: 该说对不起的人... 是我.
+塞拉: 我真傻, 居然会以为... 以为这种事有可能发生.
+塞拉: 我现在明白了, 平白无故把这种负担丢给你, 太不公平了...
+塞拉: 或许是我在你身上看到了些许微光, 以为你能带给我幸福, 让我变得完整.
+塞拉: 人生啊...
+塞拉: 总是这么可笑.
+塞拉: 直到现在我还想骗自己... 你只是一场梦而已.
+塞拉: 可我心里清楚-
+塞拉: -我们所有人, 都不过是一场梦.[event=3]
+[title=golem_bad0_end]
+
+GOOD ENDING AFTER SCENE
+[title=gardener_begin]
+不用管我. 小路尽头的小树林里, 有人在等你.
+请别踩到花儿.
+[title=gardener_end]
+
+[title=elder_good0_begin]
+???: 哦哟! 瞧瞧这是谁回来了.[event=0]
+莫雷尔镇长: 年轻人, 我们还以为你回不来了呢! 你走之后, 这里发生了不少变化啊.
+莫雷尔镇长: 没想到山上那片老灌木丛里, 居然藏着一座特别的花园. 太让人意外了!
+莫雷尔镇长: 你在里面的经历, 想必十分难得吧. 太好了, 真是太好了.
+莫雷尔镇长: 啊对了! 顺便说一句- 我们另一位探险者带回来一块破碎的<color=#03cffc><b>碎片</b></color>, 不知道是什么东西.
+莫雷尔镇长: 看着挺重要的, 我们觉得可能是你的. 走的时候记得带上.
+莫雷尔镇长: [question=97]好了! 怎么样, 小伙子? 准备好继续你的旅程了吗?
+[choice]出发![newtalk start=elder_good0_yes_begin break=elder_good0_yes_end]
+[choice]稍等一下.[newtalk start=elder_good0_no_begin break=elder_good0_no_end]
+[title=elder_good0_end]
+
+[title=elder_good0_yes_begin]
+莫雷尔镇长: 哈, 好样的! 真羡慕你们年轻人有这么旺盛的精力. 昂首挺胸, 大步向前吧! 你一定能抵达想去的地方.
+莫雷尔镇长: 对了- 那块碎片我会帮你修整好. 放在你手里, 肯定不会有事的.
+莫雷尔镇长: 希望我们后会有期. 再会![event=2]
+[title=elder_good0_yes_end]
+
+[title=elder_good0_no_begin]
+莫雷尔镇长: 当然当然, 不急, 你慢慢来.[event=1]
+[title=elder_good0_no_end]
+
+[title=elder_good0_repeat_begin]
+莫雷尔镇长: 清风, 林木, 暖阳... 只要我们好好照顾自己, 一切都会变得更美好, 更明亮, 不是吗?
+莫雷尔镇长: [question=97]好了! 怎么样, 小伙子? 准备好继续旅程了吗?
+[choice]出发![newtalk start=elder_good0_yes_begin break=elder_good0_yes_end]
+[choice]稍等一下.[newtalk start=elder_good0_no_begin break=elder_good0_no_end]
+[title=elder_good0_repeat_end]
+
+BAD ENDING AFTER SCENE
+[title=statue_bad0_begin]
+这里立着一块饱经风霜的古老铭牌, 字迹早已模糊难辨-
+"彼之残片, 遗失久矣. 岁月之殇, 无可弥合.
+无人寻觅, 无人相助, 无人怜爱. 以其<color=#03cffc><b>心</b></color>, 换永世安宁."[newtalk start=elder0_begin break=elder0_end]
+[title=statue_bad0_end]
+
+[title=elder0_begin]
+???: 啊, 我记得你... 年轻人.[event=0]
+???: 你回到了当初出发的地方, 虽说我也说不清过去了多久.
+???: 我记得... 你走进了那片灌木丛, 之后肯定迷失了很长一段时间.
+???: 但看看周围的一切, 似乎迷失的不只是你一个人.
+???: 嗯. 或许对有些人来说, 有些事就是还没到面对的时候. 那些重大的, 足以改变人生的抉择.
+???: 不过没关系, 你的路还很长. 每个人都会往前走, 都会面临新的选择.
+???: 问题在于, 什么样的决定才能真正改变一切? 你又怎么知道哪些才是真正重要的?[event=1]
+???: [question=99]重要的是, 做出选择, 然后继续往前走. 你觉得呢?
+[choice]献上祭品.[newtalk start=elder0_yes_begin break=elder0_yes_end]
+[choice]什么都不做.[newtalk start=elder0_no_begin break=elder0_no_end]
+[title=elder0_end]
+
+[title=elder0_yes_begin]
+你将<color=#00b3ff><b>棱彩圣器</b></color>放在了基座上.[event=2]
+[title=elder0_yes_end]
+
+[title=elder0_no_begin]
+你决定再四处逛逛. 可事到如今, 还有什么可做的呢?[event=3]
+[title=elder0_no_end]
+
+[title=elder0_repeat_begin]
+???: 我们记忆中那片生机勃勃的森林, 早已枯萎凋零. 这里已经没什么剩下的了.[event=1]
+???: [question=98]你得往前走了. 所以, 你觉得呢?
+[choice]献上祭品.[newtalk start=elder0_yes_begin break=elder0_yes_end]
+[choice]再留一会儿.[newtalk start=elder0_no_begin break=elder0_no_end]
+[title=elder0_repeat_end]
+
+[title=elder0_exit_begin]
+再见了, 年轻人...
+[title=elder0_exit_end]

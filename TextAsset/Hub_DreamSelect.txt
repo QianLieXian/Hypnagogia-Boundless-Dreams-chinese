@@ -1,0 +1,82 @@
+选关对话
+[title=npc_0_begin]
+你好, 陌生人. 欢迎来到你的梦境选择中枢.
+你可以随时进入任何你经历过的主线梦境.
+尽情探索你未曾踏足的地方, 或是尚未发现的秘密.
+想要离开, 只需在暂停菜单中退出即可.
+[title=npc_0_end]
+[title=cave_begin]
+这是通往洞穴世界的传送门.
+[question=0]进入洞穴世界?
+[choice]是.[newtalk start=cave_yes_begin break=cave_yes_end]
+[choice]否.[newtalk start=no_begin break=no_end]
+[title=cave_end]
+[title=mist_begin]
+这是通往迷雾世界的传送门.
+[question=1]进入迷雾世界?
+[choice]是.[newtalk start=mist_yes_begin break=mist_yes_end]
+[choice]否.[newtalk start=no_begin break=no_end]
+[title=mist_end]
+[title=bamboo_begin]
+这是通往竹林世界的传送门.
+[question=2]进入竹林世界?
+[choice]是.[newtalk start=bamboo_yes_begin break=bamboo_yes_end]
+[choice]否.[newtalk start=no_begin break=no_end]
+[title=bamboo_end]
+[title=ice_begin]
+这是通往冰雪世界的传送门.
+[question=3]进入冰雪世界?
+[choice]是.[newtalk start=ice_yes_begin break=ice_yes_end]
+[choice]否.[newtalk start=no_begin break=no_end]
+[title=ice_end]
+[title=space_begin]
+这是通往太空世界的传送门.
+[question=4]进入太空世界?
+[choice]是.[newtalk start=space_yes_begin break=space_yes_end]
+[choice]否.[newtalk start=no_begin break=no_end]
+[title=space_end]
+[title=haunted_begin]
+这是通往灵异世界的传送门.
+[question=5]进入灵异世界?
+[choice]是.[newtalk start=haunted_yes_begin break=haunted_yes_end]
+[choice]否.[newtalk start=no_begin break=no_end]
+[title=haunted_end]
+[title=mall_begin]
+这是通往商场世界的传送门.
+[question=6]进入商场世界?
+[choice]是.[newtalk start=mall_yes_begin break=mall_yes_end]
+[choice]否.[newtalk start=no_begin break=no_end]
+[title=mall_end]
+[title=tower_begin]
+这是通往高塔世界的传送门.
+[question=6]进入高塔世界?
+[choice]是.[newtalk start=tower_yes_begin break=tower_yes_end]
+[choice]否.[newtalk start=no_begin break=no_end]
+[title=tower_end]
+[title=no_begin]
+你从传送门前退开了.[event=0]
+[title=no_end]
+[title=cave_yes_begin]
+正在进入洞穴世界.[event=1]
+[title=cave_yes_end]
+[title=mist_yes_begin]
+正在进入迷雾世界.[event=2]
+[title=mist_yes_end]
+[title=bamboo_yes_begin]
+正在进入竹林世界.[event=3]
+[title=bamboo_yes_end]
+[title=ice_yes_begin]
+正在进入冰雪世界.[event=4]
+[title=ice_yes_end]
+[title=space_yes_begin]
+正在进入太空世界.[event=5]
+[title=space_yes_end]
+[title=haunted_yes_begin]
+正在进入灵异世界.[event=6]
+[title=haunted_yes_end]
+[title=mall_yes_begin]
+正在进入商场世界.[event=7]
+[title=mall_yes_end]
+[title=tower_yes_begin]
+正在进入高塔世界.[event=8]
+[title=tower_yes_end]

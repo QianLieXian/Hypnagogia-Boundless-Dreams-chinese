@@ -1,0 +1,115 @@
+CUTSCENE DIALOGUE HYPNAGOGIA 2
+Angel intro
+[title=angel_0_begin]
+你终于来了
+[title=angel_0_end]
+[title=angel_1_begin]
+我们已经等了太久太久
+[title=angel_1_end]
+[title=angel_2_begin]
+但我们还得再等一小会儿
+[title=angel_3_end]
+[title=angel_3_begin]
+你远比自己想象的更被需要
+[title=angel_3_end]
+[title=angel_4_begin]
+你只需做一件事
+[title=angel_4_end]
+[title=angel_5_begin]
+就是 <b>入梦</b>
+[title=angel_5_end]
+Cutscene hub intro
+[title=avatar_0_begin]
+看来我有位访客啊...
+[title=avatar_0_end]
+Cutscene Gogi Outro
+[title=demon_0_begin]
+[jitter=5 angle=0]你还真是成了我的眼中钉。[/jitter]
+[title=demon_0_end]
+[title=demon_1_begin]
+[jitter=5 angle=0]你永远别想再回到梦境之地。[/jitter]
+[title=demon_1_end]
+Cutscene Final part 0
+[title=hypno_00_begin]
+你的戏份结束了。滚开。
+[title=hypno_00_end]
+[title=hypno_0_begin]
+终于...梦境之地的力量归我了。
+[title=hypno_0_end]
+[title=hypno_1_begin]
+什么？！这是什么？！
+[title=hypno_1_end]
+[title=hypno_2_begin]
+这...这不可能！你明明被封印了！
+[title=hypno_2_end]
+[title=gogi_0_begin]
+你的腐化之力永远伤不到梦境水晶。
+[title=gogi_0_end]
+[title=hypno_3_begin]
+哈哈哈...蠢货。你们不过是在拖延必然的结局。
+[title=hypno_3_end]
+[title=hypno_33_begin]
+现在...你们都得 [jitter=4 angle=0]死。[/jitter]
+[title=hypno_33_end]
+Cutscene Final part 1
+[title=hypno_4_begin]
+早知道当初就该趁机会彻底碾碎你。
+[title=hypno_4_end]
+[title=hypno_5_begin]
+等我解决掉你，就继续把这片梦境之地打造成噩梦的天堂。
+[title=hypno_5_end]
+[title=mimic_0_begin]
+嘻嘻！把你们困在这儿简直易如反掌！现在你们俩都得-
+[title=mimic_0_end]
+[title=hypno_6_begin]
+<b>你...！</b>
+[title=hypno_6_end]
+[title=hypno_7_begin]
+你这个没用的废物！我让你把碎片带来给我！
+[title=hypno_7_end]
+[title=mimic_1_begin]
+可...可是，我...我以为您说只要-
+[title=mimic_1_end]
+[title=hypno_77_begin]
+<b>蠢货。</b>
+[title=hypno_77_end]
+[title=hypno_8_begin]
+你让我失望透顶，一无是处的模仿者！
+[title=hypno_8_end]
+[title=mimic_2_begin]
+等...等等——不————！
+[title=mimic_2_end]
+[title=gogi_1_begin]
+你管这叫天堂？！
+[title=gogi_1_end]
+[title=gogi_11_begin]
+梦境是神圣的，你根本不配存在于此-
+[title=gogi_11_end]
+[title=hypno_9_begin]
+<i>你说什么？</i>我不配存在？ \n你根本不懂这个词的真正含义。
+[title=hypno_9_end]
+[title=hypno_98_begin]
+难道不是 <i>我</i> 赋予了逐梦者意义？ \n一个 <i>目标</i>？一条通往终点的道路？
+[title=hypno_98_end]
+[title=hypno_99_begin]
+我就是这可悲的世界迫切需要的平衡...
+[title=hypno_99_end]
+[title=hypno_10_begin]
+...而现在，我就让你们看看，我到底有多配 <i>存在于此</i>。
+[title=hypno_10_end]
+Cutscene Final part 2
+[title=hypno_11_begin]
+可悲的蠢货。他到死都这幅德行。 \n拼尽全力守护着你们这群生物称之为 <i>梦</i> 的可悲玩意儿。
+[title=hypno_11_end]
+[title=hypno_12_begin]
+现在...你的灵魂将永远困在我的世界里。
+[title=hypno_12_end]
+[title=hypno_13_begin]
+不...我永远不会被消灭。 \n你们永远毁不掉噩梦。
+[title=hypno_13_end]
+[title=gogi_2_begin]
+别难过，沉眠的人。
+[title=gogi_2_end]
+[title=gogi_3_begin]
+我会...永远守护着你...
+[title=gogi_3_end]

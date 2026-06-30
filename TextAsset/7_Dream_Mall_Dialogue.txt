@@ -1,0 +1,160 @@
+7_Dream_Mall_Dialogue
+备注:
+- 不确定要不要保留高吉的模仿桥段. 要不改成电梯门一开他就慌忙跑掉?
+高吉登场
+[title=Gogi_0_begin]
+"高吉": 嘿嘿.
+[title=Gogi_0_end]
+电梯
+[title=elevator_0_begin]
+控制面板上有一个箭头形状的按钮.
+[question=0]你要按下按钮吗?
+[choice]是.[newtalk start=answer_elevator_yes_begin break=answer_elevator_yes_end]
+[choice]不.[newtalk start=answer_elevator_no_begin break=answer_elevator_no_end]
+[title=elevator_0_end]
+电梯 选否
+[title=answer_elevator_no_begin]
+你决定不按按钮. 永恒在此等候.
+[title=answer_elevator_no_end]
+电梯 选是
+[title=answer_elevator_yes_begin]
+你按下了唯一可见的按钮. 电梯开始运行. [event=0]
+[title=answer_elevator_yes_end]
+导览播报
+[title=directory_begin]
+"欢迎来到 H̵Ë̵̥̰͈́̾Ḁ̸͙̆̈́V̸̧͜E͈N̸̟̈́'̶̣͙̼͌S̴͙̫̿͑̚ ̧̛̩P̴̡͓͊̿L̷̙̙̎̈́Ȁ̷͕͂̇Z̵̧̑A̧͔̎̕  购物中心."
+"本店即将打烊. 请选购好商品后尽快离开."
+"感谢您今日光临购物."
+[title=directory_end]
+食品店 上锁
+[title=food_locked_begin]
+紧闭的卷帘门另一侧放着一个<color=#e0d33f><b>刚出炉的椒盐卷饼</b></color>.
+真可惜你够不着. 看起来相当美味.
+[title=food_locked_end]
+玩具店 上锁
+[title=toy_locked_begin]
+你透过紧闭的卷帘门，看到店里的柜台上摆着某种<color=#e0d33f><b>玩具</b></color>.
+你根本没法从这里拿到它. 算了吧.
+[title=toy_locked_end]
+钥匙店 上锁
+[title=key_locked_begin]
+店内的柜台上放着某件<color=#e0d33f><b>闪闪发亮的东西</b></color>.
+要是能进去拿就好了...
+[title=key_locked_end]
+上锁的大门
+[title=gate_main_locked_begin]
+卷帘门落下，挡住了进入这片区域的路. 你没法把它抬起来.
+门的底部有一个小小的锁孔. 钥匙肯定就在附近的什么地方.
+[title=gate_main_locked_end]
+钥匙房间
+[title=key_begin]
+柜台上有一把<color=#e0d33f><b>小钥匙</b></color>. 上面的标签写着"百货商店大门". 你把它收了起来.
+[title=key_end]
+大门已解锁
+[title=gate_main_unlocked_begin]
+你用这把锈迹斑斑的钥匙，抬起了沉重的金属卷帘门.
+[title=gate_main_unlocked_end]
+后室里的迷路小孩
+[title=door_0_begin]
+这间试衣间里传来了小孩的哭声.
+[question=2]你要敲门吗?
+[choice]要.[newtalk start=door_yes_begin break=door_yes_end]
+[choice]不要.[newtalk start=door_no_begin break=door_no_end]
+[title=door_0_end]
+敲门 选否
+[title=door_no_begin]
+你转身离开了试衣间门口.
+[title=door_no_end]
+敲门 选是
+[title=door_yes_begin]
+你敲了敲隔间的门.[event=1]
+孩子: 你-你好? 谁在外面? 是妈妈吗?
+孩子: [question=3]快-快走开!
+[choice]怎么了?[newtalk start=kid_0_begin break=kid_0_end]
+[choice]好吧.[newtalk start=kid_no_begin break=kid_no_end]
+[title=door_yes_end]
+小孩对话 选项结束
+[title=kid_no_begin]
+孩子: 别管我![event=2]
+[title=kid_no_end]
+小孩对话 选项1
+[title=kid_0_begin]
+孩子: 我不知道... 我和妈妈进来试新衣服，可是大家都不见了.
+孩子: [question=4]周围一个人都没有，我不敢出去，就把自己锁在这里了. 我想回家!
+[choice]我能帮你做什么?[newtalk start=kid_1_begin break=kid_1_end]
+[choice]祝你好运.[newtalk start=kid_no_begin break=kid_no_end]
+[title=kid_0_end]
+小孩对话 选项1-1
+[title=kid_1_begin]
+孩子: 呃-那个... 我刚才在玩具店买了一只超可爱的<color=#e0d33f><b>泰迪熊</b></color>，但是落在那儿了.
+孩子: [question=5]要是有它陪着我，我就没那么怕了. 你能帮我去找回来吗?
+[choice]没问题.[newtalk start=kid_1_okay_begin break=kid_1_okay_end]
+[choice]没时间了.[newtalk start=kid_no_begin break=kid_no_end]
+[title=kid_1_end]
+小孩对话 1-1 同意
+[title=kid_1_okay_begin]
+孩子: 请快点. 我好害怕...[event=3]
+[title=kid_1_okay_end]
+泰迪熊
+[title=bear_begin]
+这里有一只<color=#e0d33f><b>毛绒熊</b></color>. 它脸上的表情空洞又呆滞.
+你把熊收了起来.
+[title=bear_end]
+给小孩熊
+[title=kid_bear_begin]
+孩子: 你找到我丢的小熊了? 谢谢你... 你放在那儿就行.[event=9][newtalk start=kid_pretzel_begin break=kid_pretzel_end]
+[title=kid_bear_end]
+[title=kid_pretzel_begin]
+孩子: 我还是好害怕... 而且现在更糟了，我肚子饿了.
+孩子: 妈妈在我最喜欢的食品店给我买了一个<color=#e0d33f><b>椒盐卷饼</b></color>，但是我忘在那儿了.
+孩子: [question=6]你能帮我去拿过来吗?
+[choice]好的.[newtalk start=kid_bear_okay_begin break=kid_bear_okay_end]
+[choice]我得走了.[newtalk start=kid_no1_begin break=kid_no1_end]
+[title=kid_pretzel_end]
+[title=kid_no1_begin]
+孩子: 别管我![event=6]
+[title=kid_no1_end]
+给小孩卷饼 同意
+[title=kid_bear_okay_begin]
+孩子: 谢-谢谢你... 我好饿.[event=4]
+[title=kid_bear_okay_end]
+食品店 椒盐卷饼
+[title=food_begin]
+一个<color=#e0d33f><b>刚出炉的椒盐卷饼</b></color>. 热乎乎的，看起来很美味.
+你把它收了起来.
+[title=food_end]
+给小孩食物
+[title=kid_food_begin]
+孩子: 你把我的<color=#e0d33f><b>椒盐卷饼</b></color>拿回来了! 我在这儿都闻到香味了... 我好饿. [event=10]
+孩子: 你帮了我这么多，让我好受多了. 谢谢你. 我觉得我现在没事了.
+孩子: 我准备好出去了.
+孩子: [speed=10]你也一样.[/speed][event=5]
+[title=kid_food_end]
+秘密区域
+[title=switch_art_begin]
+[question=7]咦. 这里有个奇怪的开关. 你要拉下去吗?
+[choice]要.[newtalk start=switch_art_yes_begin break=switch_art_yes_end]
+[choice]不要.[newtalk start=switch_no_begin break=switch_no_end]
+[title=switch_art_end]
+[title=switch_art_yes_begin]
+你犹豫着拉下了开关.[event=7]
+远处传来了卷帘门升起的声音...
+[title=switch_art_yes_end]
+[title=switch_no_begin]
+你后退离开了开关.
+[title=switch_no_end]
+[title=switch_game_begin]
+[question=7]咦. 这里有个奇怪的开关. 你要拉下去吗?
+[choice]要.[newtalk start=switch_game_yes_begin break=switch_game_yes_end]
+[choice]不要.[newtalk start=switch_no_begin break=switch_no_end]
+[title=switch_game_end]
+[title=switch_game_yes_begin]
+你犹豫着拉下了开关.[event=8]
+远处传来了卷帘门升起的声音...
+[title=switch_game_yes_end]
+[title=pizza_begin]
+这配料可真有意思...
+[title=pizza_end]
+[title=arcade_list_begin]
+游戏开发: <color=#0aff70><b>@sodaraptor_dev</b></color>\n\n2021年10月 - <b>Hypnagogia: Boundless Dreams</b>\n2021年10月 - <b>WOLFGUN</b>\n2021年2月 - <b>Pathogen-X Demo</b>\n2020年11月 - <b>Hypnagogia</b>\n2020年10月 - <b>Descension</b>\n2020年4月 - <b>MechEvolve VR</b>\n2019年11月 - <b>Infectoid</b>\n2019年8月 - <b>Artifact 51 VR</b>\n2018年12月 - <b>D.M.C.P.</b>\n\n大学项目:\n\n2014年6月 - <b>Castle Panic</b>\n2013年7月 - <b>Hypervirus</b>
+[title=arcade_list_end]

@@ -1,0 +1,336 @@
+2_梦雾 对话
+备注:
+- 本关卡对话量极大，流程迂回
+- 是否考虑将本关移至第3关而非第2关? (节奏偏慢，会拖慢游戏进度)
+- 核心设定：一块梦之碎片的两半分别落入了两处水池
+- 水神会在你收集两处池水后将两半重新粘合（但他不会提前说明这点）
+- 其他互动可加入一只在关卡中随机游走的蠕虫生物(?)
+GOGI 开场
+[title=Gogi_0_begin]
+"Gogi": 哦，嗨！又碰到你了，真巧！这地方真是[jitter=5 angle=0]又湿又潮[/jitter]!
+"Gogi": 我之前遇到了些<i>怪里怪气</i>的生物，说着<i>听不懂的</i>怪话！哦对了，我还看到一个巨大的旋转水团！
+"Gogi": 希望那块<color=#03cffc><b>碎片</b></color>不在那下面！记住- 你得尽快拿到它，这事非常重要！
+"Gogi": 唉……看来你只能见机行事了！玩[jitter=5 angle=0]得开心点哦！[/jitter]
+[title=Gogi_0_end]
+大门
+[title=gate_green_locked_begin]
+一扇精致的铁门。栏杆上牢牢锁着一把<color=#24d62a><b>绿色</b></color>挂锁。
+[title=gate_green_locked_end]
+[title=gate_red_locked_begin]
+一扇精致的铁门。栏杆上牢牢锁着一把<color=#d63924><b>红色</b></color>挂锁。
+[title=gate_red_locked_end]
+[title=gate_unlock_begin]
+你用大门钥匙打开了锁。
+[title=gate_unlock_end]
+蓝色装置 未激活
+[title=obj_blue_0_begin]
+一件极为奇特的蓝色物体悬浮在基座上。像是某种远古控制台?
+[question=0]底座上刻着诡异的符号。你要触碰这件物体吗?
+[choice]当然。[newtalk start=answer_blue_yes0_begin break=answer_blue_yes0_end]
+[choice]嗯……算了。[newtalk start=answer_blue_no0_begin break=answer_blue_no0_end]
+[title=obj_blue_0_end]
+[title=answer_blue_yes0_begin]
+什么都没发生……
+[title=answer_blue_yes0_end]
+[title=answer_blue_no0_begin]
+你离开了基座。
+[title=answer_blue_no0_end]
+水神 前置任务
+[title=god_00_begin]
+你站在漩涡上方时，一条巨蛇出现在你面前。[newtalk start=god_0_begin break=god_0_end]
+[title=god_00_end]
+[title=god_0_begin]
+???: 你好啊，小小的旅人。你肯定迷路了吧。
+???: [question=1]有什么我能帮到你的吗?
+[choice]我听不懂。
+[choice]随你怎么说。
+???: 看来我们没法理解彼此。
+???: 去北边，激活那里的远古控制台。
+[title=god_0_end]
+[title=god_after_begin]
+漩涡里的神秘存在说着你听不懂的语言。一定有办法能和它沟通。
+[title=god_after_end]
+游走的蛇 前置任务
+[title=snake_move0_begin]
+???: 劳驾，劳驾！我忙得很。失陪了！我得走了。
+???: 你好像听不懂我的话。真遗憾！
+[title=snake_move0_end]
+蓝色装置 已激活
+[title=obj_blue_1_begin]
+一件极为奇特的蓝色物体悬浮在基座上。看起来有办法激活它。
+[question=3]你勉强能辨认出底座上刻着的诡异符号。直觉让你去触碰这件物体……
+[choice]碰。[newtalk start=answer_blue_yes1_begin break=answer_blue_yes1_end]
+[choice]再说。[newtalk start=answer_blue_no0_begin break=answer_blue_no0_end]
+[title=obj_blue_1_end]
+[title=answer_blue_yes1_begin]
+平台开始自行移动。[event=0]
+[title=answer_blue_yes1_end]
+红色装置 已激活
+[title=obj_red_0_begin]
+石质基座上还悬浮着另一件诡异的物体，透着不祥的气息。
+它的表面打磨得光洁如镜，完美映出周遭的一切。
+[question=4]你要触碰这件物体吗?
+[choice]必须碰。[newtalk start=answer_red_yes0_begin break=answer_red_yes0_end]
+[choice]算了。[newtalk start=answer_blue_no0_begin break=answer_blue_no0_end]
+[title=obj_red_0_end]
+[title=answer_red_yes0_begin]
+你迟疑地碰了碰物体……[event=9]
+指尖泛起一阵轻微的麻意。这感觉蔓延至全身，又忽然消散。
+你感到平静，是记忆里从未有过的安宁。那些曾经<b>陌生</b>的事物，你如今都能听懂了。[event=1]
+物体渐渐消失了。可它的模样，你仍能清晰地在脑海中浮现。
+[title=answer_red_yes0_end]
+水神 任务后
+[title=god_1_begin]
+???: 啊，没错，没错，我明白了- 你带着新生的认知回来了！我是蛇神阿尔索斯- 执掌这片灵水。
+水神阿尔索斯: 欢迎来到这片我们称之为家的土地。它不过是外面广袤世界里渺小的一隅。
+水神阿尔索斯: [question=5]那么，告诉我吧，小小的生灵……你为何出现在我面前?
+[choice]梦之碎片?[newtalk start=answer_god_0_begin break=answer_god_0_end]
+[choice]想寻求建议?[newtalk start=answer_god_1_begin break=answer_god_1_end]
+[choice]你觉得呢。[newtalk start=answer_god_2_begin break=answer_god_2_end]
+[title=god_1_end]
+[title=god_1_repeat_begin]
+水神阿尔索斯: [question=5]你……还有别的问题吗? 或者还有什么需要我解答的?
+[choice]梦之碎片?[newtalk start=answer_god_0_begin break=answer_god_0_end]
+[choice]想寻求建议?[newtalk start=answer_god_1_begin break=answer_god_1_end]
+[choice]你觉得呢![newtalk start=answer_god_2_begin break=answer_god_2_end]
+[title=god_1_repeat_end]
+[title=answer_god_0_begin]
+水神阿尔索斯: <color=#03cffc><b>梦之碎片</b></color>……是啊。这个名字我隐约还有点印象。见谅，我的记性大不如前了。
+水神阿尔索斯: 很久很久以前……有个什么东西的碎片现身于此。碎成了两半，不再完整。
+水神阿尔索斯: 后来它被自然消解，精髓融入了我们的水域之中。
+水神阿尔索斯: 如果你来就是为了它，想找到实体形态的碎片恐怕很难……但也不是全无希望。[newtalk start=god_1_repeat_begin break=god_1_repeat_end]
+[title=answer_god_0_end]
+[title=answer_god_1_begin]
+水神阿尔索斯: 嗯。建议！在你之前，很多人都问过同样的问题，而我始终会给出我认为最纯粹的答案。
+水神阿尔索斯: 你要知道，这世上有时你会遇到一些力量，它们存在的意义就是困住你，不让你前进半步。
+水神阿尔索斯: 实际上，这些力量都是你自己造出来的。是你给自己设的路障。你任由它们存在，它们才会存在。
+水神阿尔索斯: 凌驾于它们之上，告诉自己这些都只是暂时的阻碍。视困苦如流水，你总能找到穿过去的办法，从这一头，到那一头。[newtalk start=god_1_repeat_begin break=god_1_repeat_end]
+[title=answer_god_1_end]
+[title=answer_god_2_begin]
+水神阿尔索斯: 哦，当然，当然。有时候我们漫无目的地游荡，只是需要有人指个方向！
+水神阿尔索斯: 你要找的碎片精髓就在这里，融在我们的水中。东边和西边各有一处圣映池。
+水神阿尔索斯: 你去两处各取一瓶水吧。那里的先知或许会先和你说上几句话。
+水神阿尔索斯: 不过他们的大门应该锁了有些时日了。如果<color=#fcbe2b><b>司库西勒斯</b></color>在附近的话，他或许知道怎么开门。
+水神阿尔索斯: 等你拿到两瓶不同颜色的水，回来找我。我就在这里等你。
+[title=answer_god_2_end]
+游走的蛇 任务后
+[title=snake_move1_begin]
+???: 劳驾！今天忙得很。得巡查水道。事情太多了，太多了。请接受我最诚挚的歉意。 
+司库西勒斯: 我是<color=#fcbe2b><b>司库西勒斯</b></color>，想必你还不知道。要是有什么十万火急的事，不如晚点再来！
+司库西勒斯: 那先失陪了- 我得回去巡视水域了。再见。
+[title=snake_move1_end]
+[title=snake_move2_begin]
+司库西勒斯: 我今天注意力不太集中……但我性子还算耐心。有什么我能帮你的吗?
+司库西勒斯: 我懂了，池水的精髓与你共鸣了！真是不可思议。你得立刻去告诉先知们。
+司库西勒斯: 去西院的绿池看看吧。那里的先知会指引你。拿着这把<color=#3aeb34><b>绿门钥匙</b></color>去拜访他们。
+司库西勒斯: 哦！要是你有空，不妨去参拜我们四位彩色神明，每位都会赐予你祝福。多谢。
+司库西勒斯: 那先失陪了- 我得回去巡视水域了。告辞。
+[title=snake_move2_end]
+西门 对话
+[title=green_water_0_begin]
+一池散发着微光的绿色液体。莫名让你感到安心。
+[question=6]触碰池水?
+[choice]碰。[newtalk start=answer_water_yes0_begin break=answer_water_yes0_end]
+[choice]不碰。[newtalk start=answer_water_no0_begin break=answer_water_no0_end]
+[title=green_water_0_end]
+[title=answer_water_yes0_begin]
+你试着把手伸进水里，却像扑了个空。这一切都是你的幻觉吗?
+[title=answer_water_yes0_end]
+[title=answer_water_no0_begin]
+你决定不碰池水。
+[title=answer_water_no0_end]
+[title=green_seer_0_begin]
+绿先知格里斯: 你好啊，小家伙。我知道你想取走我这绿映池里的水。
+绿先知格里斯: 当然可以，当然。但你并非来自我们的世界，所以这水对你而言只是幻觉。
+绿先知格里斯: 你得先获得池水的信任，才能把它带走。容我问你一个问题-
+绿先知格里斯: [question=7]旅人啊，这片土地最本真的是什么?
+[choice]是安宁。[newtalk start=answer_green_seer_0_begin break=answer_green_seer_0_end]
+[choice]是乏味。[newtalk start=answer_green_seer_1_begin break=answer_green_seer_1_end]
+[choice]是归宿。[newtalk start=answer_green_seer_2_begin break=answer_green_seer_2_end]
+[title=green_seer_0_end]
+[title=green_seer_01_begin]
+绿先知格里斯: 抱歉，旅人。池水还不信任你。我再问一次-
+绿先知格里斯: [question=71]告诉我，这片土地最本真的是什么?
+[choice]是安宁。[newtalk start=answer_green_seer_0_begin break=answer_green_seer_0_end]
+[choice]是乏味。[newtalk start=answer_green_seer_1_begin break=answer_green_seer_1_end]
+[choice]是归宿。[newtalk start=answer_green_seer_2_begin break=answer_green_seer_2_end]
+[title=green_seer_01_end]
+[title=answer_green_seer_0_begin]
+绿先知格里斯: 啊，是<b>安宁</b>啊。我们之中很少有人懂得放慢脚步，慢慢走，欣赏周遭的一切。但是……
+绿先知格里斯: ……虽说主观上这话没错，但这并非这片土地最本真的东西。[newtalk start=green_seer_01_begin break=green_seer_01_end]
+[title=answer_green_seer_0_end]
+[title=answer_green_seer_1_begin]
+绿先知格里斯: 生命中很多事都<b>乏味无趣</b>。我们都得学会接受这些常态，才不会忘记自己为何在此。
+绿先知格里斯: 你永远可以选择离开，再也不回来。但我想，这并不是你真正想要的。[newtalk start=green_seer_01_begin break=green_seer_01_end]
+[title=answer_green_seer_1_end]
+[title=answer_green_seer_2_begin]
+绿先知格里斯: 你能这么想，很有智慧。<b>归宿</b>本该让你安心，让你心神安定，让你心生归属感。
+绿先知格里斯: 去吧，去旁边的池子里取一瓶绿水。取完之后，再来找我。
+[title=answer_green_seer_2_end]
+[title=green_seer_leave_begin]
+绿先知格里斯: 你已经取到水了，现在该往东去，到红净池那里。
+绿先知格里斯: 带上这把<color=#e33424><b>红门钥匙</b></color>。你要打开那边的大门用得上它。祝你一路好运。
+[title=green_seer_leave_end]
+[title=green_water_1_begin]
+你双手掬起，轻轻探入泛着微光的绿池水中。
+液体在你掌心自然凝聚，化作了瓶状。
+[title=green_water_1_end]
+东门 对话
+[title=red_water_0_begin]
+一池散发着微光的红色液体。莫名让你感到烦躁。
+[question=8]触碰池水?
+[choice]碰。[newtalk start=answer_water_yes0_begin break=answer_water_yes0_end]
+[choice]不碰。[newtalk start=answer_water_no0_begin break=answer_water_no0_end]
+[title=red_water_0_end]
+[title=red_seer_0_begin]
+红先知雷穆斯: 行了行了，你想干什么? 我忙得很，没空跟你瞎聊。
+红先知雷穆斯: [question=9]你要是想从我这红映池里取水，门都没有，马上给我走开。
+[choice]对、对不起。[newtalk start=answer_red_seer_0_begin break=answer_red_seer_0_end]
+[choice]让开。[newtalk start=answer_red_seer_1_begin break=answer_red_seer_1_end]
+[title=red_seer_0_end]
+[title=answer_red_seer_0_begin]
+红先知雷穆斯: 哼。说得轻巧，真以为自己有资格碰这圣水?
+红先知雷穆斯: 现在请你离开。毫无意义的会面……我可没空陪你浪费宝贵的时间。
+[title=answer_red_seer_0_end]
+[title=answer_red_seer_1_begin]
+红先知雷穆斯: 嗯。不错……你这份胆识还值得称道。我本以为你是个没骨气的家伙。
+红先知雷穆斯: 行吧。我就准你用一次我的池子，仅此一次。不过我得再考考你的见识。
+红先知雷穆斯: [question=10]告诉我，坚守立场能让人得到什么?
+[choice]什么都得不到。[newtalk start=answer_red_seer_2_begin break=answer_red_seer_2_end]
+[choice]自我满足。[newtalk start=answer_red_seer_3_begin break=answer_red_seer_3_end]
+[choice]品格。[newtalk start=answer_red_seer_4_begin break=answer_red_seer_4_end]
+[title=answer_red_seer_1_end]
+[title=repeat_red_seer_0_begin]
+红先知雷穆斯: 哼。池水不信任你，我一点都不意外。
+红先知雷穆斯: [question=11]我再问一次……坚守立场能让人得到什么?
+[choice]什么都得不到。[newtalk start=answer_red_seer_2_begin break=answer_red_seer_2_end]
+[choice]自我满足。[newtalk start=answer_red_seer_3_begin break=answer_red_seer_3_end]
+[choice]品格。[newtalk start=answer_red_seer_4_begin break=answer_red_seer_4_end]
+[title=repeat_red_seer_0_end]
+[title=answer_red_seer_2_begin]
+红先知雷穆斯: <b>什么都得不到?</b> 哼！你怕不是傻了……脑子在雾里迷迷糊糊的?
+红先知雷穆斯: 那我今天的地位怎么来的? 一身锐气让我走到了今天，也让我学识渊博。[newtalk start=repeat_red_seer_0_begin break=repeat_red_seer_0_end]
+[title=answer_red_seer_2_end]
+[title=answer_red_seer_3_begin]
+红先知雷穆斯: <b>自我满足?</b> 或许吧。但但凡有点理智的人都知道，这只是一时的收获。
+红先知雷穆斯: 长久的品性才更有价值，才配称得上是回报，可比这种肤浅的东西强多了。[newtalk start=repeat_red_seer_0_begin break=repeat_red_seer_0_end]
+[title=answer_red_seer_3_end]
+[title=answer_red_seer_4_begin]
+红先知雷穆斯: 很有见地。<b>品格</b>正是我们与其他蛮荒族群的区别，其价值不可估量。
+红先知雷穆斯: 快去池边取一瓶水，动作快点。趁我还没反悔。[event=2]
+[title=answer_red_seer_4_end]
+[title=red_seer_leave_begin]
+红先知雷穆斯: 我跟你没别的事了。滚吧。
+[title=red_seer_leave_end]
+[title=red_water_1_begin]
+你双手掬起，轻轻探入泛着微光的红池水中。
+液体在你掌心自然凝聚，化作了瓶状。
+[title=red_water_1_end]
+水神 结局
+[title=god_2_begin]
+水神阿尔索斯: 啊，小小的旅人终于回来了！
+水神阿尔索斯: 看来你已经集齐了两瓶圣水。但愿先知们没太为难你。[event=3]
+水神阿尔索斯: 以我微薄之力，我会将这两缕水之残魂重新融合。它们会恢复完整，变回原本的模样。
+水神阿尔索斯: 带上它，回到它被驱逐的故土吧。小家伙，能助你一程，我们深感荣幸。
+水神阿尔索斯: 不过，务必保持警惕。我能察觉到黑暗势力正在蠢蠢欲动。
+水神阿尔索斯: 希望他日还能再见。告辞。
+[title=god_2_end]
+隐藏内容
+[title=book_000_begin]
+一本古怪的旧典籍。外观神秘，表面蒙着厚厚的灰尘。
+你伸手去拿这本带着霉味的书。刚碰到它，你就开始觉得头晕目眩。
+[title=book_000_end]
+[title=book_0_begin]
+一本古怪的旧典籍。外观神秘，表面蒙着厚厚的灰尘。
+[question=12]一股奇异的诱惑涌上心头，让你想翻开书页，探寻其中的秘密。你要继续吗?
+[choice]当然。[newtalk start=book_yes_begin break=book_yes_end]
+[choice]还是算了……[newtalk start=book_no_begin break=book_no_end]
+[title=book_0_end]
+[title=book_yes_begin]
+你伸手去拿这本带着霉味的书。刚碰到它，你就开始觉得头晕目眩。[event=4]
+[title=book_yes_end]
+[title=book_no_begin]
+你决定不翻开这本书，转身离开了。
+[title=book_no_end]
+[title=book_00_begin]
+一本古怪的旧典籍。外观神秘，表面蒙着厚厚的灰尘。
+[question=12]一股奇异的诱惑涌上心头，让你想翻开书页，探寻其中的秘密。你要继续吗?
+[choice]当然。[newtalk start=book_yes1_begin break=book_yes1_end]
+[choice]还是算了……[newtalk start=book_no1_begin break=book_no1_end]
+[title=book_00_end]
+[title=book_yes1_begin]
+你伸手去拿这本带着霉味的书。刚碰到它，你就开始觉得头晕目眩。[event=10]
+[title=book_yes1_end]
+[title=book_no1_begin]
+你决定不翻开这本书，转身离开了。
+[title=book_no1_end]
+隐藏物品
+[title=shard_no_begin]
+你保持着安全距离。
+[title=shard_no_end]
+[title=shard0_yes_begin]
+你小心翼翼地碰了碰碎片。[event=5]
+你隐约感觉到，某处出现了一条新的路径。
+[title=shard0_yes_end]
+[title=shard1_yes_begin]
+你小心翼翼地碰了碰碎片。[event=6]
+你隐约感觉到，某处出现了一条新的路径。
+[title=shard1_yes_end]
+[title=shard2_yes_begin]
+你小心翼翼地碰了碰碎片。[event=7]
+你隐约感觉到，某处出现了一条新的路径。
+[title=shard2_yes_end]
+[title=shard3_yes_begin]
+你小心翼翼地碰了碰碎片。[event=8]
+你隐约感觉到，某处出现了一条新的路径。
+[title=shard3_yes_end]
+[title=hiddenobject_0_begin]
+[question=14]看着这块发亮的碎片，你感到<color=#3fd624><b>嫉妒</b></color>。你要触碰这块奇异的碎片吗?
+[choice]触碰。[newtalk start=shard0_yes_begin break=shard0_yes_end]
+[choice]拒绝。[newtalk start=shard_no_begin break=shard_no_end]
+[title=hiddenobject_0_end]
+[title=hiddenobject_1_begin]
+[question=14]看着这块发亮的碎片，你感到<color=#d6244e><b>热血沸腾</b></color>。你要触碰这块奇异的碎片吗?
+[choice]触碰。[newtalk start=shard1_yes_begin break=shard1_yes_end]
+[choice]拒绝。[newtalk start=shard_no_begin break=shard_no_end]
+[title=hiddenobject_1_end]
+[title=hiddenobject_2_begin]
+[question=14]看着这块发亮的碎片，你感到<color=#5485ff><b>怅然若失</b></color>。你要触碰这块奇异的碎片吗?
+[choice]触碰。[newtalk start=shard2_yes_begin break=shard2_yes_end]
+[choice]拒绝。[newtalk start=shard_no_begin break=shard_no_end]
+[title=hiddenobject_2_end]
+[title=hiddenobject_3_begin]
+[question=14]看着这块发亮的碎片，你感到<color=#a754ff><b>胆怯不安</b></color>。你要触碰这块奇异的碎片吗?
+[choice]触碰。[newtalk start=shard3_yes_begin break=shard3_yes_end]
+[choice]拒绝。[newtalk start=shard_no_begin break=shard_no_end]
+[title=hiddenobject_3_end]
+雕像 对话
+[title=statue_no_begin]
+这里立着一座纪念碑。上面的铭文你一个字都看不懂……
+[title=statue_no_end]
+[title=statue_0_begin]
+一座巨蛇神明的纪念碑。下方嵌着一块小铭牌。
+"<color=#3fd624><b>卡托特尔</b></color>，嫉妒女神。世人皆知她无止境地追逐他人的财富与名望。"
+"收下神明的馈赠，你将获得奖赏。"
+[title=statue_0_end]
+[title=statue_1_begin]
+一座巨蛇神明的纪念碑。下方嵌着一块小铭牌。
+"<color=#d6244e><b>达加鲁斯</b></color>，激情之神。世人皆知他对自我满足有着无尽的追求。"
+"收下神明的馈赠，你将获得奖赏。"
+[title=statue_1_end]
+[title=statue_2_begin]
+一座巨蛇神明的纪念碑。下方嵌着一块小铭牌。
+"<color=#a754ff><b>乌克斯翠斯</b></color>，恐惧女神。世人皆知她对社交娱乐心怀忌惮。"
+"收下神明的馈赠，你将获得奖赏。"
+[title=statue_2_end]
+[title=statue_3_begin]
+一座巨蛇神明的纪念碑。下方嵌着一块小铭牌。
+"<color=#5485ff><b>瓦芬</b></color>，悲伤之神。世人皆知他与人生无尽的苦难相伴相生。"
+"收下神明的馈赠，你将获得奖赏。"
+[title=statue_3_end]
+退出隐藏对话
+[title=althos_quit0_begin]
+阿尔索斯: 又见面了，旅人。你看起来心神不宁。身体不舒服吗?
+阿尔索斯: 希望在这片陌生的水域跋涉，没让你太过疲惫。不过……你最好别去深水区。
+阿尔索斯: 不必多说，只有我能挡在你和水下潜藏的未知之物之间……
+[title=althos_quit0_end]

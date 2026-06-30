@@ -1,0 +1,211 @@
+Dream_5_Space Dialogue
+NOTES:
+- whole concept involves exploring this derelict series of space tubes
+- there are weird looking space creatures called shapezoids that speak in gobbledy gook
+GOGI INTRO
+[title=Gogi_0_begin]
+"Gogi": [jitter=5 angle=0]哇——！[/jitter] 哪个缺心眼的把重力调小了? 我居然飘起来了!
+"Gogi": 你说不定也能到处飘! 也许有办法能飞的更高!
+"Gogi": 不管怎么说, 这儿所有东西都乱七八糟的, 我可太不喜欢了!
+"Gogi": 唉算了……别掉进什么奇怪的太空虚空里啊! 除非碎片在下面!
+"Gogi": 玩得[jitter=5 angle=0]开——心——哦！[/jitter]
+[title=Gogi_0_end]
+Dream_5_Space Dialogue DEMO
+JETPACK
+[title=jetpack_0_begin]
+这儿放着个看起来像<color=#fcbe2b><b>火箭背包</b></color>的东西。锃光瓦亮的。你就喜欢亮闪闪的玩意儿。
+装备上它, 你就能轻松在这片区域里飘浮移动了。
+[question=0]你要拿走这个背包吗?
+[choice]啥? 当然要![newtalk start=jetpack_yes_begin break=jetpack_yes_end]
+[choice]想都别想。[newtalk start=jetpack_no_begin break=jetpack_no_end]
+[title=jetpack_0_end]
+JETPACK CHOICE YES
+[title=jetpack_yes_begin]
+你拿起并装备了火箭背包。长按<b><color=#eded24>跳跃键</color></b>就能进行喷射加速! [event=0]
+[title=jetpack_yes_end]
+JETPACK CHOICE NO
+[title=jetpack_no_begin]
+不知为啥你没碰这个火箭背包。可它明明超酷的。
+[title=jetpack_no_end]
+LOCKED SPACE DOOR
+[title=lockeddoor_0_begin]
+这儿有扇厚重的虹膜式舱门, 但打不开。有东西把它锁死了。
+[title=lockeddoor_0_end]
+CODEX KEY
+[title=codex_0_begin]
+一部记载着宇宙信息的法典。用一种你永远也看不懂的古老文字抄写而成。
+尽管心存顾虑, 你还是触碰了它, 随即获得了继续前行的能力印记。
+[title=codex_0_end]
+SHAPEZOID 0
+[title=shape_0_begin]
+形族: Hmm. <i>怪了</i>. 真<i>有意思</i>. 好多门不知怎么都自己锁上了。以前从来没出过这种事。
+形族: 不过我们全都能自由传送, 所以对我来说根本不叫事。至于你嘛……
+形族: 你想穿墙而过估计有点难。所以……嗯。祝你好运, 慢慢想办法吧。
+形族: <color=#ae52b3><b>全视之眼</b></color>召我们过去, 我得溜了。保重啊, 肉袋子。
+[title=shape_0_end]
+SHAPEZOID 00
+[title=shape_00_begin]
+形族: 成天盯着这么个了无生趣、全是单一概念的地方, 太乏味了。我这只独眼都求着我把它抠出来算了。
+形族: 清清楚楚知道万物运作的规律, 也精准预知未来的走向, 却半句话都讲不出来——这就是我的诅咒。
+形族: 别摆着那副傻样了。开玩笑的。其实我啥也不知道, 不过没事, 你也一样。
+形族: 你现在在想什么我只能猜, 但<color=#ae52b3><b>全视之眼</b></color>不用猜。我们该知道什么, 它都会明明白白告诉我们。
+[title=shape_00_end]
+SHAPEZOID 1
+[title=shape_1_begin]
+形族: <i>呃啊……呜啊……唔嗯</i>. 啊? 啥? 哦。我今天状态不太好。估计是最近没睡够。
+形族: 我到处都能看见那些密集、重复的纹路。快把我逼疯了, 觉都睡不着。你看不见吗?
+形族: 不光这样, 我还找不到办法让它们停下, 哪怕慢一点都不行。要稳住这种东西……太难了。
+形族: 你还是……找别人聊去吧。<color=#ae52b3><b>全视之眼</b></color>在看着我们呢。趁它还没发火, 我得走了。
+[title=shape_1_end]
+SHAPEZOID 1.1
+[title=shape_11_begin]
+形族: 我发现好多人都莫名热衷于粗暴又聒噪的破坏, 挺让人吃惊的。
+形族: 说实话, 我偶尔也会有类似的念头……破坏确实容易让人亢奋。
+形族: 但搞多了就会发现, 到最后全都索然无味。到那时候, 一切都失去了意义。
+形族: 聊了这么会儿, 你看起来有点上头啊。过几分钟再来, 我给你准备了<color=#fcbe2b><b>好东西</b></color>。
+[title=shape_11_end]
+[title=shape_12_begin]
+形族: 你的专属奖励还没备好, 不过我已经擅自把你的不耐烦都记录、分类、归档好了。
+形族: 我们引擎室的环形管道和涡轮机在召唤你呢。去那儿逛一圈再回来吧。
+[title=shape_12_end]
+SHAPEZOID 2
+[title=shape_2_begin]
+形族: 凡事都有界限。俗话说, 每个美好的开端, 终有一天都会迎来结局。
+形族: 但我觉得最重要的既不是开头也不是结尾, 而是中间的过程。每一步、每一个选择都至关重要。
+形族: 无论好坏, 你此刻正处在这个过程之中。就是现在。就在这一刻。
+形族: 我们能飞快地飘过这片奇异的虚空, 也能同样飞快地离开。看好了, 我演示给你看。
+[title=shape_2_end]
+SHAPEZOID 2.1
+[title=shape_21_begin]
+形族: 觉得这地方已经有点无聊了? 真可惜。无聊的事多了去了。<b>人生</b>本身就很无聊。
+形族: 你会抱怨个不停, 直到时间的尽头, 然后还得继续走下去。对着虚空大喊吧, 它会假装在听的。
+形族: 看你这么"辛苦", 我给你点东西吧。对一个这么……没耐心的人, 我也就只能做到这份上了。
+形族: 转过身去。按下那个按钮。<color=#ae52b3><b>全视之眼</b></color>在召唤了, 很遗憾, 接下来发生的事我就不在场了。
+[title=shape_21_end]
+[title=button_begin]
+这儿有个又大又红、亮闪闪的按钮, 你完全不记得之前见过。你很好奇它会启动什么东西?
+[question=06]它看起来很重要, 你手痒得不行就想按下去。不过话说回来, 也许不该按?
+[choice]按。[newtalk start=button_yes_begin break=button_yes_end]
+[choice]不碰。[newtalk start=button_no_begin break=button_no_end]
+[title=button_end]
+[title=button_yes_begin]
+你按下了按钮……[event=1]
+[title=button_yes_end]
+[title=button_no_begin]
+你决定不做这种乱按按钮的无聊事。
+[title=button_no_end]
+SHAPEZOID 3
+[title=shape_3_begin]
+形族: <i>嘿——</i>……是啊。就在这儿飘着呗。你懂的, 人偶尔就这样。你在这儿倒是挺得心应手的啊。
+形族: 能帮我个忙吗? 要是现在一切突然停了, 我往下掉的话, 你会接住我吗?
+形族: 我超恐高的。其实吧, 我怕的东西多了去了。但只要是高处, 就能把我吓得动弹不得。
+形族: <color=#ae52b3><b>全视之眼</b></color>知道我们所有人害怕什么。它在召唤你我。不能让它久等。
+[title=shape_3_end]
+SHAPEZOID 4
+[title=shape_4_begin]
+形族: 喂, 这是<i>我的</i>房间。你不能就这么飞进来, 不经我允许就乱碰东西。疯了吗你?
+形族: 啧, 算了。我还有更糟心的事要烦呢。糟得多的事。你想都想不到的那种。
+形族: 很多事都在不停变, 但有些事一直没变。我就是甩不掉它们。
+形族: <color=#4d30db><b>全视之眼</b></color>……它就在我视线边缘徘徊, 监视着我们的一举一动。别信它。
+[title=shape_4_end]
+BIG EVIL EYE MONSTER
+[title=eye_00_begin]
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: 外来者, 异数, <i>救赎者</i>. 你终于来到我们面前。是刻意的无知, 还是愚蠢的仓促? 你如约而至了。
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: 我们的存在比时间本身更久远。是象征一切物质形态的恒常符号。有形的, 无形的。而你不一样……
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: 你踏上的是一场没有终点的旅途。你走过的每一步, 都铺着上千名梦者被遗忘的梦境。可你依然在向前。
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: [question=00]你如此迫切追寻的, 究竟是什么?
+[choice]知识。[newtalk start=eye_answer1_begin break=eye_answer1_end]
+[choice]一枚梦之碎片。[newtalk start=eye_answer2_begin break=eye_answer2_end]
+[choice]胜利。[newtalk start=eye_answer3_begin break=eye_answer3_end]
+[title=eye_00_end]
+[title=eye_answer1_begin]
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: 很好。[event=3]
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: 凝视这无尽时空之眼的深处吧。探寻你最深处的感知, 最阴暗的欲望, 最恐怖的梦魇。
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: [question=01]你想看到怎样的幻象?
+[choice]混乱的景象。[newtalk start=eye_1_begin break=eye_1_end]
+[choice]诅咒的景象。[newtalk start=eye_2_begin break=eye_2_end]
+[choice]可爱的景象。[newtalk start=eye_3_begin break=eye_3_end]
+[choice]别的东西。[newtalk start=eye_repeat1_begin break=eye_repeat1_end]
+[title=eye_answer1_end]
+[title=eye_answer2_begin]
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: <color=#03cffc><b>梦之碎片</b></color>……[event=4]
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: 曾是一件搏动着的活物神器的残片。是半醒梦境之地的核心。在万物的宏大格局中, 渺小得难以言喻。
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: 我们飘荡在无尽扩张的虚空中, 回收对他人而言至关重要的物品。将它们存放在一座无人能逃脱的宝库之中。
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: 这块碎片就是其中之一。它失落于亿万年之前, 同样被遗弃在虚空之中。要取回它, 你必须踏入一片无法想象的黑暗领域。
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: [question=02]若你的欲望压过了恐惧, 便跃入下方的深渊吧。深深凝视它, 它也会回视你。除非……你另有所求。
+[choice]知识。[newtalk start=eye_answer1_begin break=eye_answer1_end]
+[choice]胜利。[newtalk start=eye_answer3_begin break=eye_answer3_end]
+[choice]告辞。[newtalk start=eye_finish_begin break=eye_finish_end]
+[title=eye_answer2_end]
+[title=eye_answer3_begin]
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: 你这蠢货, 追求着毫无意义的目标。你急于求取虚假的成功, 终将自取灭亡。深渊将吞噬你, 不留一丝痕迹……[event=2]
+[title=eye_answer3_end]
+[title=eye_finish_begin]
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: 那就与下方的深渊融为一体吧。若你的欲望压过恐惧, 你便会在其中找到所求之物……[event=2]
+[title=eye_finish_end]
+[title=eye_repeat1_begin]
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: 很好。[event=5]
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: 你的持续存在, 扰乱了宇宙在时间中应有的秩序。
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: [question=03]你如此迫切追寻的, 究竟是什么?
+[choice]知识。[newtalk start=eye_answer1_begin break=eye_answer1_end]
+[choice]一枚梦之碎片。[newtalk start=eye_answer2_begin break=eye_answer2_end]
+[choice]胜利。[newtalk start=eye_answer3_begin break=eye_answer3_end]
+[title=eye_repeat1_end]
+[title=eye_1_begin]
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: 很好。[event=6]
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: 凝望这颗奇异小世界的眼眸吧。
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: 人口过剩。消费主义泛滥。数字信息爆炸。战争。这些都是梦境之外世界的构成基石。
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: 混乱以不同规模、不同程度、不同形式存在于我们四周。它的欲望永远不会被满足。
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: [question=04]也许还有其他幻象是你想看到的……
+[choice]<b>诅咒</b>的景象。[newtalk start=eye_2_begin break=eye_2_end]
+[choice]<b>可爱</b>的景象。[newtalk start=eye_3_begin break=eye_3_end]
+[choice]别的东西。[newtalk start=eye_repeat1_begin break=eye_repeat1_end]
+[title=eye_1_end]
+[title=eye_2_begin]
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: 很好。[event=7]
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: 凝望这无数无眠梦者的梦魇之眼吧。
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: 抽象的湮灭。滔天的烈焰。潜伏的恶魔。百万重现实交织扭曲, 最终只剩往日的残影。
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: 你的梦魇由何构成……又有何深意……只有你自己真正清楚。你的想象会填补所有空白。
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: [question=05]也许还有其他幻象是你想看到的……
+[choice]<b>混乱</b>的景象。[newtalk start=eye_1_begin break=eye_1_end]
+[choice]<b>可爱</b>的景象。[newtalk start=eye_3_begin break=eye_3_end]	
+[choice]别的东西。[newtalk start=eye_repeat1_begin break=eye_repeat1_end]
+[title=eye_2_end]
+[title=eye_3_begin]
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: 很好。[event=8]
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: 凝望这纯真化身的眼眸吧。
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: 在他们的世界里, 没有堕落、仇恨、愤怒与物欲。他们纯粹地活着。可他们会梦见什么? 他们的梦魇又是什么?
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: 没有他们, 虚空或许会更加深邃。有了他们, 宇宙似乎都变得更美好。安宁。温柔。
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: [question=05]也许还有其他幻象是你想看到的……
+[choice]<b>混乱</b>的景象。[newtalk start=eye_1_begin break=eye_1_end]
+[choice]<b>诅咒</b>的景象。[newtalk start=eye_2_begin break=eye_2_end]
+[choice]别的东西。[newtalk start=eye_repeat1_begin break=eye_repeat1_end]
+[title=eye_3_end]
+[title=eye_repeat2_begin]
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: 不要抗拒虚空的召唤。它的回响会一直存在, 直到召唤得到回应。
+[title=eye_repeat2_end]
+INSIDE THE BLACKHOLE
+[title=outro_0_begin]
+哇。不是吧, 你怎么真干出这种疯事?
+[title=outro_0_end]
+[title=outro_1_begin]
+一个诡异的太空神祗让你跳黑洞, 你……还真跳了?
+[title=outro_1_end]
+[title=outro_2_begin]
+别放在心上。人谁无过。正是这些经历造就了……我们自己。
+[title=outro_2_end]
+[title=outro_3_begin]
+跌得多深都没关系, 哪怕是掉进黑洞里。另一端总有新的事物在等着你。
+[title=outro_3_end]
+[title=outro_4_begin]
+听着……找了好一会儿, 我找到了<color=#03cffc><b>一样东西</b></color>, 应该能让你好受点。
+[title=outro_4_end]
+[title=outro_5_begin]
+就在附近。我一直把它好好保存在这儿。你回去的时候带上它吧。
+[title=outro_5_end]
+[title=outro_6_begin]
+你做得真的很棒。每件事都做得很好。你根本想象不到自己有多值得被肯定。
+[title=outro_6_end]
+[title=outro_7_begin]
+永远记住……你从不是孤身一人。我们会一直陪着你。
+[title=outro_7_end]

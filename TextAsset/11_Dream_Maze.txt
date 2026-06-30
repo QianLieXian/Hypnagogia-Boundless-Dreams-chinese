@@ -1,0 +1,111 @@
+迷宫对话
+[title=flashlightdoor_locked_begin]
+这扇门锁得很紧. 把手上方有个小标签, 写着 "杂物间".
+[title=flashlightdoor_locked_end]
+[title=flashlightdoor_unlocked_begin]
+你使用了 <b>杂物间钥匙</b>. 你不再需要这把钥匙, 于是将它丢弃.
+[title=flashlightdoor_unlocked_end]
+[title=flashlightdoor_key_begin]
+[question=00]桌上有一把小钥匙, 标签上写着 <b>杂物间</b>. 要拿走这把钥匙吗?
+[choice]是的.[newtalk start=key_yes_begin break=key_yes_end]
+[choice]不了.[newtalk start=key_no_begin break=key_no_end]
+[title=flashlightdoor_key_end]
+[title=key_yes_begin]
+你拿走了 <b>杂物间钥匙</b>. [event=2]
+[title=key_yes_end]
+[title=key_no_begin]
+你把钥匙留在了桌上.
+[title=key_no_end]
+[title=drink_begin]
+你试着按了按按钮, 但毫无反应. 这台机器似乎已经停用了.
+[title=drink_end]
+[title=drink_secret0_begin]
+你试着按了按按钮, 但毫无反应. 里面传来什么东西咔嗒作响的声音. 说不定...
+[title=drink_secret0_end]
+[title=drink_secret1_begin]
+等等... 听起来机器里有什么东西晃松了.[newtalk start=drink_secret1_repeat_begin break=drink_secret1_repeat_end]
+[title=drink_secret1_end]
+[title=drink_secret1_repeat_begin]
+[question=0000]一把钥匙从饮料机里掉了出来. 你要拿走它吗?
+[choice]是的.[newtalk start=key_secret_yes_begin break=key_secret_yes_end]
+[choice]不了.[newtalk start=key_secret_no_begin break=key_secret_no_end]
+[title=drink_secret1_repeat_end]
+[title=key_secret_yes_begin]
+你拿起了钥匙. 上面贴着小标签, 写着 "校长办公室".[event=3]
+[title=key_secret_yes_end]
+[title=key_secret_no_begin]
+你把钥匙留在了取货口.[event=4]
+[title=key_secret_no_end]
+[title=bulletin_0_begin]
+这里有一块公告栏. 大部分告示都已褪色, 看不清内容.
+[title=bulletin_0_end]
+[title=bulletin_00_begin]
+公告栏从墙上掉了下来. 其中一张纸条上写着字.
+"你唤醒了它们. 这里早已不是你的梦境. 你不该出现在这里."
+后面的字迹潦草难辨.
+[title=bulletin_00_end]
+[title=bulletin_1_begin]
+这里有一块公告栏. 上面贴着几张寻人启事, 但人脸都已褪色, 无法辨认.
+[title=bulletin_1_end]
+[title=door_outside_begin]
+现在外面太冷了, 没法出去.
+[title=door_outside_end]
+[title=door_locked_0_begin]
+这扇门打不开.
+[title=door_locked_0_end]
+[title=door_locked_1_begin]
+这扇门本应是开着的, 但似乎被什么东西卡住了. 无论你怎么用力推都打不开.
+[title=door_locked_1_end]
+[title=door_open_begin]
+这扇门看起来可以打开.
+[title=door_open_end]
+[title=door_deadend_begin]
+这扇门锁着. 门上有个小标签, 写着 "校长办公室".
+[title=door_deadend_end]
+[title=door_secret_unlocked_begin]
+你将 <b>校长办公室</b> 钥匙用在了这扇门上. 门现在解锁了.
+[title=door_secret_unlocked_end]
+[title=door_deadend2_begin]
+这扇门纹丝不动, 仿佛有什么东西在里面顶着. 门上有个小标签, 写着 "静室".
+[title=door_deadend2_end]
+[title=door_deadend3_begin]
+你没法把门开得更大了.
+[title=door_deadend3_end]
+[title=flashlight_begin]
+[question=0]这里有一把 <b>手电筒</b> . 还有一点电, 但不多了. 你要带上它吗?
+[choice]是的.[newtalk start=flashlight_yes_begin break=flashlight_yes_end]
+[choice]不了.[newtalk start=flashlight_no_begin break=flashlight_no_end]
+[title=flashlight_end]
+[title=flashlight_yes_begin]
+你捡起手电筒, 带在了身上. [event=0]
+[title=flashlight_yes_end]
+[title=flashlight_no_begin]
+你把手电筒留在了地上.
+[title=flashlight_no_end]
+[title=darkness_begin]
+前方太黑了, 没法继续前进.
+[title=darkness_end]
+[title=wires_0_begin]
+锋利如剃刀的铁丝挡住了前路. 徒手根本没法移开它们.
+[title=wires_0_end]
+[title=wires_1_begin]
+你用 <b>钢丝钳</b> 清理出了通路. 你觉得以后再也用不上它了, 于是将它丢弃.
+[title=wires_1_end]
+[title=cutters_0_begin]
+一个莫名眼熟的人形身影站在这里, 一动不动. 它手里握着什么东西.
+[question=1]你要凑近看看吗?
+[choice]是的.[newtalk start=cutters_yes_begin break=cutters_yes_end]
+[choice]不了.[newtalk start=cutters_no_begin break=cutters_no_end]
+[title=cutters_0_end]
+[title=cutters_no_begin]
+你从那个人影身边退开了.
+[title=cutters_no_end]
+[title=cutters_yes_begin]
+你朝人影伸出手, 试图抓住它握着的东西.
+[question=2]是一把 <b>钢丝钳</b>. 你要拿走吗?
+[choice]是的.[newtalk start=cutters_yes_1_begin break=cutters_yes_1_end]
+[choice]不了.[newtalk start=cutters_no_begin break=cutters_no_end]
+[title=cutters_yes_end]
+[title=cutters_yes_1_begin]
+你用力从那人影手中抽出了 <b>钢丝钳</b>.[event=1]
+[title=cutters_yes_1_end]

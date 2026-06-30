@@ -1,0 +1,37 @@
+[title=cutscene1-begin]
+FunnyGuy: [dub=0]hum hum hummm... hum hum humm... hum hum huhum hum hummmm...
+*PlayerName*: [dub=1]咳, 咳
+FunnyGuy: 哦, 抱歉。我没看到你在这儿。有什么我能帮你的吗?
+*PlayerName*: 我是来学习RPGTalk里的标签用法的!
+FunnyGuy: 好吧, 你已经用过一个了! 使用<b>dub</b>标签就能播放音效! 这要归功于[sprite=0] RPGTalkDubSounds组件。
+*PlayerName*: [dub=1]咳, 咳... 哇! 是真的!
+FunnyGuy: 除此之外, 富文本现已完全支持。你可以设置<b>加粗</b>、<i>斜体</i>、调整文字的<size=30>字号</size>, 甚至修改<color=red>颜色</color>
+*PlayerName*: <b><i><color=blue>厉害</color></i></b>
+FunnyGuy: 你还可以在文本播放时调整显示速度, 这样我就能说出带有[speed=5]强调感[/speed]的内容。听起来很重要, 不是吗?
+*PlayerName*: 太赞了! [sprite=1] RPGTalk真的越来越厉害了! 等等... 我刚才在文本里用了[speed=5]精灵[/speed]?
+FunnyGuy: 那当然! 使用<b>sprite</b>标签就能让图片嵌入到文本里。很酷。
+FunnyGuy: 很适合做教程提示, 比如"按下 [sprite=2]" 或者 "拾取 [sprite=3] 继续"。
+*PlayerName*: 真的太棒了! 那我们头顶的对话框... 是通过脚本切换的吗?
+FunnyGuy: 才不是呢! RPGTalk会根据我们的名字来确定画布要跟随的目标。
+*PlayerName*: 太厉害了! 要是能添加选项或者切换语言就更完美了...
+FunnyGuy: 这个嘛... 你怎么不去问问隔壁房间的女孩呢?
+*PlayerName*: 你说真的!?
+FunnyGuy: [dub=0]hum hum hummm... hum hum humm... hum hum huhum hum hummmm...
+[title=cutscene1-end]
+[title=cutscene2-begin]
+*PlayerName*: 那个... 我听说你能告诉我更多关于选项和语言切换的内容?
+Girl: 当然! 使用  [sprite=0] RPGTalkLocalization 就能轻松切换语言。
+Girl: 甚至不局限于RPGTalk内部的内容! 你可以用  [sprite=1] RPGTalkLocalizationString 来修改任意UI文本。
+*PlayerName*: [expression=surprised] 听起来好棒! 我要怎么测试呢? 等等... 我的立绘会随表情变化吗?
+Girl: [question=0] 你想了解选项功能? 选择你的语言:
+[choice]美式英语 [newtalk start=choseEnglish_begin break=choseEnglish_end]
+[choice]巴西葡萄牙语 [newtalk start=chosePortuguese_begin break=chosePortuguese_end]
+[title=cutscene2-end]
+[title=languageUI]
+当前语言: 巴西葡萄牙语
+[title=chosePortuguese_begin]
+Girl: 葡萄牙语? 你现在用的就是葡萄牙语啊!
+[title=chosePortuguese_end]
+[title=choseEnglish_begin]
+Girl: 英语? 好的! Bada-bin-bada-bum, 等对话结束后, 所有内容就都会切换成这样啦!
+[title=choseEnglish_end]

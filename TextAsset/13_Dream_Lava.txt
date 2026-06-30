@@ -1,0 +1,321 @@
+熔岩秘梦 NPC 对话
+第一幕
+细雨 开场
+[title=devil_0_begin]
+Drizzle: 喂? 喂?! 真是服了, 这底下信号从来都没个准.
+Drizzle: 嗯, 你到底想干嘛? 就这么闯进来? 肯定是来面试那个空缺职位的吧.
+Drizzle: 我得偷偷溜到这儿来, 才能勉强搜到点信号, 马上有个很重要的线上会议要开.
+Drizzle: 我老板<color=#fcbe2b><b>切特</b></color>催了我一整天, 要我写一份详细的社交媒体新股复盘报告.
+Drizzle: 你要是想找他, 他就在上面办公室里, 跟个疯子似的踱来踱去. 行了别挡着我, 行不?
+[title=devil_0_end]
+[title=devil_0_repeat_begin]
+Drizzle: 这些NFT区块链股票的价格真是要了我的命. 要是搞不定这事, 那个催命鬼<color=#fcbe2b><b>切特</b></color>就得让我回去打冷电话了...
+[title=devil_0_repeat_end]
+细雨 过渡对话
+[title=devil_00_begin]
+Drizzle: 你有没有过那种日子, 就是被某件事气到完全失去理智?
+Drizzle: [question=00]气到连社交面具都撕了, 直接冲动发作大闹一场?
+[choice]那当然.[newtalk start=drizzle_answer00_begin break=drizzle_answer00_end]
+[choice]呵, 从来没有.[newtalk start=drizzle_answer01_begin break=drizzle_answer01_end]
+[title=devil_00_end]
+[title=drizzle_answer00_begin]
+Drizzle: 听你说的还挺有感触的嘛. 呵, 我懂, 我不评判. 人嘛, 总得有发火的时候.
+Drizzle: 真正难的是知道什么时候该闭嘴. 看你这样子应该挺喜欢挑战的. 继续往前走吧.
+[title=drizzle_answer00_end]
+[title=drizzle_answer01_begin]
+Drizzle: 是啊, 我也没有. 愤怒这种情绪真的被高估了. 气半天, 到头来什么也得不到.
+Drizzle: 呵. 把愤怒换成冷静缜密的心机... 那你才能成点事. 继续走吧.
+[title=drizzle_answer01_end]
+[title=devil_001_begin]
+Drizzle: 我看<color=#fcbe2b><b>切特</b></color>马上就要跌进失业的第七层地... 咳, 炼狱了.
+Drizzle: 你这是要上去跟安保主管<color=#fcbe2b><b>赫克勒</b></color>汇报这事? 要是他不小心从那老破高台上摔下去, 那可就太可惜了. 呵.
+Drizzle: 我就在这儿看热闹好了. 真期待你会怎么收拾斯坦. 继续走吧.
+[title=devil_001_end]
+恶魔切特
+[title=chet_0_begin]
+主管切特: 行了行了, 你又想干嘛? 为什么不接电话?! 我们的业绩和钱都在哗哗流失, 真是见鬼了.
+主管切特: 啊, 等等, 你肯定就是<color=#f74940><b>CEO</b></color>说的那个新员工吧. 面试迟到了两分钟. 老样子.
+主管切特: 我们这个职位可是非常重要, 是泰星电话销售部的首席实习生, 别浪费我时间!
+主管切特: 你要是真想要这份工作, 就去山顶跟<color=#f74940><b>CEO</b></color>说一声. 不过你得先拿到通行许可.
+主管切特: 去找我们的安保主管<color=#fcbe2b><b>赫克勒</b></color>. 他应该就在西边那小高台上摸鱼呢. 他脾气有点臭, 祝你好运吧, 笨蛋.
+[title=chet_0_end]
+[title=chet_0_repeat_begin]
+主管切特: 怎么着...?! 我还没收到<color=#f74940><b>CEO</b></color>的通知, 不能开始你的面试. 
+主管切特: 过去找<color=#fcbe2b><b>赫克勒</b></color>给你开许可. 他的闸门应该开着. 别浪费我时间, 废物.
+[title=chet_0_repeat_end]
+赫克勒
+[title=heckler_0_begin]
+赫克勒: 呼... 呼... 呼...
+(他... 睡着了?)
+[question=0]你可没时间耗着. 你打算怎么做?
+[choice]大喊.[newtalk start=heckler_answer1_begin break=heckler_answer1_end]
+[choice]戳一下.[newtalk start=heckler_answer2_begin break=heckler_answer2_end]
+[choice]离开.[newtalk start=heckler_answer3_begin break=heckler_answer3_end]
+[title=heckler_0_end]
+[title=heckler_answer1_begin]
+你卯足劲冲赫克勒大喊. 但他好像完全没醒.
+赫克勒: 呼...
+[title=heckler_answer1_end]
+[title=heckler_answer2_begin]
+你轻轻拍了拍赫克勒想叫醒他. 好像没什么用.
+赫克勒: [question=1]嗯... 呼... 呼...
+[choice]用力推一把[newtalk start=heckler_answer4_begin break=heckler_answer4_end]
+[choice]离开.[newtalk start=heckler_answer3_begin break=heckler_answer3_end]
+[title=heckler_answer2_end]
+[title=heckler_answer3_begin]
+你决定不去打扰这个睡大觉的大块头.
+[title=heckler_answer3_end]
+[title=heckler_answer4_begin]
+你用力推了赫克勒一把.[event=2]
+赫克勒: 嗯... <i>哈?!</i> 什么?! 你好大的胆子! 简直放肆! 你想干嘛, 小讨厌鬼?!
+赫克勒: 居然敢吵醒我. 我现在就该碾扁你! 或者用我的眼部激光把你轰飞!
+赫克勒: 等等, 你想上去见我们<color=#f74940><b>CEO</b></color>? 你觉得我会放你这种烦人的小虫子去见他?!
+赫克勒: 呃啊... 算你走运, 我已经因为捏死新员工被记三次大过了. 行吧你上去吧, 桥会出现的!
+赫克勒: 在我改主意之前赶紧滚. 再敢烦我, 马上就让你尝尝激光眼的厉害...[event=1]
+[title=heckler_answer4_end]
+[title=heckler_0_repeat_begin]
+赫克勒: 呼... 呼... 呼...
+(他还在睡... 最好别再打扰他了, 直接去见<b>CEO</b>吧.)
+[title=heckler_0_repeat_end]
+细雨 山道
+[title=devil_1_begin]
+Drizzle: 又见面了... 还在到处瞎晃摸鱼呢, 啊? 楼上那位<color=#f74940><b>大人物</b></color>可盯着我们的一举一动呢, 新人.
+Drizzle: 我可是本分人, 让干嘛干嘛, 所以你怎么折腾都跟我没关系. 你在这儿干不长的, 呵.
+Drizzle: 嗯, 做个交易怎么样. 我知道你急着往上爬, 我可以帮你. 前面的路可绕得很.
+Drizzle: 要是你愿意, 我能瞬间把你送到山顶, 无附加条件. 嗯, 除了要你一丢丢灵魂之外.
+Drizzle: [question=2]怎么样? 用一点点灵魂换直达山顶的快捷通道? <b>我可只给你一次机会哦, 呵.</b>
+[choice]当然愿意.[newtalk start=devil_1_answer_yes_begin break=devil_1_answer_yes_end]
+[choice]才不要.[newtalk start=devil_1_answer_no_begin break=devil_1_answer_no_end]
+[title=devil_1_end]
+[title=devil_1_repeat_begin]
+Drizzle: [question=3]用一点点灵魂换直达山顶的快捷通道?
+[choice]当然愿意.[newtalk start=devil_1_answer_yes_begin break=devil_1_answer_yes_end]
+[choice]才不要.[newtalk start=devil_1_answer_no_begin break=devil_1_answer_no_end]
+[title=devil_1_repeat_end]
+[title=devil_1_answer_no_begin]
+Drizzle: 行吧, 随你便, 小不点. 上山路上的风景还不赖. 别掉进那些烫乎乎的玩意儿里就行, 呵.
+[title=devil_1_answer_no_end]
+[title=devil_1_answer_yes_begin]
+Drizzle: 选得好. 啊... 没错没错, 新鲜的灵魂就是棒. 在这儿等着, 我马上把你这懒鬼送上去.[event=0]
+[title=devil_1_answer_yes_end]
+[title=satan_0_begin]
+???: 谁敢打扰我泡熔岩澡...
+CEO斯坦: 哟, 你好啊! 咋样? 你肯定就是从下面来的那个新人菜鸟吧. 兄弟, 看着满头大汗的, 要不给你拿条毛巾?
+CEO斯坦: 欢迎欢迎. 你看到的一切都是我的, 包括底下那些哭哭啼啼盼着升职的家伙. 这都是我继承来的... 咳, 不对, 都是我打拼出来的.
+CEO斯坦: 我听手下说, 我们要招个新的泰星实习生. 你觉得自己够格吗? 我对这职位期望可不小.
+CEO斯坦: 我得看看你值不值得投资, 所以给你安排个小任务. 是这样, 我现在的员工最近都有点... 摸鱼.
+CEO斯坦: <color=#fcbe2b><b>主管切特</b></color>总觉得自己手伸得很长, 管得特别宽. 最近他老是惹我不爽, 这可不行.
+CEO斯坦: 我的安保主管<color=#fcbe2b><b>赫克勒</b></color>一有机会就上班摸鱼睡觉. 简直就是浪费资源的废物.
+CEO斯坦: 我要他们俩都滚蛋. 完蛋. 消失. <color=#f52a2a>开除</color>. 我现在授予你临时解雇权. 下去收拾掉这两个蠢货.
+CEO斯坦: 搞定了再回来. 懂了吗?
+[title=satan_0_end]
+第二幕
+[title=satan_0_repeat_begin]
+CEO斯坦: 嘿兄弟... 你光站在那儿都让气氛变压抑了, 知道不? 还是往坏了变的那种.
+CEO斯坦: 看来我那两个废物员工还活蹦乱跳的, 在我超棒的地狱里占着宝贵的位置.
+CEO斯坦: 你要是搞不定他们, 我就找能搞定的人来. 赶紧滚下去证明你自己的价值. 懂了吗?
+[title=satan_0_repeat_end]
+[title=heckler_00_begin]
+赫克勒: 呼... 呼...
+(他睡得死沉死沉的, 根本叫不醒. 要不还是晚点再来吧...)
+(看来在他闸门边上蹦跶也没什么用...)
+[title=heckler_00_end]
+切特的测试
+[title=chet_1_begin]
+主管切特: 可算来了. 就我们说话这功夫, 股票又跌了.001%. 行了, 我收到CEO的通知了, 可以进行下一步了.
+主管切特: 不过... 他刚才怪怪的. 跟我说什么"希望你会游泳", 鬼知道什么意思. 白痴.
+主管切特: [question=4]哼. 呃... 行了, 准备好开始这该死的入职测试了吗?
+[choice]准备好了.[newtalk start=chet_1_answer1_begin break=chet_1_answer1_end]
+[choice]没有.[newtalk start=chet_1_answer2_begin break=chet_1_answer2_end]
+[title=chet_1_end]
+[title=chet_1_answer1_begin]
+主管切特: 行吧, 那就开始, 别等我们的待接电话越堆越多了...[newtalk start=chet_quiz_0_begin break=chet_quiz_0_end]
+[title=chet_1_answer1_end]
+[title=chet_quiz_0_begin]
+主管切特: [question=5]你为什么想来我们这儿工作?
+[choice]热爱.[newtalk start=chet_love_begin break=chet_love_end]
+[choice]较劲.[newtalk start=chet_spite_begin break=chet_spite_end]
+[choice]金钱.[newtalk start=chet_money_begin break=chet_money_end]
+[title=chet_quiz_0_end]
+[title=chet_wrong_begin]
+主管切特: 不出所料, 你<b>没通过</b>测试. 还想要这份工作? 下次别跟个没头苍蝇似的, 说不定还有戏. 滚吧.[event=6]
+[title=chet_wrong_end]
+[title=chet_win_begin]
+主管切特: 行吧, 也不知道走了什么狗屎运, 你居然<b>通过</b>测试了. 恭喜, 你现在正式成为我们泰星电话销售部的实习生了![newtalk start=chet_final_begin break=chet_final_end]
+[title=chet_win_end]
+[title=chet_final_begin]
+老板切特: [question=8]愣着干嘛? 找个空工位干活去! 顺便给我带杯咖啡. 多糖. 麻溜的.
+[choice]马、马上就去, 老板![newtalk start=chet_work_begin break=chet_work_end]
+[choice]你被<color=#f52a2a>开除</color>了.[newtalk start=chet_1_answer3_begin break=chet_1_answer3_end]
+[title=chet_final_end]
+[title=chet_work_begin]
+老板切特: 你怎么还不干活? 还有我的咖啡呢?![event=7]
+[title=chet_work_end]
+[title=chet_love_begin]
+主管切特: <b>热爱?</b> 我们这地方容不下热爱这种东西, 你个蠢货. 我们干活是因为不得不干, 不是因为喜欢干. 你是脑子不好使吗?[event=5][newtalk start=chet_wrong_begin break=chet_wrong_end]
+[title=chet_love_end]
+[title=chet_spite_begin]
+主管切特: <b>较劲!</b> 没错! 带着较劲的劲头干活, 精力和效率永远是最高的. 为了怼身边的人而工作, 然后碾压他们![event=4][newtalk start=chet_right0_begin break=chet_right0_end]
+[title=chet_spite_end]
+[title=chet_money_begin]
+主管切特: <b>金钱?</b> 只有倒霉蛋才会为了这种没用的俗物干活. 我们这儿是大家庭, 把工作做好就是最大的回报.[event=5][newtalk start=chet_wrong_begin break=chet_wrong_end]
+[title=chet_money_end]
+[title=chet_right0_begin]
+主管切特: [question=6]你理想的工作环境是什么样的?
+[choice]整洁.[newtalk start=chet_clean_begin break=chet_clean_end]
+[choice]轻松.[newtalk start=chet_relaxed_begin break=chet_relaxed_end]
+[choice]忙碌.[newtalk start=chet_hectic_begin break=chet_hectic_end]
+[title=chet_right0_end]
+[title=chet_clean_begin]
+主管切特: <b>整洁?</b> 来这儿干活, 就得学会跟煤烟、灰尘和各种脏东西打交道. 身上不沾点乱七八糟的, 也叫干活?[event=5][newtalk start=chet_wrong_begin break=chet_wrong_end]
+[title=chet_clean_end]
+[title=chet_relaxed_begin]
+主管切特: <b>轻松?</b> 我们每天都得绷得紧紧的, 端足架子. 你一放松, 就会被懒鬼钻空子. 绝对不行![event=5][newtalk start=chet_wrong_begin break=chet_wrong_end]
+[title=chet_relaxed_end]
+[title=chet_hectic_begin]
+主管切特: <b>忙碌!</b> 没错! 只有彻底的混乱和高强度的多线程工作, 才能完成股东给我们定的一堆目标. 好好享受吧![event=4][newtalk start=chet_right1_begin break=chet_right1_end]
+[title=chet_hectic_end]
+[title=chet_right1_begin]
+主管切特: [question=7]最后一个问题, 你觉得五年后你会在做什么?
+[choice]退休.[newtalk start=chet_retire_begin break=chet_retire_end]
+[choice]死掉.[newtalk start=chet_dead_begin break=chet_dead_end]
+[choice]坐你的位置.[newtalk start=chet_job_begin break=chet_job_end]
+[title=chet_right1_end]
+[title=chet_retire_begin]
+主管切特: <b>退休?</b> 那是什么玩意儿? 不干活, 后半辈子啥也不干? 想得美! 门都没有, 白痴.[event=5][newtalk start=chet_wrong_begin break=chet_wrong_end]
+[title=chet_retire_end]
+[title=chet_dead_begin]
+主管切特: <b>死掉?</b> 哈哈, 还挺有幽默感的嘛. 算你走运, 我们这儿为数不多的福利就是永生. 不过得永远干活低头哈腰![event=5][newtalk start=chet_wrong_begin break=chet_wrong_end]
+[title=chet_dead_end]
+[title=chet_job_begin]
+主管切特: <b>坐我的位置?!</b> 行啊, 能说出这话, 算你有胆量. 你要是觉得能爬到我头上那真是做梦, 不过我欣赏你这股劲![event=4][newtalk start=chet_win_begin break=chet_win_end]
+[title=chet_job_end]
+[title=chet_1_answer2_begin]
+主管切特: 真是服了, 你可真是个甩不掉的麻烦. 算你走运, 这职位没什么人应聘. 准备好了再回来.
+[title=chet_1_answer2_end]
+[title=chet_1_answer3_begin]
+老板切特: 等等, 什、什么? 我被开除了? 别逗了! 你不能开除我! 你没这个权力! 你凭什么这么说?!
+老板切特: 我在这儿干了几百年了, 天天管着你们这群数不清的蠢货笨蛋! 时时刻刻盯着这帮没脑子的员工!
+老板切特: 要是我活该被开除, 那就让绝望的熔岩深渊现在就把我吞没, 沉进这该死的岩浆湖里去!
+老板切特: 看到没? 你在这儿说了不算, 废物. 等我取代了CEO, 第一个就让你永远打冷电话、堆公文! 哈哈哈!!![event=3]
+[title=chet_1_answer3_end]
+[title=chet_final_2_begin]
+切特本人: 啊...? 等、等等! 不可能, 怎么会?! 你不能这么对我! 我是公司的支柱! 啊啊啊啊啊..........
+[title=chet_final_2_end]
+第二幕 赫克勒对决
+[title=heckler_1_begin]
+赫克勒: 喂, <i>就是你!</i> 你个小<i>混球!</i> 我刚午觉睡醒, 就听见轰隆一声, 转头就看见一间办公室掉进岩浆里了! [event=10]
+赫克勒: 怎么就没人明白我有多需要美容觉?! 啊, 我气得都快<b>吐了!</b>
+赫克勒: [question=000]作为泰星公司兢兢业业的安保主管, 我现在要扣押你! 你还有什么好说的?!
+[choice]对、对不起.[newtalk start=heckler_sorry_begin break=heckler_sorry_end]
+[choice]你被<color=#f52a2a>开除</color>了.[newtalk start=heckler_fired_begin break=heckler_fired_end]
+[title=heckler_1_end]
+[title=heckler_sorry_begin]
+赫克勒: 哦, 你对不起??? 那行啊, 没事了. 你可以走了, 朋友! 才怪. 你个十足的白痴!
+赫克勒: 我们这儿可不接受道歉赎罪! 我只接受给你好好上一堂礼貌课!
+赫克勒: 你以为你能随便欺负我们公司的主管?! 现在你得对付<b>我了!</b> 我要用眼神<b>瞪</b>到你屈服!
+[title=heckler_sorry_end]
+[title=heckler_fired_begin]
+赫克勒: <b>开除?!</b> 你不能开除我! 我是公司有史以来最棒也是唯一的安保主管! 我受够你的胡闹了, 蠢货!
+赫克勒: 等我收拾了你, <color=#f74940><b>CEO</b></color>肯定会直接给我升职. 就当是你吵醒我睡午觉的报应!
+[title=heckler_fired_end]
+[title=heckler_2_begin]
+赫克勒: <i>啊啊啊!!!</i> 你... 你... 这事没完! 我会盯着你的...
+[title=heckler_2_end]
+第三幕
+细雨 山道2
+[title=devil_01_begin]
+Drizzle: 我们还真是总能碰上啊, 是吧? 我看你最近效率挺高啊, 呵.
+Drizzle: 听说山顶那位<color=#f74940><b>大人物</b></color>想跟你聊聊. 不知道他打的什么主意, 不过你这么会拍马屁, 肯定能讨他欢心.
+Drizzle: 总之, 你要是急着上去或者单纯懒得爬, 我还能送你. 条件和上次一样.
+Drizzle: [question=2]怎么样? 用一点点灵魂换直达山顶的快捷通道? <b>最后一次机会哦, 呵.</b>
+[choice]当然愿意.[newtalk start=devil_01_answer_yes_begin break=devil_01_answer_yes_end]
+[choice]才不要.[newtalk start=devil_01_answer_no_begin break=devil_01_answer_no_end]
+[title=devil_01_end]
+[title=devil_01_repeat_begin]
+Drizzle: [question=3]用一点点灵魂换直达山顶的快捷通道?
+[choice]当然愿意.[newtalk start=devil_01_answer_yes_begin break=devil_01_answer_yes_end]
+[choice]才不要.[newtalk start=devil_01_answer_no_begin break=devil_01_answer_no_end]
+[title=devil_01_repeat_end]
+[title=devil_01_answer_no_begin]
+Drizzle: 我永远搞不懂, 为什么大家都拒绝这么划算的交易. 灵魂<i>本来</i>就会再长出来的, 你知道吧?
+Drizzle: 算了, 可惜了. 反正还有下次机会, 呵.
+[title=devil_01_answer_no_end]
+[title=devil_01_answer_yes_begin]
+Drizzle: 选得好. 啊... 没错没错, 新鲜的灵魂就是棒. 在这儿等着, 我马上把你这懒鬼送上去.[event=0]
+[title=devil_01_answer_yes_end]
+撒旦结局
+[title=satan_1_begin]
+CEO斯坦: 耶~ 来了来了! 又见面了.
+CEO斯坦: 哟哟哟... 这不是我最得力的新员工嘛. 你最近可帮了我大忙了.
+CEO斯坦: 你知道吗, 要是<color=#fcbe2b><b>切特</b></color>和<color=#fcbe2b><b>赫克勒</b></color>有你一半能干, 也不至于落得个被岩浆炸成焦炭的下场.
+CEO斯坦: 我给你安排了好多计划, 朋友. 广阔天地等着你, 就当我的光荣苦力吧.
+CEO斯坦: 只要你努力干、拼命干、专心干, 总有一天你也能给我再买座山, 让我好好享受享受.[event=8]
+CEO斯坦: [question=9]所以我这儿有个你无法拒绝的提议. 怎么样? 你是答应呢, 还是答应呢?
+[choice]拒绝.[newtalk start=satan_refuse_begin break=satan_refuse_end]
+[choice]你被<color=#f52a2a>开除</color>了.[newtalk start=satan_fired_begin break=satan_fired_end]
+[title=satan_1_end]
+[title=satan_refuse_begin]
+CEO斯坦: 你是不是耳朵里进煤灰了? 我刚说了, 你无法拒绝. 我再问一遍...
+CEO斯坦: [question=09]你要不要加入我狂妄自大、自恋爆棚的征服世界之旅?
+[choice]拒绝.[newtalk start=satan_refuse_begin break=satan_refuse_end]
+[choice]你被<color=#f52a2a>开除</color>了.[newtalk start=satan_fired_begin break=satan_fired_end]
+[title=satan_refuse_end]
+[title=satan_fired_begin]
+CEO斯坦: <i>啊哦.</i> 看来你比看起来要聪明嘛. 我好像从没收回你的临时解雇权...
+CEO斯坦: 我已经能感觉到我积攒的势力在消散了. 我这辈子踩着底下人爬上来获得的所有权力.
+CEO斯坦: 掌控一千个世界、十亿人的力量, 全都源于我永不满足的贪欲. 现在就要从云端摔下来了.
+凡人斯坦: 算了, 至少风光过. 现在我夺走的一切都归你了. 看来我们也没那么不一样嘛, 是吧? 哈哈哈.
+凡人斯坦: 好好干, 你前途无量啊, 小子...
+[title=satan_fired_end]
+[title=satan_dead_begin]
+凡人斯坦: 呃啊...
+[title=satan_dead_end]
+细雨 关卡结局
+[title=drizzle_ending0_begin]
+主管细雨: 嗯, 哈哈哈. 干得漂亮, 干得漂亮. 他肯定早知道自己的统治要到头了. 没有永远的王者. 可惜了.
+主管细雨: 不过嘛, 多亏了你, 这儿总算能消停点了. 干得一如既往的好.
+主管细雨: 你还挺擅长收拾烂摊子的, 而且手段还挺高明. 没人跟你说过吗? 呵.
+主管细雨: 行了, 我知道你忙得很, 就不耽误你时间了. 要是需要顺路送你回去就说一声.
+[title=drizzle_ending0_end]
+[title=drizzle_ending1_begin]
+主管细雨: [question=10]返回<b>人间</b>吗?
+[choice]嗯.[newtalk start=drizzle_ending_yes_begin break=drizzle_ending_yes_end]
+[choice]等等...[newtalk start=drizzle_ending_no_begin break=drizzle_ending_no_end]
+[title=drizzle_ending1_end]
+[title=drizzle_ending_yes_begin]
+主管细雨: 再见...[event=9]
+[title=drizzle_ending_yes_end]
+[title=drizzle_ending_no_begin]
+主管细雨: 我就在这儿等着...
+[title=drizzle_ending_no_end]
+路标
+[title=signpost_begin]
+这儿有个路标, 上面有三个不同方向的箭头. 被烧焦的字迹勉强能辨认出来. 上面写着 -
+"<b>西侧道路</b> - 安保主管赫克勒办公室" \n"<b>北侧道路</b> - 泰星CEO山顶办公室" \n"<b>东侧道路</b> - 泰星电话销售中心"
+[title=signpost_end]
+赫克勒的闸门
+[title=gate_0_begin]
+这儿有一扇光滑的金属闸门. 表面摸起来滚烫. 上面贴着一张小纸条...
+"正在午睡, 滚开. 紧急事务请联系电话销售部的主管切特."
+要不还是晚点再来吧.
+[title=gate_0_end]
+[title=gate_1_begin]
+赫克勒的金属闸门又关上了. 上面贴了张新纸条...
+"还在午睡. 要是刚才那小矮子在看 - <b>哪凉快哪呆着去.</b> 谢谢."
+脾气真臭. 要不还是晚点再来吧.
+[title=gate_1_end]
+[title=devil_mountain_0_begin]
+米尔顿: 是、是的, 有什么事吗? <color=#f74940><b>斯坦先生</b></color>说我可以在山这边有自己的工位, 所以应该没问题的.
+米尔顿: 他说只要我守在自己工位上, 就会给我升职. 我已经在这儿待了6年了, 应该快了.
+米尔顿: 再等下去的话, 我就去跟他说我要辞职. 我也跟电话部的切特说过了.
+米尔顿: 我昨天看见他拿了我的订书机... 要是再让我看见有人碰我的订书机, 我就把整座山烧了.
+[title=devil_mountain_0_end]
+[title=devil_mountain_1_begin]
+米尔顿: 别碰我的订书机!
+[title=devil_mountain_1_end]
+[title=devil_mountain_2_begin]
+米尔顿: 我看见大家都辞职了. 我跟<color=#f74940><b>斯坦先生</b></color>说我等太久了, 很快也要辞职了.
+米尔顿: 他说明天就给我升职, 所以我再等一天.
+米尔顿: 要是还升不了职, 我就把整座山烧了...
+[title=devil_mountain_2_end]

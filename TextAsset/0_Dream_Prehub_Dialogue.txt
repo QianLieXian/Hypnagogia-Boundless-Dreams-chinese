@@ -1,0 +1,47 @@
+DreamPreHub Dialogue
+
+[title=Gogi_0_begin]
+???: 你好呀,沉眠者,不必害怕.
+???: [question=1]你是迷失了方向还是专程而来?
+[choice]你是谁?[newtalk start=answer3_begin break=answer3_end]
+[choice]我身在何处?[newtalk start=answer4_begin break=answer4_end]
+[choice]我为何会在这里?[newtalk start=Gogi_1_begin break=Gogi_1_end]
+[title=Gogi_0_end]
+
+[title=answer3_begin]
+???: 我是你 <color=#a141f0><b>记忆</b></color>的碎片. 是你从意识深处凝聚造出的虚影.
+???: [question=4]是你决意忘却的过往,还是你竭力想起的曾经?
+[choice]继续说...[newtalk start=Gogi_1_begin break=Gogi_1_end]
+[choice]你是谁?[newtalk start=answer3_begin break=answer3_end]
+[choice]我身在何处?[newtalk start=answer4_begin break=answer4_end]
+[title=answer3_end]
+
+[title=answer4_begin]
+???: 我们身处 <color=#a141f0><b>虚无之境</b></color>. 这是一片浩瀚无垠的国度,唯有浓稠的空寂充盈其间.
+???: [question=3]唯有你踏上未启之旅的第一步,会在这里漾开回响.
+[choice]继续说...[newtalk start=Gogi_1_begin break=Gogi_1_end]
+[choice]你是谁?[newtalk start=answer3_begin break=answer3_end]
+[choice]我身在何处?[newtalk start=answer4_begin break=answer4_end]
+[title=answer4_end]
+
+[title=Gogi_1_begin]
+???: 慢慢来,沉眠者.前方还有诸多事物待你亲历,诸多光景待你见证!
+???: [question=0]你想了解操作方式吗?
+[choice]不用了.[newtalk start=answer2_begin break=answer2_end]
+[choice]好的.[newtalk start=answer1_begin break=answer1_end]
+[title=Gogi_1_end]
+
+[title=answer1_begin]
+???: 看来你是第一次来到这里?也好,我来为你说明一二.[event=0]
+???: 请稍作查看,了解这些 <b>操作方式</b>. 你也可以随时在暂停菜单中调整视野与其他设置.[event=2]
+???: 对了,游戏进度会通过 <color=#49FF1C><b>自动存档</b></color> 功能保存.当左下角出现该图标时,你就可以放心退出.[event=1]
+???: 最后提醒一句:倘若你感到迷茫,就朝着 <b>光</b> 的方向前行. 见到它你便会了然.目前我能告知你的就这些了.
+???: <b>记住这点</b>, 沉眠者: 你会遇到形形色色的人,展开许许多多的对话,还请多些耐心.
+???: 请走过前方的桥,踏入为你开启的门扉.我们都满怀期待,想见证你将走出怎样的旅途.
+[title=answer1_end]
+
+[title=answer2_begin]
+???: 这么心急吗?也好,不过我得提醒你 <b>梦境</b> 本就不该匆匆而过.
+???: 你会遇到形形色色的人,展开许许多多的对话,还请多些耐心. <b>切记这点</b>, 沉眠者.
+???: 请走过前方的桥,踏入为你开启的门扉.我们都满怀期待,想见证你将走出怎样的旅途.
+[title=answer2_end]

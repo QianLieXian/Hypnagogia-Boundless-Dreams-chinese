@@ -1,0 +1,639 @@
+4_Dream_Ice 对话
+
+NOTES:
+- 悲伤/忧郁的世界类型关卡(主要是对话, 并没有真正的平台跳跃)
+- 应该在山洞附近增加多山/悬崖区域以提供平台跳跃挑战
+- 许多悲伤的无家可归的NPC发表他们的看法, 人们不断谈论最后一栋建筑里没有人居住(暗示有鬼魂)
+- 整体概念是你遇到一个看起来像鬼魂的家伙躲在建筑物里, 他说想让你帮他找到走失的狗
+- 在此之前你无法前进, 因为有栅栏挡住了路(在倒塌的广告牌附近)
+- 与鬼魂家伙交谈后栅栏消失
+- 必须爬山去 
+找到山顶他狗住的洞穴
+- 除非你有零食给它, 否则狗不会听你的(他会提前告诉你)(你必须在接到狗的任务后从另一个NPC那里获得零食)
+- 给零食的NPC是塔下的钓鱼人
+- 一旦你让狗回去, 你再次与鬼魂NPC交谈, 他在向你道谢后消失.
+梦境碎片在他最后待的地方
+
+GOGI 介绍
+[title=Gogi_0_begin]
+"Gogi": [jitter=5 angle=0]Brrrrr[/jitter]... 这个地方看起来肯定是风光不再了!
+我绝对不想住在这里!
+"Gogi": 有一件事是肯定的, 这里超级冷, 所以我希望你带了一件大外套!
+让我想来一大杯热腾腾的我最爱的巧克力饮料!
+"Gogi": 好吧... 你必须去拿那个珍贵的碎片, 所以现在千万别被冻伤死掉啊!
+"Gogi": 呵呵, 玩得[jitter=5 angle=0]开开心心![/jitter]
+[title=Gogi_0_end]
+
+第一轮
+
+行走的人
+[title=walking_0_begin]
+流浪者 Reece: *咳咳* 嗯? 有人想和我说话吗?
+没时间说话.
+流浪者 Reece: 走路让我的大脑保持忙碌. 必须专注于走路. 很好的锻炼.
+流浪者 Reece: 抱歉... 我得走了... *咳咳* [title=walking_0_end]
+
+狗玩具
+[title=toy_0_begin]
+雪里半埋着某种会发声的<color=#fc0328><b>红球</b></color>.
+也许是小孩的玩具?
+你没有理由动它, 所以你没管它.
+[title=toy_0_end]
+
+初始的人
+[title=guy_start_0_begin]
+无家可归的 Phil: 很久以前的一天, 开始下雪了. 明亮奇妙的雪花让我们所有人惊叹不已.
+我们真的屏住了呼吸.
+无家可归的 Phil: 这里曾经是一个炎热潮湿的居住地, 所以尽管我们很震惊, 但我们欢迎这种变化.
+天哪我们真的很需要它...
+无家可归的 Phil: 但是后来... 雪越下越大, 越来越多, 而且一直下个不停.
+它持续了很多年, 现在还在下.
+无家可归的 Phil: 我们现在被迫适应我们的处境.
+我们从来不知道我们拥有的有多美好, 直到它被从我们身边夺走.
+[title=guy_start_0_end]
+
+人 0
+[title=guy_0_0_begin]
+无家可归的 Frankie: 我记得每天骑车上班就像往常一样, 就像其他人做的那样.
+只是做我们一直在做的事.
+无家可归的 Frankie: 但现在, 唯一让我坚持下去的就是希望有一天我们能再次看到太阳.
+无家可归的 Frankie: 我有足够温暖的火来支撑到那时候, 我只是不知道这够不够.
+无家可归的 Frankie: 我知道其他人可能有多需要, 所以随时欢迎你在这里取暖.
+[title=guy_0_0_end]
+
+钓鱼的人
+[title=guy_fish_0_begin]
+渔夫 Joe: 嘿, 流浪者. 别管我. 我只是在钓鱼.
+渔夫 Joe: [question=0]考虑到这天气, 你穿得相当单薄. 你在想什么?
+[choice]钓鱼?[newtalk start=answer_fish_0_begin break=answer_fish_0_end]
+[choice]我很冷.[newtalk start=answer_fish_1_begin break=answer_fish_1_end]
+[choice]没什么.[newtalk start=answer_fish_2_begin break=answer_fish_2_end]
+[title=guy_fish_0_end]
+
+[title=guy_fish_0_repeat_begin]
+渔夫 Joe: [question=1]你还在想什么别的吗?
+[choice]钓鱼?[newtalk start=answer_fish_0_begin break=answer_fish_0_end]
+[choice]我很冷.[newtalk start=answer_fish_1_begin break=answer_fish_1_end]
+[choice]没什么.[newtalk start=answer_fish_2_begin break=answer_fish_2_end]
+[title=guy_fish_0_repeat_end]
+
+钓鱼的人选项 1
+[title=answer_fish_0_begin]
+渔夫 Joe: 没错! 现在我知道你在想什么了.
+"这下面的鱼现在肯定都变成冰块了吧."
+渔夫 Joe: 嗯, 真的没办法知道. 这个池塘很多年前就结冰了.
+我们脚下大概有一英里厚的冰.
+渔夫 Joe: 就我而言, 下面是有鱼的.
+我需要的就是耐心. 极大的耐心. 我不会让严寒击垮我.[newtalk start=guy_fish_0_repeat_begin break=guy_fish_0_repeat_end]
+[title=answer_fish_0_end]
+
+钓鱼的人选项 2
+[title=answer_fish_1_begin]
+渔夫 Joe: 啊, 你会习惯的.
+我们是一个有着惊人韧性的物种, 所以我肯定你也是. 只要别想太多.
+渔夫 Joe: 你我之间说说, 我不介意这样. 甚至可能还有点喜欢.
+我的意思是, 如果我太冷了, 我就多穿点. 太热了我就少穿点.
+渔夫 Joe: 天气一开始就酷热难耐的时候你可没法这么做, 你懂吗?
+凡事往好处想诸如此类的.[newtalk start=guy_fish_0_repeat_begin break=guy_fish_0_repeat_end]
+[title=answer_fish_1_end]
+
+钓鱼的人选项 3
+[title=answer_fish_2_begin]
+渔夫 Joe: 那好吧. 记得把自己裹严实点, 听见没?
+如果你想聊天, 我会在这附近转悠.
+[title=answer_fish_2_end]
+
+栅栏处的人
+[title=guy_fence_0_begin]
+小 Ollie: [question=08]哇, 你不冷吗? 你几乎什么都没穿.
+如果你没注意到的话, 我们现在可是在暴风雪里.
+[choice]怎么了?[newtalk start=guy_fence_01_begin break=guy_fence_01_end]
+[choice]我没事.[newtalk start=guy_fence_bye_begin break=guy_fence_bye_end]
+[title=guy_fence_0_end]
+
+[title=guy_fence_bye_begin]
+小 Ollie: 呵.
+算我被你骗了吧. 那好吧, 很高兴和你聊天. 回头见.
+[title=guy_fence_bye_end]
+
+[title=guy_fence_01_begin]
+小 Ollie: 这个广告牌很久以前就倒了... 这条路被所有这些扭曲生锈的金属弄得乱七八糟.
+小 Ollie: 我父母告诉我离远点, 但你知道那只意味着那边肯定有什么有趣的东西.
+小 Ollie: 哪怕这是我做的最后一件事, 我也要找到穿过去的方法![event=8]
+[title=guy_fence_01_end]
+
+人 2
+[title=guy_2_0_begin]
+无家可归的 Moe: 嘿, 怎么了?
+自从我窝进这个地方, 这里变得暖和了一点.
+无家可归的 Moe: 那边那家伙在这里待的时间比我还长, 他居然还不习惯这种寒冷!
+无家可归的 Moe: 疯了. 我猜有些人就是永远也习惯不了.
+[title=guy_2_0_end]
+
+人 3
+[title=guy_3_0_begin]
+无家可归的 Bailey: 嘿, 这可真新鲜.
+有人来看我了! 这很不寻常. 大多数人总是避开镇上的这个区域.
+无家可归的 Bailey: 几个月来只有我一个人! 最近有另一个人搬到了楼上, 但在那之前... 这栋建筑完全被废弃了.
+无家可归的 Bailey: 我想很久以前还有一个人住在这里, 但我不知道他们怎么了.
+无家可归的 Bailey: 无论如何, 你想待多久就待多久. 有人陪伴会让这里感觉暖和一点.
+[title=guy_3_0_end]
+
+鬼魂人
+[title=guy_ghost_0_begin]
+???: 打扰一下... 抱歉麻烦你, 但你见过我的<color=#fcbe2b><b>狗</b></color>吗?
+她很久以前就离开我了, 我甚至都不记得她长什么样了.
+???: 谁知道我有多久没睡觉了. 她可能非常冷.
+为了让她回来我愿意做任何事.
+???: 如果我可以去找她, 我会的, 但是有些东西... 把我困在了这里.
+如果你看到她, 你能想办法把她送到这里来吗?
+???: 不过, 除非你有她最喜欢的闪亮的<color=#fc0328><b>红球</b></color>, 否则她可能不会听你的.
+我把它弄丢在雪地里的某个地方了.
+???: [question=00]你能帮我吗?
+[choice]当然.[newtalk start=answer_ghost_0_begin break=answer_ghost_0_end]
+[choice]我很忙.[newtalk start=answer_ghost_1_begin break=answer_ghost_1_end]
+[title=guy_ghost_0_end]
+
+[title=answer_ghost_0_begin]
+???: 哦谢谢你, 太感谢你了.
+如果你发现任何线索我就在这里.[event=5]
+[title=answer_ghost_0_end]
+
+[title=answer_ghost_1_begin]
+???: 那我就继续等, 等能帮我的人.
+我希望你能重新考虑.
+[title=answer_ghost_1_end]
+
+第二轮
+
+鬼魂人
+[title=guy_ghost_1_begin]
+???: 你有什么好运气吗?
+确保你找到了她最喜欢的<color=#fc0328><b>红球</b></color>, 否则她可能不会听你的.
+???: 我希望你能找到她. 她总是习惯爬到她下不来的地方.
+[title=guy_ghost_1_end]
+
+人 3
+[title=guy_3_1_begin]
+无家可归的 Bailey: 希望我没有让你感到不舒服或怎样. 我只是从来没有过朋友.
+无家可归的 Bailey: 你随时可以离开, 我不会生气的... (好吧也许会有一点.)
+[title=guy_3_1_end]
+
+人 2
+[title=guy_2_1_begin]
+无家可归的 Moe: 嘿, 嘿, 小心点!
+呼, 这里变得有点拥挤了. 三个人就太挤了, 你知道吗?
+无家可归的 Moe: 也许去街那头的建筑里避避风头? 那里应该比这里有更多空间.
+[title=guy_2_1_end]
+
+湖边小孩 1
+[title=guy_fence_11_begin]
+小 Ollie: 我正在试图撬开这些板子.
+它们锈得很厉害所以应该不会花太长时间.
+小 Ollie: 过一会儿再来看看, 到那时我可能已经把它们弄下来了.
+[title=guy_fence_11_end]
+
+湖边小孩 2
+[title=guy_fence_1_begin]
+小 Ollie: 我早些时候设法从广告牌下面扯下了一块栅栏.
+小 Ollie: 我们小时候常听说这里是某种探险队经过的地方.
+小 Ollie: 不过那是很久以前的事了, 在我出生之前.
+我想他们从来没有找到那个失踪的家伙.
+小 Ollie: 无论如何, 小心点.
+谁知道那些未被触碰的雪下有多少支撑力呢.
+[title=guy_fence_1_end]
+
+湖边小孩 3
+[title=guy_fence_12_begin]
+小 Ollie: 我的天哪.
+我就知道那东西总有一天注定会坍塌. 庆幸你没有被吞没在那里吧...
+小 Ollie: 完全不知道这些冰下的旧管道还在抽水.
+搞什么...
+小 Ollie: 哎, 那算了. 祝你一路爬上峡谷好运.
+我就呃, 留在这里.
+[title=guy_fence_12_end]
+
+钓鱼的人
+[title=guy_fish_1_begin]
+渔夫 Joe: 嘿又见面了. 还是像我们其他人一样漫无目的地到处游荡吗?
+渔夫 Joe: [question=2]你现在在想什么?
+[choice]还在钓鱼?[newtalk start=answer_fish_3_begin break=answer_fish_3_end]
+[choice]看到过狗吗?[newtalk start=answer_fish_4_begin break=answer_fish_4_end]
+[choice]没什么.[newtalk start=answer_fish_2_0_begin break=answer_fish_2_0_end]
+[title=guy_fish_1_end]
+
+钓鱼的人选项 1
+[title=answer_fish_3_begin]
+渔夫 Joe: 哈哈, 是的, 还在钓.
+总比什么都不做强. 不过它们很快就会咬钩的, 我向你保证.
+渔夫 Joe: [question=2_2]毕竟, 为什么不呢?
+反正现在也没什么更好的打发时间的方法.
+[choice]看到过狗吗?[newtalk start=answer_fish_4_begin break=answer_fish_4_end]
+[choice]那待会儿见.[newtalk start=answer_fish_2_0_begin break=answer_fish_2_0_end]
+[title=answer_fish_3_end]
+
+钓鱼的人选项 2
+[title=answer_fish_4_begin]
+渔夫 Joe: 一只<color=#fcbe2b><b>狗</b></color>?
+没见过狗了, 哦, 多久了...? 有好几年了.
+这个地方还比较热的时候它们可能还在附近... 但现在没有了.
+渔夫 Joe: 呵, 也许它们都去南方过冬了! 呃, 抱歉. 毫无头绪, 朋友.
+渔夫 Joe: [question=3]不管怎么说你找狗有什么理由吗? 在我看来就像是白费力气.
+[choice]在帮别人.[newtalk start=answer_fish_5_begin break=answer_fish_5_end]
+[choice]没理由.[newtalk start=answer_fish_2_0_begin break=answer_fish_2_0_end]
+[title=answer_fish_4_end]
+
+钓鱼的人选项 3
+[title=answer_fish_2_0_begin]
+渔夫 Joe: 那好吧. 记得把自己裹严实点, 听见没?
+如果你想聊天, 我会在这附近转悠.
+[title=answer_fish_2_0_end]
+
+钓鱼的人选项 1
+[title=answer_fish_5_begin]
+渔夫 Joe: 不确定那可能是谁.
+这个冰冻的小村庄里没有人养狗. 至少我认识的人里没有.
+渔夫 Joe: 不过如果你热衷于寻找丢失的东西, 也许去北边的旧池塘周围看看.
+渔夫 Joe: 不过最好小心点, 那条小径早就荒废了. 上去那里可能非常不稳定. 祝你好运.
+[title=answer_fish_5_end]
+
+人 0
+[title=guy_0_1_begin]
+无家可归的 Frankie: 好饿... 我应该去问问那个渔夫他认为什么时候才能钓到鱼.
+[title=guy_0_1_end]
+
+睡觉的人
+[title=guy_sleeping_1_begin]
+这里只有一堆雪.
+[title=guy_sleeping_1_end]
+
+狗玩具
+[title=toy_1_begin]
+雪里半埋着一个会发声的<color=#fc0328><b>红球</b></color>.
+这看起来像是狗会喜欢的东西. 你拂去积雪并把它带在身上.
+[title=toy_1_end]
+
+初始的人
+[title=guy_start_1_begin]
+无家可归的 Phil: 嗯? 真疯狂还能看到你在这寒冷地狱里跋涉. 你还真是有精力, 你懂的.
+无家可归的 Phil: 不过每个人迟早都会累的. 这很正常. 没什么不好意思的.
+无家可归的 Phil: 如果你想躲避这无情的天气, 随时可以在这里待着.
+[title=guy_start_1_end]
+
+第三轮
+
+流浪狗
+[title=dog_0_begin]
+狗: 汪! 汪!
+这里有一只流浪狗. 看起来它不知怎么的一路跑到了这里却下不去了.
+它显得相当胆怯, 但你能看出来它对这次相遇和你一样感到惊讶.
+[question=4]你应该怎么做?
+[choice]摸摸狗.[newtalk start=answer_dog_0_begin break=answer_dog_0_end]
+[choice]别管它.[newtalk start=answer_dog_1_begin break=answer_dog_1_end]
+[choice]找找吊牌.[newtalk start=answer_dog_2_begin break=answer_dog_2_end]
+[title=dog_0_end]
+
+[title=dog_0_repeat_begin]
+[question=4]狗耐心地坐着.
+你应该怎么做?
+[choice]摸摸狗.[newtalk start=answer_dog_0_begin break=answer_dog_0_end]
+[choice]别管它.[newtalk start=answer_dog_1_begin break=answer_dog_1_end]
+[choice]找找吊牌.[newtalk start=answer_dog_2_begin break=answer_dog_2_end]
+[title=dog_0_repeat_end]
+
+狗选项 1
+[title=answer_dog_0_begin]
+你摸了摸狗.
+它出奇地友好. 它兴奋地摇着尾巴.[event=4]
+狗: 汪![newtalk start=dog_0_repeat_begin break=dog_0_repeat_end]
+[title=answer_dog_0_end]
+
+狗选项 2
+[title=answer_dog_1_begin]
+你决定不理这只狗.
+它看起来很失望.[event=0]
+[title=answer_dog_1_end]
+
+狗选项 3
+[title=answer_dog_2_begin]
+你走近看了看狗的项圈. 吊牌上写着<color=#fcbe2b><b>饼干</b></color>.
+真可爱的名字.
+[question=5]你应该拿饼干怎么办?
+[choice]摸摸饼干.[newtalk start=answer_dog_3_begin break=answer_dog_3_end]
+[choice]带饼干回家.[newtalk start=answer_dog_4_begin break=answer_dog_4_end]
+[title=answer_dog_2_end]
+
+[title=answer_dog_2_repeat_begin]
+[question=5_0]你应该拿饼干怎么办?
+[choice]再摸摸饼干.[newtalk start=answer_dog_3_begin break=answer_dog_3_end]
+[choice]带饼干回家.[newtalk start=answer_dog_4_begin break=answer_dog_4_end]
+[title=answer_dog_2_repeat_end]
+
+狗选项 4
+[title=answer_dog_3_begin]
+你摸了摸饼干.
+你能看出她很感激你的陪伴.[event=4]
+饼干: 汪! 汪![newtalk start=answer_dog_2_repeat_begin break=answer_dog_2_repeat_end]
+[title=answer_dog_3_end]
+
+[title=answer_dog_33_begin]
+你摸了摸饼干! 你能看出她很感激你的陪伴.
+[event=4]
+饼干: 汪! 汪![newtalk start=dog_00_repeat_begin break=dog_00_repeat_end]
+[title=answer_dog_33_end]
+
+狗选项 5
+[title=answer_dog_4_begin]
+你试图让饼干回到她原来的主人身边.
+[question=6]她看到你拿着她最喜欢的红球, 兴奋地摇着尾巴.
+[choice]把球给她.[newtalk start=answer_dog_5_begin break=answer_dog_5_end]
+[choice]留着球.[newtalk start=answer_dog_55_begin break=answer_dog_55_end]
+[title=answer_dog_4_end]
+
+[title=answer_dog_55_begin]
+出于某种原因, 你决定保留饼干最喜欢的玩具.[event=6]
+她看起来很失望.
+你怎么能这样?
+[title=answer_dog_55_end]
+
+[title=dog_00_repeat_begin]
+[question=44]饼干耐心地坐着. 看起来她想要你手里的那个球. 你该怎么做?
+[choice]摸摸饼干![newtalk start=answer_dog_33_begin break=answer_dog_33_end]
+[choice]把球给她.[newtalk start=answer_dog_5_begin break=answer_dog_5_end]
+[choice]留着球.[newtalk start=answer_dog_55_begin break=answer_dog_55_end]
+[title=dog_00_repeat_end]
+
+狗选项 6
+[title=answer_dog_5_begin]
+你把球给了饼干.
+她从你手里抢过球, 突然冲出了洞穴.[event=1]
+她会去哪儿呢?
+[title=answer_dog_5_end]
+
+第四轮
+
+湖边小孩
+[title=guy_fence_2_begin]
+小 Ollie: 嘿! 就在你从上面下来之前, 我感觉到一阵大风或者别的什么东西!
+小 Ollie: 好像有什么东西从我身边飞过. 也许只是我没注意.
+[title=guy_fence_2_end]
+
+人群
+[title=crowd_0_begin]
+(饥饿的人群都兴奋地聚集在一起.)
+[title=crowd_0_end]
+
+钓鱼的人
+[title=guy_fish_final_begin]
+渔夫 Joe: 我告诉过你我会钓到东西的!
+好事总会降临在等待的人身上.
+渔夫 Joe: 如果你想要的话自己拿点, 有很多够分的.
+[title=guy_fish_final_end]
+
+鬼魂人
+[title=guy_ghost_final_begin]
+???: 哦饼干! 我好想你. 你回来了我太高兴了.
+???: 我一个人在这里待了这么久, 连个说话的人都没有.
+现在你在这里, 我感觉我又完整了.
+???: 谢谢你的善良, 流浪者.
+现在我们终于可以离开这个地方了.
+???: 我们永远不会忘记这一切. 保重.
+[title=guy_ghost_final_end]
+
+秘密触发器
+
+[title=secret_0_begin]
+这里有一块黑曜石小石碑. 它异常空洞的形态让你产生一种贫乏感.
+[question=99]你要继续凝视这块石碑吗?
+[choice]移开视线.[newtalk start=answer_secret_0_begin break=answer_secret_0_end]
+[choice]凝视更深处.[newtalk start=answer_secret_1_begin break=answer_secret_1_end]
+[title=secret_0_end]
+
+[title=answer_secret_0_begin]
+你移开了看着这块怪异石碑的视线.[event=3]
+[title=answer_secret_0_end]
+
+[title=answer_secret_1_begin]
+当你向石碑凝视更深处时, 你的感官开始变得麻木, 你的眼睛翻向了脑后.[event=2]
+[title=answer_secret_1_end]
+
+触发秘密后的鬼魂人
+
+[title=guy_ghost_final1_begin]
+沾满灰尘的灵魂: 我们等了你这么久, 等你回来.
+那么, 那么久. 最终, 一个世界换来了另一个世界.
+沾满灰尘的灵魂: 我真希望我没有那么粗心, 没有那么不懈地去追求更好的东西.
+也许那样情况会有所不同.
+沾满灰尘的灵魂: 但必须这么做, 我只是必须逃离这一切.
+我不在乎代价是什么, 我们应得更好的.
+沾满灰尘的灵魂: 我知道你也在寻找更好的东西.
+我们的重聚都欠你一个人情. 我希望有朝一日我们能再次相遇.
+沾满灰尘的灵魂: 再见.
+[title=guy_ghost_final1_end]
+
+[title=guy0_snowball0_begin]
+小 Tilly: 在外面看来这可能只是一片冰冻的废土, 但对我们来说它就是一个大游乐场.
+小 Tilly: 许多成年人总是满腹牢骚地在这里走来走去, 所以我们试图在我们能做的一切事情中找到乐趣, 以此来抵消这种情绪.
+小 Tilly: 哎哟! 嘿, 这不公平 Lucas!
+[title=guy0_snowball0_end]
+
+[title=guy0_snowball1_begin]
+小 Tilly: 我想知道 Ollie 到底有没有把旧广告牌旁边的那道栅栏拆掉.
+小 Tilly: 他错过了所有这些激烈的雪地活动. 哎好吧.
+[title=guy0_snowball1_end]
+
+[title=guy0_snowball2_begin]
+小 Tilly: 糟糕, 我还以为我们能真正踏上 Ollie 发现的那条小径, 最终看看上面有什么.
+小 Tilly: 等等, 什么? 你在那场大雪崩之后上去了?!
+你比我们三个加起来还要勇敢!
+[title=guy0_snowball2_end]
+
+[title=guy1_snowball0_begin]
+小 Lucas: 哈哈! 嘿, 小心点!
+这是一场重要的战斗, 我必须保住我雪球冠军的头衔!
+小 Lucas: 我不需要任何增援, 但还是谢谢. 此外, 我的堡垒掩护不了两个人, 所以快走开!
+小 Lucas: 也许去旧广告牌那边和那个不合群的 Ollie 一起玩.
+[title=guy1_snowball0_end]
+
+[title=guy1_snowball1_begin]
+小 Lucas: Ollie 一直在炒作那道破栅栏的另一边可能有什么.
+小 Lucas: 弄得我自己都有点好奇了... 我可能会去看看.
+我打赌肯定超级无聊, 不管那是什么.
+[title=guy1_snowball1_end]
+
+[title=guy1_snowball2_begin]
+小 Lucas: 我就知道那条旧小径没戏!
+不过我得说那场雪崩真是太棒了.
+小 Lucas: Ollie 就是喋喋不休地说着什么疯狂的残影或微风或者不管是什么从他身边经过的东西.
+我可是什么都没看到...
+[title=guy1_snowball2_end]
+
+可拥抱的人
+
+[title=answer_hug_no_begin]
+你没管这个小家伙.
+[title=answer_hug_no_end]
+
+睡觉的人
+[title=guy_hugged_0_begin]
+颤抖的 Danny: 嗯... 嘶... 嗯...
+(尽管他们穿了好多层衣服, 却还在发抖.)
+颤抖的 Danny: [question=008]嗯... 呃...
+[choice]拥抱他们.[newtalk start=answer_hug_0_yes_begin break=answer_hug_0_yes_end]
+[choice]离开.[newtalk start=answer_hug_no_begin break=answer_hug_no_end]
+[title=guy_hugged_0_end]
+
+[title=answer_hug_0_yes_begin]
+你给了这个快冻僵的家伙一个温暖的拥抱.[event=9]
+颤抖的 Danny: 嗯?
+哦-哦, 你-你真是太好了... 我现在感觉好多了. 谢谢你, 陌生人.
+颤抖的 Danny: 我想我还是在这里多休息一会儿. 希望今天风雪能小一点.
+颤抖的 Danny: 外面可能还有更多像我们一样的<color=#14d8ff><b>快冻僵的人</b></color>需要帮助...
+[title=answer_hug_0_yes_end]
+
+人 1
+[title=guy_hugged_1_begin]
+颤抖的 Eli: 嘶-嘶-嘶... 嘶... 哈...
+(他们冷得几乎说不出话来. 可怜的家伙.)
+颤抖的 Eli: [question=06]嗯... 呃-嗯...
+[choice]拥抱他们.[newtalk start=answer_hug_1_yes_begin break=answer_hug_1_yes_end]
+[choice]离开.[newtalk start=answer_hug_no_begin break=answer_hug_no_end]
+[title=guy_hugged_1_end]
+
+[title=answer_hug_1_yes_begin]
+你给了这个快冻僵的家伙一个温暖的拥抱.[event=10]
+颤抖的 Eli: 哦-哦, 你-你真是太好了.
+我感觉寒意正在迅速消退. 谢谢你, 陌生人.
+颤抖的 Eli: 我以为躲在这个小角落里避风会好点, 但我猜并非如此.
+大自然母亲就是不肯罢休, 对吧?
+颤抖的 Eli: 外面可能还有更多像我们一样的<color=#14d8ff><b>快冻僵的人</b></color>需要帮助...
+[title=answer_hug_1_yes_end]
+
+人 2
+[title=guy_hugged_2_begin]
+颤抖的 Brynn: 必须... 集中注意力... 不被冻僵...
+(他们不受控制地颤抖着.)
+颤抖的 Brynn: [question=077]你... 不能... 在... 这种... 温度下... 放松...
+[choice]拥抱他们.[newtalk start=answer_hug_2_yes_begin break=answer_hug_2_yes_end]
+[choice]离开.[newtalk start=answer_hug_no_begin break=answer_hug_no_end]
+[title=guy_hugged_2_end]
+
+[title=answer_hug_2_yes_begin]
+你给了这个快冻僵的家伙一个温暖的拥抱.[event=11]
+颤抖的 Brynn: 哦-哦, 你-你真是太好了.
+我感觉到温暖又回到了我身上. 谢谢你, 陌生人.
+颤抖的 Brynn: 大崩塌之前我的家人曾经住在这栋我们脚下的建筑里.
+它直到今天还在下沉.
+颤抖的 Brynn: 外面可能还有更多像我们一样的<color=#14d8ff><b>快冻僵的人</b></color>需要帮助...
+[title=answer_hug_2_yes_end]
+
+人 3
+[title=guy_hugged_3_begin]
+颤抖的 Gale: 这-这里上-上面的风-风是怎-怎么回事?!
+(强烈的气流一定让他们的处境变得更糟.)
+颤抖的 Gale: [question=088]你-你怎-怎么会不-不冷???
+[choice]拥抱他们.[newtalk start=answer_hug_3_yes_begin break=answer_hug_3_yes_end]
+[choice]离开.[newtalk start=answer_hug_no_begin break=answer_hug_no_end]
+[title=guy_hugged_3_end]
+
+[title=answer_hug_3_yes_begin]
+你给了这个快冻僵的家伙一个温暖的拥抱.[event=12]
+颤抖的 Gale: 哦-哦, 你-你真是太好了.
+我现在感觉暖和多了. 谢谢你, 陌生人.
+颤抖的 Gale: 像这样的天气你应该给自己准备一件好外套.
+我们必须自己做, 但我肯定你能想办法解决.
+颤抖的 Gale: 外面可能还有更多像我们一样的<color=#14d8ff><b>快冻僵的人</b></color>需要帮助...
+[title=answer_hug_3_yes_end]
+
+人 4
+[title=guy_hugged_4_begin]
+颤抖的 Alex: 我-我太-太冷-冷了.
+没-没火-火...
+(他们看起来处于失温的边缘.)
+颤抖的 Alex: [question=099]呃嗯嗯...
+[choice]拥抱他们.[newtalk start=answer_hug_4_yes_begin break=answer_hug_4_yes_end]
+[choice]离开.[newtalk start=answer_hug_no_begin break=answer_hug_no_end]
+[title=guy_hugged_4_end]
+
+[title=answer_hug_4_yes_begin]
+你给了这个快冻僵的家伙一个温暖的拥抱.[event=7]
+颤抖的 Alex: 哦-哦, 你-你真是太好了.
+感觉被关心总是很好. 谢谢你, 陌生人.
+颤抖的 Alex: 那边的 Moe 最近一直找我麻烦, 说我现在应该已经习惯寒冷了.
+我告诉你- 这比看起来难多了.
+颤抖的 Alex: 外面可能还有更多像我们一样的<color=#14d8ff><b>快冻僵的人</b></color>需要帮助...
+[title=answer_hug_4_yes_end]
+
+人 5
+[title=guy_hugged_5_begin]
+颤抖的 Shane: 我本-本以为待在里-里面会-会更-更暖和...
+(你能看到无情的寒冷正在慢慢吞噬他们的身体.)
+颤抖的 Shane: [question=109]还-还有没-没有剩-剩下的温-温暖...?
+[choice]拥抱他们.[newtalk start=answer_hug_5_yes_begin break=answer_hug_5_yes_end]
+[choice]离开.[newtalk start=answer_hug_no_begin break=answer_hug_no_end]
+[title=guy_hugged_5_end]
+
+[title=answer_hug_5_yes_begin]
+你给了这个快冻僵的家伙一个温暖的拥抱.[event=13]
+颤抖的 Shane: 哦-哦, 你-你真是太好了.
+我感到一种温暖正在回归. 谢谢你, 陌生人.
+颤抖的 Shane: 我早该知道待在室内并不能帮我逃避那些疯狂的阵风.
+感觉简直就像一千把剃刀以五马赫的速度打在我的脸上.
+颤抖的 Shane: 外面可能还有更多像我们一样的<color=#14d8ff><b>快冻僵的人</b></color>需要帮助...
+[title=answer_hug_5_yes_end]
+
+冰雪女孩秘密洞穴
+
+[title=icegirl_0_begin]
+雪地孩子: 哦!
+你吓到我了! 你看起来有点眼熟. 你大老远跑到上面来做什么?
+雪地孩子: 哈哈, 我想没关系. 我在做什么? 看起来像什么?
+我想把这个雪人堆完!
+雪地孩子: 嘿- 你想和我一起玩吗?
+你可以帮我堆完雪人先生!
+[question=55]稍作休息, 帮孩子堆完他们的雪人?
+[choice]为什么不呢?[newtalk start=icegirl_yes_begin break=icegirl_yes_end]
+[choice]太忙了![newtalk start=icegirl_no_begin break=icegirl_no_end]
+[title=icegirl_0_end]
+
+[title=icegirl_repeat0_begin]
+雪地孩子: 嘿, 你回来了...!
+雪地孩子: 你现在有时间玩了吗?
+[question=54]稍作休息, 帮孩子堆完他们的雪人?
+[choice]为什么不呢?[newtalk start=icegirl_yes_begin break=icegirl_yes_end]
+[choice]太忙了![newtalk start=icegirl_no_begin break=icegirl_no_end]
+[title=icegirl_repeat0_end]
+
+[title=icegirl_yes_begin]
+雪地孩子: 哦, 嘿哇- 你真是太棒了!
+已经很久没有人陪我玩了.
+雪地孩子: 好的, 那么- 我所需要的就是一些黏性好的雪来做头, 还有一根胡萝卜做鼻子.
+雪地孩子: 我想我看到它们就丢在这附近的某个地方... 你找的时候我会继续堆身体![event=0]
+[title=icegirl_yes_end]
+
+[title=icegirl_no_begin]
+雪地孩子: 哦... 好吧, 我猜这也公平... 那我就试着自己完成它, 脾气暴躁的家伙!
+[title=icegirl_no_end]
+
+[title=icegirl_repeat1_begin]
+雪地孩子: 你有运气找到所有的东西吗? 我需要一些好雪和一个胡萝卜鼻子!
+[title=icegirl_repeat1_end]
+
+[title=icegirl_done_begin]
+雪地孩子: ...好啦! 全做完了. 全部拼在一起看起来相当不错, 你不觉得吗?
+雪地孩子: 嗯, 谢谢你帮我. 我希望能和你多玩一会儿!
+但我觉得我听到我妈妈在叫我了.
+雪地孩子: 她可能会因为我生病还在外面而生我的气... 这不公平!
+雪地孩子: 我很久没见到我的朋友们了, 但是... 我想我刚交了一个新朋友.
+谢谢你.[event=1]
+雪地孩子: ...阿-嚏! 马上就来, 妈妈!
+[title=icegirl_done_end]
+
+[title=snowball_begin]
+这里有一个<color=#e0d33f><b>滚好的雪球</b></color>.
+它被压得很紧实, 适合用来做雪人的头. \n你把它带在了身上.
+[title=snowball_end]
+
+[title=carrot_begin]
+地上有一根小小的... <color=#e0d33f><b>胡萝卜</b></color>? 很奇怪, 但很方便. \n你把它带在了身上.
+[title=carrot_end]

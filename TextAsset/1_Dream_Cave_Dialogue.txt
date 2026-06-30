@@ -1,0 +1,263 @@
+洞穴对话 主线
+戈吉
+[title=Gogi_0_begin]
+???: 嘿嘿，你好呀！再见到你真是<i>太</i>开心啦！你不记得我了？我是你的老朋友，<color=#fcbe2b><b>戈吉</b>！</color>
+"戈吉": 真是好久不见啊！话说回来，看来咱俩都掉进这个又潮又臭的破洞里了！
+"戈吉": 不过这些水晶还挺好看的！但我好像看到前面还有一块<color=#03cffc><b>更亮</b></color>的！
+"戈吉": 你该过去看看！带回去当个小纪念品肯定不错！
+"戈吉": 那祝你玩[jitter=5 angle=0]得开心！[/jitter]
+[title=Gogi_0_end]
+路标
+[title=signpost_0_begin]
+地上插着一块摇摇欲坠的路标，上面潦草地写着一行字。
+<b><color=#ff0000>危险！</color>前方矿井塌方。谨慎前行。结构坍塌风险极高！</b>
+[title=signpost_0_end]
+前置任务：
+[title=Scroblin_0_begin]
+工人斯科罗布林: 嗯？你是谁？新来的工人？哼。看来<color=#fcbe2b><b>工头弗兰</b></color>又抓了个倒霉蛋来。
+工人斯科罗布林: 你别在这儿站着闲聊了。咱俩都得被炒鱿鱼，搞不好还会被扣工资。
+工人斯科罗布林: 要是你想找点活干，就去找工头。她应该就在这附近转悠。
+[title=Scroblin_0_end]
+[title=pickaxe_0_begin]
+这儿放着一把旧<color=yellow><b>镐</b></color>，金属表面刻着“吉布”的名字。
+不是自己的东西最好别拿，你把它留在了原地。
+[title=pickaxe_0_end]
+[title=pickaxe_00_begin]
+看样子是吉布的<color=yellow>镐</color>，说不定能派上些用场。
+你要是去问问他，说不定他愿意借给你。
+[title=pickaxe_00_end]
+[title=Stegz_0_begin]
+工人斯泰格兹: 听说我们有个贤者下去之后被困在里面了。
+工人斯泰格兹: 真是个蠢货！估计是碰松了石头，把自己埋里头了。
+工人斯泰格兹: 我得赶紧找个凿石好手来！该死，<color=#fcbe2b>吉布</color>跑哪儿去了？！
+[title=Stegz_0_end]
+[title=rockwall_0_begin]
+一大堆凹凸不平、摇摇欲坠的巨石。你不清楚它们有多不稳，暂时没去碰。
+[title=rockwall_0_end]
+[title=Og_0_begin]
+监工奥格: <i>喂！喂！</i>上班时间不许闲聊。都回去干活，不然别怪我不客气！
+监工奥格: 工头弗兰让我盯着你们这帮懒鬼，我可半点都不会松口！
+监工奥格: 我半小时后就要去吃午饭了，都给我卖力点！要是让我发现谁敢摸鱼……
+[title=Og_0_end]
+[title=worker0_0_begin]
+工人: 没看见我忙着吗？找别人烦去！
+[title=worker0_0_end]
+[title=worker1_0_begin]
+工人: 我已经连续凿了11个小时了。哪怕歇两分钟都跟天堂一样。
+[title=worker1_0_end]
+[title=worker2_0_begin]
+工人: 工头说她在那座高台上面发现了个奇怪的<color=#03cffc><b>遗物</b></color>，但我们够不着，管它呢。
+[title=worker2_0_end]
+[title=worker3_0_begin]
+工人: 这破工作糟透了，但我们家代代都在这儿干活。我啥别的本事都没有，只能干这个。
+[title=worker3_0_end]
+[title=Gibb_0_begin]
+懒鬼吉布: 嗯……啊？有人吗？
+懒鬼吉布: 行行行，我醒了。你想干嘛？
+[title=Gibb_0_end]
+[title=Gibb_1_begin]
+懒鬼吉布: 天呐，你是来催我回去干活的？连打个盹都不让人安生。
+懒鬼吉布: 有什么大不了的？我一天顶天也就干15分钟正经活。
+懒鬼吉布: 不是我懒……就是我根本不在乎！随便你怎么想吧。
+懒鬼吉布: 自从那块<color=#03cffc><b>遗物</b></color>出现后，那该死的工头就一门心思扑在上面。现在连水晶产量都不管了。
+懒鬼吉布: 你要是想找她，她就在前面的山脊上。祝你好运，希望她心情不错，朋友。
+[title=Gibb_1_end]
+[title=Gibb_11_begin]
+懒鬼吉布: 你还在这儿晃悠？得了吧，我还以为我才是出了名的懒鬼呢。
+懒鬼吉布: 那你还等什么？上去找<color=#fcbe2b><b>工头</b></color>啊！
+[title=Gibb_11_end]
+[title=Fran_0_begin]
+工头弗兰: 嗯？喂，说你呢。对，就是<b>你</b>！
+工头弗兰: 你是我见过最懒的废物！肯定是刚从没用的工人流水线上下来的吧！
+工头弗兰: 我就不跟你客套了，直接说正事。小矮子听好了，我有件重要的活交给你。
+工头弗兰: 看见那边那个漂亮的浮空平台了吗？上面那块闪闪发亮的<color=#03cffc><b>碎片</b></color>？
+工头弗兰: 那东西是<b>我的</b>，我先发现的。从现在起，它归我了，板上钉钉！
+工头弗兰: [question=00]至于你——我今天心情不错，猜猜我要让你干嘛？
+[choice]休息一下？[newtalk start=answer0_Fran_begin break=answer0_Fran_end]
+[choice]回家？[newtalk start=answer1_Fran_begin break=answer1_Fran_end]
+[choice]帮你拿过来……[newtalk start=answer2_Fran_begin break=answer2_Fran_end]
+[title=Fran_0_end]
+[title=Fran_01_begin]
+工头弗兰: [question=01]再猜，小子！
+[choice]休息一下？[newtalk start=answer0_Fran_begin break=answer0_Fran_end]
+[choice]回家？[newtalk start=answer1_Fran_begin break=answer1_Fran_end]
+[choice]帮你拿过来……[newtalk start=answer2_Fran_begin break=answer2_Fran_end]
+[title=Fran_01_end]
+[title=answer0_Fran_begin]
+工头弗兰: 哈哈！真<b>好笑</b>！太好笑了！我唯一能给你的休息，就是把你脸打肿！[newtalk start=Fran_01_begin break=Fran_01_end]
+[title=answer0_Fran_end]
+[title=answer1_Fran_begin]
+工头弗兰: 家？这儿就是你的家，忘恩负义的东西！这就是你能拥有的最好的家，好好适应吧！[newtalk start=Fran_01_begin break=Fran_01_end]
+[title=answer1_Fran_end]
+[title=answer2_Fran_begin]
+工头弗兰: 答对了！不过有个问题……唯一过去的办法，就是靠古老的洞穴魔法。
+工头弗兰: 但我那不靠谱的洞穴贤者<color=#fcbe2b><b>伯纳德</b></color>找不到人影。估计又跟往常一样，在矿井深处打盹呢。
+工头弗兰: 去找他，让他赶紧过来，搭座桥到<color=#03cffc><b>遗物</b></color>那儿去！
+工头弗兰: 还愣着干嘛——<b>快去！</b>
+[title=answer2_Fran_end]
+--------------------
+任务后：
+[title=Fran_1_begin]
+工头弗兰: 你还在这儿干嘛？！出去找那个洞穴贤者啊！
+工头弗兰: 你还指望我给你好处？说不定其他<b>懒</b>工人知道点什么！
+[title=Fran_1_end]
+[title=Gibb_2_begin]
+懒鬼吉布: 她让你去干嘛？啊，不愧是工头弗兰，就爱把最没用的活派给手下。
+懒鬼吉布: 听我说，人生苦短，没必要天天低三下四跑腿。不过你想怎么样都行。
+懒鬼吉布: 至于我，我可丢不起这个人，不想在这儿待了。我打算彻底不干挖矿这行了。
+懒鬼吉布: 你要是铁了心要听工头的话，我的镐你尽管拿去。我就丢在……这附近哪儿了。
+懒鬼吉布: 祝你好运，倒霉蛋。
+[title=Gibb_2_end]
+[title=Stegz_Pickaxe_begin]
+工人斯泰格兹: 该死的，<color=#fcbe2b><b>吉布</b></color>！他本该来这儿清理碎石的。那懒鬼跑哪儿去了？！
+[title=Stegz_Pickaxe_end]
+[title=pickaxe_1_begin]
+这肯定是吉布的<color=yellow><b>镐</b></color>，不过他应该用不上了。
+虽然被巨石卡得很紧，你还是把它拔了出来带在身上。希望这破锈家伙还能用……
+[title=pickaxe_1_end]
+[title=Busy_1_begin]
+（他们正在卖力干活）
+[title=Busy_1_end]
+[title=Og_1_begin]
+监工奥格: 要是能分到工头天天念叨的那块神秘<color=#03cffc><b>遗物</b></color>，我干什么都愿意。
+监工奥格: 我一天干的活比她一周都多。结果呢？啥好处都没有。
+监工奥格: [question=01]切，随便吧。等她拿到手肯定立马变现。走了狗屎运的婆娘。我是说……她可真厉害。
+[choice]你比她强。[newtalk start=answer_1_og_begin break=answer_1_og_end]
+[choice]忍着吧。[newtalk start=answer_2_og_begin break=answer_2_og_end]
+[title=Og_1_end]
+[title=answer_1_og_begin]
+监工奥格: <i>说得对……</i>没错！你说得对！我本来就比她强。那个肥婆娘早晚有她好果子吃……
+监工奥格: 到时候我就上位！我肯定能整顿好这儿，把水晶产量搞上去。一切都安排明白了！[event=9]
+[title=answer_1_og_end]
+[title=answer_2_og_begin]
+监工奥格: 你、你说什么？你懂个屁。你就是个无名小卒。要不是我忙得脱不开身，非得好好教训你一顿！
+监工奥格: 滚远点，小子！现在人人都爱指手画脚……连喘口气都不行。[event=8]
+[title=answer_2_og_end]
+[title=og_bad_begin]
+监工奥格: 一边去，小子！我没空跟你废话。
+[title=og_bad_end]
+[title=og_good_begin]
+监工奥格: 你小子还不错。下次我记着你。趁我没反悔，赶紧回去干活。
+[title=og_good_end]
+[title=Scroblin_1_begin]
+工人斯科罗布林: 呼。等会儿得偷偷歇会儿。这些镐比看着沉多了。
+工人斯科罗布林: [question=00]下班之后去喝一杯怎么样？
+[choice]听起来不错。[newtalk start=answer_1_scroblin_begin break=answer_1_scroblin_end]
+[choice]听起来没劲。[newtalk start=answer_2_scroblin_begin break=answer_2_scroblin_end]
+[title=Scroblin_1_end]
+[title=answer_1_scroblin_begin]
+工人斯科罗布林: 这话我爱听。我天天跟人说这话，你是第一个答应的。
+工人斯科罗布林: 不管工头怎么说你，我觉得你人不错，小子。[event=11]
+[title=answer_1_scroblin_end]
+[title=answer_2_scroblin_begin]
+工人斯科罗布林: 切，没必要这么拽吧。就你这态度，在这儿干不长。
+工人斯科罗布林: 工资低我忍了，同事要是差劲可太难受了。算了，我找别人去。[event=10]
+[title=answer_2_scroblin_end]
+[title=scroblin_bad_begin]
+工人斯科罗布林: !@#$%&' 贪得无厌的混蛋……
+[title=scroblin_bad_end]
+[title=scroblin_good_begin]
+工人斯科罗布林: 好嘞！再熬几个小时就能下班了。
+[title=scroblin_good_end]
+[title=Stegz_1_begin]
+工人斯泰格兹: 喂，你这镐哪儿来的？看着跟吉布的挺像。本来该他来挖这些碎石，不过你来也行。
+工人斯泰格兹: 行吧……去给那边那堆石头狠狠来一下，看看能不能砸开。我就在后面待着……
+[title=Stegz_1_end]
+[title=rockwall_1_begin]
+你把沉重的镐举过肩头，摆好挥击的姿势。这东西比看上去沉多了。[event=2]
+……然后狠狠一<i>挥！</i>
+石墙不堪一击。但不出所料，你那把锈镐也跟着报废了。真棒……
+算了。至少现在你能坐矿车下矿井了。
+[title=rockwall_1_end]
+[title=Stegz_2_begin]
+工人斯泰格兹: 嗯，也就那样吧。好歹砸得碎一点啊。行吧，我去跟工头说一声。
+工人斯泰格兹: 别在深矿井里乱逛。下面那人不值得你费心思。
+[title=Stegz_2_end]
+[title=minecart_go_begin]
+[question=1]一辆老旧的矿车停在这儿。要坐它下矿井吗？
+[choice]看着挺有意思。[newtalk start=answer_yes_minecart_0_begin break=answer_yes_minecart_0_end]
+[choice]太疯了吧。[newtalk start=answer_no_minecart_begin break=answer_no_minecart_end]
+[title=minecart_go_end]
+[title=answer_yes_minecart_0_begin]
+矿车破旧摇晃的轮子开始转动。抓好了！[event=0]
+[title=answer_yes_minecart_0_end]
+[title=minecart_back_begin]
+[question=1]坐矿车回去吗？
+[choice]当然。[newtalk start=answer_yes_minecart_1_begin break=answer_yes_minecart_1_end]
+[choice]算了吧。[newtalk start=answer_no_minecart_begin break=answer_no_minecart_end]
+[title=minecart_back_end]
+[title=answer_yes_minecart_1_begin]
+矿车吱呀作响地开动了，听着随时要散架……[event=1]
+[title=answer_yes_minecart_1_end]
+[title=answer_no_minecart_begin]
+你没去碰那辆矿车。
+[title=answer_no_minecart_end]
+[title=minecart_broken_begin]
+这辆破破烂烂的锈矿车再也动不了了。辛苦了，老伙计。
+[title=minecart_broken_end]
+[title=Bernard_1_begin]
+贤者伯纳德: 哦，你好呀！这些水晶散发的光芒是不是特别迷人？我有时候就盯着它们出神。
+贤者伯纳德: [question=2]你下来干嘛？也是为了躲开那个疯疯癫癫的工头吗？
+[choice]来欣赏石头。[newtalk start=answer_sage_1_begin break=answer_sage_1_end]
+[choice]需要你的魔法！[newtalk start=answer_sage_0_begin break=answer_sage_0_end]
+[title=Bernard_1_end]
+[title=answer_sage_1_begin]
+贤者伯纳德: 是啊，每年这个时候它们都格外闪亮，对吧？虽然比不上上面那块奇怪的<color=#03cffc><b>遗物</b></color>，但也很不错了。
+贤者伯纳德: 陪我一起看看吧，烦恼都会烟消云散的。毕竟有岩浆嘛，懂的都懂。[event=4]
+[title=answer_sage_1_end]
+[title=Bernard_repeat_begin]
+贤者伯纳德: [question=3]嗯？还有别的事吗？当然，工头的事免谈。
+[choice]石头真好看！[newtalk start=answer_sage_1_begin break=answer_sage_1_end]
+[choice]工头她……[newtalk start=answer_sage_0_begin break=answer_sage_0_end]
+[title=Bernard_repeat_end]
+[title=answer_sage_0_begin]
+贤者伯纳德: 唉。工头弗兰让我上去，对吧？估计是为了那块勾人的碎片什么的。
+贤者伯纳德: 我敢保证，把那东西交给工头只会招来灾难。我这贤者不是白当的，那块碎片是个祸根。
+贤者伯纳德: [question=4]我一把年纪了，早就累了。我可不想再帮那个粗鲁的疯子干活。除非……
+[choice]除非什么？[newtalk start=answer_sage_yes_begin break=answer_sage_yes_end]
+[choice]随你便。[newtalk start=answer_sage_no_begin break=answer_sage_no_end]
+[title=answer_sage_0_end]
+[title=answer_sage_0_repeat_begin]
+贤者伯纳德: [question=4]我一把年纪了，早就累了。我可不想再帮那个粗鲁的疯子干活。除非……
+[choice]除非什么？[newtalk start=answer_sage_yes_begin break=answer_sage_yes_end]
+[choice]随你便。[newtalk start=answer_sage_no_begin break=answer_sage_no_end]
+[title=answer_sage_0_repeat_end]
+[title=answer_sage_yes_begin]
+贤者伯纳德: 除非……你赶在她前面把碎片拿走！带着它离开这个又潮又恶心的洞穴，再也别回来。
+贤者伯纳德: 就这么说定了？好！我要给弗兰一个教训。不能什么东西都被她看上就归她。
+贤者伯纳德: 我活了这么久，悟出一个道理：东西得靠自己挣！得付出努力才行！
+贤者伯纳德: 弗兰那副什么都理所当然的样子，我早就看烦了。正好治治她。
+贤者伯纳德: 行了！就这么定了。我们上面见。回去的时候小心我身后那堆烫人的东西，听见没？[event=3]
+[title=answer_sage_yes_end]
+[title=answer_sage_no_begin]
+贤者伯纳德: 太好了，太好了……正合我意！没有镐子叮叮当当地响，下面可清净多了。[event=5]
+[title=answer_sage_no_end]
+--------------------
+最终任务：（所有工人和贤者都围在工头弗兰身边。懒鬼吉布已经不见了）
+[title=Workers_0_begin]
+（他们都在不耐烦地等着。）
+[title=Workers_0_end]
+[title=Fran_2_begin]
+工头弗兰: <b>终于！</b>我能拿到那块珍贵的浮空<color=#03cffc><b>碎片</b></color>了。
+工头弗兰: 自从它出现后，就一直像有魔力一样吸引着我。现在它是我的了。
+工头弗兰: 贤者！快用你的魔法给我搭座桥！
+[title=Fran_2_end]
+[title=Bernard_2_begin]
+（贤者似乎正在凝神施法。）
+贤者伯纳德: <i>嘘，嘘</i>（真不敢相信我居然为了这事爬上来！干这偏门职业真是遭罪。）
+贤者伯纳德:（听着，桥一出现你就跳过去，把<color=#03cffc><b>碎片</b></color>拿走！）
+贤者伯纳德:（你拿它干嘛都行。但记住，交给工头绝对是个馊主意。）
+贤者伯纳德:（哼。等这堆破事结束，我也该退休养老了。我这把老骨头该好好歇歇了。）[event=6]
+工头弗兰: 赶紧施法搭桥，伯纳德！我可没一整天功夫等你，老家伙！[event=7]
+贤者伯纳德: 啊、咳咳，是、是！魔法平台，现身吧！<b>阿拉卡扎姆</b>！
+[title=Bernard_2_end]
+[title=Fran_03_begin]
+工头弗兰: 喂、站住！那是我的<color=#03cffc><b>神器</b></color>！拦住他们！[jitter=5 angle=0]不————！！！[/jitter]
+[title=Fran_03_end]
+退出并从隐藏关卡返回
+[title=bernard_quit_begin]
+贤者伯纳德: 天呐，你没事吧？我看见你跳进岩浆里了，还以为你瞬间就化了！
+贤者伯纳德: 没想到你居然奇迹般没事。你可真是个怪人。算了……说回正事……
+贤者伯纳德: 工头弗兰还等着我上去把那块破<color=#03cffc><b>遗物</b></color>弄下来呢。还记得我们的约定吧？
+贤者伯纳德: 行，那就这么定了。我们上面见。可别再掉进岩浆里了，听见没？[event=3]
+[title=bernard_quit_end]

@@ -1,0 +1,365 @@
+3_Dream_Bamboo Dialogue
+NOTES:
+- 设定为一座荒废金字塔中出现了一件遗物 (一枚毫无力量的空白梦之碎片)
+- 长老会交给你任务, 让你前去寻找碎片并为其注入魔力
+- 长老还会提及金字塔中失踪的冒险者, 你进入金字塔后可以和他对话 (他最终会死去), 之后向长老复命, 仅用于丰富对话分支
+- 接取金字塔任务后, 你必须去找小屋旁的园丁雀斑, 获取砍刀 (用来砍断竹竿)
+- 只有答对门上的谜语才能进入金字塔, 但你必须先和长老的顾问交谈才能得知答案 (接取金字塔任务后)
+- 带着未激活的碎片回到长老处, 他会为碎片注入魔力, 任务完成
+GOGI INTRO
+[title=Gogi_0_begin]
+"戈吉": 哇哦! 这片竹林密得我都望不到空地那头!
+"戈吉": 要是我有一把大剪刀, 直接全砍了就啥事没有了!
+"戈吉": 嗯...这片五彩密林深处说不定藏着什么<color=#03cffc><b>好东西</b></color>! 给我带个纪念品回来!
+"戈吉": 好啦! 别在茂密灌木丛里迷路了, 玩[jitter=5 angle=0]得开心哦![/jitter]
+[title=Gogi_0_end]
+ROUND 1 PREQUEST
+MUSHROOM Gardener Freckle
+[title=gardener_0_begin]
+园丁雀斑: [jitter=5 angle=0]嘎啊...![/jitter] 我的褐菇啊!
+园丁雀斑: 天呐, 别这么偷偷摸摸凑过来! 会吓到花儿的, 我才刚种下它们!
+园丁雀斑: 我一整天都尽量多陪着它们. 这些小家伙可得精心照料才行!
+园丁雀斑: 今天天气这么好, 正好把我那些<color=#fcf403><b>大家伙事儿</b></color>收起来, 专心打理花园.
+[title=gardener_0_end]
+MUSHROOM GUY
+[title=villager_0_begin]
+村民加布: 这种天气啊, 我就爱盯着窗外发好几个小时呆, 晒着暖乎乎的太阳. 困意都上来了...
+村民加布: 嘿, 看你这样子总是风风火火的. 咋不歇会儿呢?
+[title=villager_0_end]
+MUSHROOM WIFE
+[title=wife_0_begin]
+多蒂: 你见过我丈夫<color=#fcf403><b>奈尔斯</b></color>吗? 他一早出门"探险"去了, 也没说去哪儿.
+多蒂: 唉...都好几个小时了. 希望他没事. 白天一个人待着可太孤单了.
+多蒂: 要是你刚好要去那边...麻烦把他带回家好吗?
+[title=wife_0_end]
+Toadstool Tommy
+[title=kid_0_begin]
+毒伞汤米: 嘿兄弟! 要不要陪我玩呀? 今天天气多好啊!
+[title=kid_0_end]
+MUSHROOM ADVISOR
+[title=advisor_0_begin]
+顾问芒格: 呀, 稀客稀客! 这位英俊的陌生人, 我是芒格, <color=#5efc03><b>镇长</b></color>的助理、记账员兼顾问, 随时为您效劳.
+顾问芒格: 这里是镇长的宅邸, 朋友. 他这会儿不在, 也不知道跑哪儿去了...总偷偷溜出去摸鱼.
+顾问芒格: 你要是找他, 就在村子里转转找找看吧. 我就在这儿整理他的藏书.
+[title=advisor_0_end]
+ROUND 2
+Toadstool Tommy
+[title=kid_1_begin]
+毒伞汤米: 这边走! 这边走! 房子后面! 咱们去探险吧!
+[title=kid_1_end]
+[title=kid_2_begin]
+毒伞汤米: 哇哦! 居然是个隐秘的泉水. 看着好凉快.
+[title=kid_2_end]
+MUSHROOM MAYOR
+[title=mayor_0_begin]
+???: 看来终于有人找到我最爱的秘密据点了. 老头子想清净会儿都不行咯!
+莫雷尔镇长: [question=0]唉, 没啥能一直藏得住的. 我就是镇长, 你应该也猜到了, <color=#5efc03><b>莫雷尔镇长</b></color>. 找我有什么事吗?
+[choice]梦之碎片?[newtalk start=answer_mayor_0_begin break=answer_mayor_0_end]
+[choice]蘑菇长得不错.[newtalk start=answer_mayor_mushroom_begin break=answer_mayor_mushroom_end]
+[title=mayor_0_end]
+[title=answer_mayor_mushroom_begin]
+莫雷尔镇长: 蘑菇? 你这人还挺奇怪的. 别介意, 就是觉得这话有点突兀...
+莫雷尔镇长: 不过确实--这些蘑菇长得可好了. 一天比一天高, 坐上去当垫子都舒服!
+莫雷尔镇长: [question=01]还有别的事吗, 年轻人? 不是我没礼貌, 就是你在这儿有点打扰我摸鱼了.
+[choice]梦之碎片?[newtalk start=answer_mayor_0_begin break=answer_mayor_0_end]
+[choice]蘑菇长得不错.[newtalk start=answer_mayor_mushroom_begin break=answer_mayor_mushroom_end]
+[title=answer_mayor_mushroom_end]
+[title=answer_mayor_0_begin]
+莫雷尔镇长: <color=#03cffc><b>梦之碎片</b></color>? 嗯...没听过. 不过, 其实...
+莫雷尔镇长: 我听说密林里最近冒出了一座<color=#fcba03><b>古老的荒废建筑</b></color>. 指不定里面藏着什么宝藏!
+莫雷尔镇长: 我们有个村民前去调查了, 一直没回来. 这片丛林大部分都还没勘探过, 恐怕是凶多吉少.
+莫雷尔镇长: 但看你胆子挺大的, 正好找你帮忙. 去密林里找找那座建筑, 尽量把失踪的冒险者带回来.
+莫雷尔镇长: 顺便说不定还能捞着那所谓的宝藏! 行了, 出发吧小伙子! 我就在这儿等你回来.
+[title=answer_mayor_0_end]
+ROUND 3 - MID QUEST
+MUSHROOM MAYOR
+[title=mayor_1_begin]
+莫雷尔镇长: 还在四处跑呢? 要不和其他村民聊聊吧. 他们肯定比我有更多东西能告诉你.
+[title=mayor_1_end]
+Toadstool Tommy
+[title=kid_3_begin]
+毒伞汤米: 你要去探险吗? 我也想去!
+[title=kid_3_end]
+MUSHROOM GUY
+[title=villager_1_begin]
+村民加布: 呼...呼...呼...
+(他睡着了? 还是别打扰了.)
+[title=villager_1_end]
+[title=villager_01_begin]
+园丁雀斑: 唉, 累死我了! 忙活一整天, 亲手给这片景色添点生机, 虽然累但也值了.
+园丁雀斑: 砍刀的事你别放心上, 本来就快不能用了. 我本来也打算晚点去砍那片疯长的竹子的!
+园丁雀斑: 不过嘛, 祝你一路顺利. 说不定哪天你园艺能赶上我呢. 回见啦.
+[title=villager_01_end]
+MUSHROOM WIFE
+[title=wife_1_begin]
+多蒂: 好担心我丈夫. 希望他能快点从密林探险回来.
+[title=wife_1_end]
+MUSHROOM ADVISOR
+[title=advisor_1_begin]
+顾问芒格: 又见面啦, 朋友! 不得不说, 镇长收藏的各类书籍可太有意思了.
+顾问芒格: 他居然还有几本讲<i>经典谜语</i>和笑话的书! 真没想到他居然这么有<b>梗!</b>
+顾问芒格: ...咳咳...抱歉. 嘿嘿.
+顾问芒格: 话说回来--听说你要去密林里探险. 我们一直边摸索边绘制地图, 但那儿至今还是个谜.
+顾问芒格: 等我有空了说不定也去一趟. 说不定咱俩能遇上. 祝你好运!
+[title=advisor_1_end]
+BAMBOO WALL WITH NO MACHETE
+[title=bamboo_00_begin]
+又是一大片竹竿. 密密麻麻地挤在一起.
+[title=bamboo_00_end]
+[title=bamboo_0_begin]
+凑近一看, 这片竹竿似乎不太一样. 能感觉到有微风从缝隙里吹过来.
+但这片竹子实在太密了, 根本没法扒开钻过去. 要是有什么<color=#fcf403><b>锋利的东西</b></color>就好了...
+[title=bamboo_0_end]
+MUSHROOM Gardener Freckle
+[title=gardener_question_1_begin]
+园丁雀斑: [jitter=5 angle=0]嘎、嘎啊...![/jitter]
+园丁雀斑: 天呐! 你是不是总爱偷偷摸摸凑到别人跟前啊! 真是的!
+园丁雀斑: [question=1]总之, 我也该把工具收起来收工了. 趁这之前有什么事吗?
+[choice]改天再说?[newtalk start=answer_gardener_no_0_begin break=answer_gardener_no_0_end]
+[choice]花园打理得真好.[newtalk start=answer_gardener_garden_begin break=answer_gardener_garden_end]
+[title=gardener_question_1_end]
+MUSHROOM Gardener Freckle NO
+[title=answer_gardener_no_0_begin]
+园丁雀斑: 行吧! 我打算回小屋眯一会儿, 改主意的话趁我没睡赶紧说.
+[title=answer_gardener_no_0_end]
+[title=answer_gardener_garden_begin]
+园丁雀斑: 嘿, 谢啦朋友, 你可太会说话了! 我就是想给这到处都是竹子的地方换换花样.
+[title=answer_gardener_garden_end]
+[title=gardener_question_1_repeat_begin]
+园丁雀斑: [jitter=5 angle=0]嘎、嘎啊...![/jitter]
+园丁雀斑: 天呐! 你是不是总爱偷偷摸摸凑到别人跟前啊!
+园丁雀斑: [question=2]你到底有事没事, 还是就打算在这儿瞎晃悠?
+[choice]暂时没事.[newtalk start=answer_gardener_no_0_begin break=answer_gardener_no_0_end]
+[choice]有切割工具吗?[newtalk start=answer_gardener_yes_0_begin break=answer_gardener_yes_0_end]
+[title=gardener_question_1_repeat_end]
+MUSHROOM Gardener Freckle YES
+[title=answer_gardener_yes_0_begin]
+园丁雀斑: 切割工具啊? 我有一把旧<color=#fcba03><b>砍刀</b></color>, 也就这个了. 都快用坏了, 你拿去吧.[event=0]
+[title=answer_gardener_yes_0_end]
+BAMBOO WALL WITH MACHETE
+[title=bamboo_1_begin]
+你掏出了园丁雀斑给你的<color=#fcba03><b>砍刀</b></color>. 手起刀落--[event=3]
+整片竹墙被你砍得稀碎! 砍刀也跟着报废了. 辛苦你了, 老伙计.
+[title=bamboo_1_end]
+PYRAMID EYE
+[title=pyramid_0_begin]
+怪门: 哈啊...嗯? 哦, 来客了. 行吧. 你想干嘛? 我正睡觉呢!
+怪门: 我猜猜...你就想大摇大摆走进我的神殿, 把这儿洗劫一空对吧.
+怪门: 哼, 我可不会随便放任何人进去. 上次那家伙硬闯进来之后更不可能了! 门也是有感情的好吧.[event=4]
+怪门: 不过...你还挺可爱的, 我可以破个例...前提是你答对我的谜语!
+怪门: 是啊, 我就是块有自我意识眼睛的神秘古老石板. 有谜语不是很正常吗.[event=5][newtalk start=answer_pyramid_question_0_begin break=answer_pyramid_question_0_end]
+[title=pyramid_0_end]
+[title=answer_pyramid_question_0_begin]
+怪门: 咳咳...好了, 你终于准备好认真答题了? 行吧, 听好了.
+怪门: [question=3]我有城市, 却没有房屋. 我有高山, 却没有树木. 我有河水, 却没有鱼儿. <b>我是什么?</b>
+[choice]一座花园?[newtalk start=answer_pyramid_wrong_0_begin break=answer_pyramid_wrong_0_end]
+[choice]一个人?[newtalk start=answer_pyramid_wrong_0_begin break=answer_pyramid_wrong_0_end]
+[choice]一场梦?[newtalk start=answer_pyramid_wrong_0_begin break=answer_pyramid_wrong_0_end]
+[choice]不知道.[newtalk start=answer_pyramid_leave_0_begin break=answer_pyramid_leave_0_end]
+[choice]你很可爱.[newtalk start=answer_pyramid_leave_00_begin break=answer_pyramid_leave_00_end]
+[title=answer_pyramid_question_0_end]
+[title=answer_pyramid_leave_0_begin]
+怪门: 我就知道. 要不你去找个更懂谜语的人问问...
+怪门: 回见啦, 小怪人![event=8]
+[title=answer_pyramid_leave_0_end]
+[title=answer_pyramid_leave_flirt_begin]
+怪门: 我就知道. 要不你去找个更懂谜语的人问问...
+怪门: 回见啦, 小怪人![event=9]
+[title=answer_pyramid_leave_flirt_end]
+PYRAMID FLIRT OPTIONS
+[title=answer_pyramid_leave_00_begin]
+怪门: 呃...啊? 啥?! [event=4]
+怪门: 不、不行! 我得走了![event=6]
+[title=answer_pyramid_leave_00_end]
+[title=answer_pyramid_leave_01_begin]
+怪门: 对, 没错! 赶紧走吧你, 小怪人.
+[title=answer_pyramid_leave_01_end]
+[title=answer_pyramid_leave_02_begin]
+怪门: 我、我应付不来了. 我们之间进展太快了...看得我眼都晕了![event=11]
+怪门: 实话说...不是你的问题, 是我的问题. 我觉得我们需要分开冷静一下.[event=7]
+[title=answer_pyramid_leave_02_end]
+[title=answer_pyramid_flirt_0_begin]
+怪门: 又是你...是想再猜一次谜语, 还是打算接着跟我瞎调情?
+怪门: 咳咳...行了. 谜语再给你说一遍, 听好了.
+怪门: [question=03]我有城市, 却没有房屋. 我有高山, 却没有树木. 我有河水, 却没有鱼儿. <b>我是什么?</b>
+[choice]你...很可爱?[newtalk start=answer_flirt_00_begin break=answer_flirt_00_end]
+[choice](继续调情)[newtalk start=answer_flirt_01_begin break=answer_flirt_01_end]
+[choice]我不知道.[newtalk start=answer_pyramid_leave_flirt_begin break=answer_pyramid_leave_flirt_end]
+[title=answer_pyramid_flirt_0_end]
+[title=answer_flirt_00_begin]
+怪门: 你、你认真的吗. 我居然被一个浑身闪粉的地精搭讪了.
+怪门: 我这辈子日程上从来没这一项. ...行吧, 我就陪你玩玩.[event=4]
+怪门: [question=06]你觉得我哪儿"可爱"了? 真是的.
+[choice]你的眼睛.[newtalk start=answer_flirt_02_begin break=answer_flirt_02_end]
+[choice]你的质感.[newtalk start=answer_flirt_03_begin break=answer_flirt_03_end]
+[choice]你的外形.[newtalk start=answer_flirt_04_begin break=answer_flirt_04_end]
+[choice]你的性格.[newtalk start=flirt_win_begin break=flirt_win_end]
+[title=answer_flirt_00_end]
+[title=answer_flirt_02_begin]
+怪门: 我的<b>眼睛</b>? 哼. 我眼睛确实挺帅的. 毕竟占了我身体30%呢.[event=5]
+怪门: 也不是什么新鲜夸奖. 都有点无聊了. 啧, 你不是我喜欢的类型, 抱歉.
+[title=answer_flirt_02_end]
+[title=answer_flirt_03_begin]
+怪门: 我的<b>质感</b>? 嘿、别碰! 我得保持干净整洁的样子给冒险者看, 离远点![event=5]
+怪门: 没人教过你别随便用脏手摸有纹路的墙和门吗? 走开.
+[title=answer_flirt_03_end]
+[title=answer_flirt_04_begin]
+怪门: 我的<b>外形</b>? 哦, 我懂了. 你就是那种只看<i>外表</i>的人. 可真肤浅啊朋友.[event=5]
+怪门: 我可不止有好看的门面和周正的方块身材. 但以你的品味根本发现不了, 对吧? 走开!
+[title=answer_flirt_04_end]
+[title=flirt_win_begin]
+怪门: 我的<b>性格</b>? 这倒是新鲜...没几个人喜欢我这种神神秘秘的门设定.[event=5]
+怪门: 不过...听着还挺开心的. 虽然我们才刚认识. 等等, 我在说什么啊! 我才不能被你撩到![event=4]
+怪门: 这算什么, 廉价恋爱模拟游戏吗? 你绝对是我见过最奇怪、最离谱、又最...可爱的小地精了!
+怪门: 哎呀...你给我整得都脸红了! 我、我得出去冷静冷静! 先走了![event=10]
+[title=flirt_win_end]
+[title=answer_flirt_01_begin]
+怪门: 不、别闹了! 别、别这样...这也太尴尬了. 我连走都走不了, 卡在这块花里胡哨的石头里.
+怪门: [question=04]你干嘛这样! 就不能像正常冒险者一样好好答谜语吗!
+[choice](继续调情)[newtalk start=answer_pyramid_leave_02_begin break=answer_pyramid_leave_02_end]
+[choice]谜语?[newtalk start=answer_pyramid_question_0_begin break=answer_pyramid_question_0_end]
+[choice]回见.[newtalk start=answer_pyramid_leave_01_begin break=answer_pyramid_leave_01_end]
+[title=answer_flirt_01_end]
+---
+PYRAMID EYE ANSWER WRONG
+[title=answer_pyramid_wrong_0_begin]
+怪门: 答对了! 噗...骗你的. 抱歉, 我实在绷不住了. 答错了, 朋友!
+怪门: 等你补好谜语知识再来找我吧, 或者去找个更懂行的人问问![event=8]
+[title=answer_pyramid_wrong_0_end]
+MUSHROOM ADVISOR
+[title=advisor_2_begin]
+顾问芒格: 呀, 就知道咱们会在这儿遇上, 朋友! 路挺远的, 我就停下来歇会儿看会儿书.
+顾问芒格: 我最近疯狂迷上镇长的<i>谜语书</i>了, 看得停不下来. 太有意思了.
+顾问芒格: 给你说一个听听...
+顾问芒格: "我有城市, 却没有房屋. 我有高山, 却没有树木. 我有河水, 却没有鱼儿. \n我是什么?"
+顾问芒格: <b>...是地图!</b> 敢信吗? 答案多明显啊! 想听更多谜语就来找我, 朋友.
+[title=advisor_2_end]
+[title=advisor_22_begin]
+顾问芒格: 呀, 又见面了, 老伙计. 探险进行得怎么样? 遇上什么稀奇事了吗?
+顾问芒格: 我自己都有点喘了. 打算看完这几页谜语书就回村子去.
+顾问芒格: 再给你说一个, 你肯定喜欢...
+顾问芒格: 什么东西开头是T, 结尾也是T, 里面还全是T?
+顾问芒格: 是<b>茶壶</b>! 说到茶, 我在这儿都渴了. 打算回去喝一杯.
+[title=advisor_22_end]
+[title=advisor_23_begin]
+顾问芒格: 再来一个谜语? 听好了朋友, 保准你笑出声...
+顾问芒格: 什么东西能环游世界, 却一直待在角落里?
+顾问芒格: 是<b>邮票</b>! 这笑话太绝了, 太真实了!
+[title=advisor_23_end]
+[title=advisor_24_begin]
+顾问芒格: 再来一个谜语? 听好了朋友, 保准你觉得有意思...
+顾问芒格: 什么房间没有门也没有窗?
+顾问芒格: 是<b>蘑菇</b>! 多明显啊! 还应景. 我们蘑菇屋本来就没门没窗的.
+[title=advisor_24_end]
+[title=advisor_25_begin]
+顾问芒格: 再来一个谜语? 听好了朋友, 你肯定爱听...
+顾问芒格: 两人为伴, 三人成群, 那四加五等于什么?
+顾问芒格: 当然是<b>九</b>啦! 算术加冷笑话, 绝了.
+顾问芒格: 我可喜欢看大家的反应了, 要么笑要么翻白眼!
+[title=advisor_25_end]
+[title=advisor_26_begin]
+顾问芒格: 还要再来一个? 你好像和我一样喜欢这些啊. 行, 最后一个.
+顾问芒格: 什么时候门不再是门? 好好想想!
+顾问芒格: 啊, 当它<b>半开着</b>的时候! 懂吗? 虽然看不清你的反应, 但我猜你肯定快憋不住笑了!
+顾问芒格: 我还会在这儿待一会儿, 想聊天随时过来. 回见!
+[title=advisor_26_end]
+PYRAMID EYE (question after knowledge)
+[title=answer_pyramid_question_1_begin]
+怪门: 啧, 你又回来了? 这么快. 可真粘人. 还想进去的话, 规矩没变, 先答对谜语.
+怪门: [question=4]行吧, 听好了. 我有城市, 却没有房屋. 我有高山, 却没有树木. 我有河水, 却没有鱼儿. 我是什么?
+[choice]一座花园?[newtalk start=answer_pyramid_wrong_0_begin break=answer_pyramid_wrong_0_end]
+[choice]一个人?[newtalk start=answer_pyramid_wrong_0_begin break=answer_pyramid_wrong_0_end]
+[choice]一场梦?[newtalk start=answer_pyramid_wrong_0_begin break=answer_pyramid_wrong_0_end]
+[choice]是地图![newtalk start=answer_pyramid_correct_0_begin break=answer_pyramid_correct_0_end]
+[title=answer_pyramid_question_1_end]
+PYRAMID EYE ANSWER RIGHT
+[title=answer_pyramid_correct_0_begin]
+怪门: 什、什么? 居、居然答对了? 你怎么知道的! 肯定是查答案了!
+怪门: 可恶...这可是我最难的谜语之一. 下次再来人我得加大难度了.
+怪门: 算了, 进去吧. 但给我记住...我可盯着你呢.[event=1]
+[title=answer_pyramid_correct_0_end]
+MUSHROOM EXPLORER
+[title=explorer_0_begin]
+???: 呃...嘿, 能帮帮我吗? 我今早下来的, 不知怎么就被关在里面了.
+探险家奈尔斯: 我是<color=#fcf403><b>奈尔斯</b></color>, 就是个本地探险家, 看来这次是不自量力了.
+探险家奈尔斯: 入口的门本来关得死死的, 我撬开迈进来之后, 它"砰"一下就关上了!
+探险家奈尔斯: [question=5]外面有什么消息吗? 我特别想回到我妻子身边!
+[choice]门开了![newtalk start=answer_explorer_0_begin break=answer_explorer_0_end]
+[choice]没有. 祝你好运![newtalk start=answer_explorer_1_begin break=answer_explorer_1_end]
+[title=explorer_0_end]
+[title=answer_explorer_0_begin]
+探险家奈尔斯: 哦、真的吗?! 太感谢了! 我这就回去. 祝你好运, 那些平台我实在爬不动了!
+[title=answer_explorer_0_end]
+[title=answer_explorer_1_begin]
+探险家奈尔斯: 真的假的?! 那你是怎么下来的, 你这损人? 我才不会放弃!
+探险家奈尔斯: 我得想办法回村子去. 多谢你啥忙也没帮, 混蛋...
+[title=answer_explorer_1_end]
+DREAM SHARD
+[title=shard_0_begin]
+这里有一块<color=#03cffc><b>奇异水晶</b></color>的碎片. 看起来是某个更大物件的一部分.
+它似乎没有任何魔力, 但...当个像样的宝藏也不错. 你把它收了起来.
+[title=shard_0_end]
+POST QUEST
+MUSHROOM ADVISOR
+[title=advisor_3_begin]
+顾问芒格: 看你从密林里完好无损地回来了! 可真厉害啊, 冒险家朋友.
+顾问芒格: 不仅找到了失踪的宝藏, 还把我们走失的村民带回来了, 干得漂亮!
+顾问芒格: 镇长肯定想听你说说这事. 他应该在老地方待着.
+[title=advisor_3_end]
+MUSHROOM FAMILY (WIFE AND EXPLORER)
+[title=family_0_begin]
+多蒂: 谢天谢地你终于回来了! 我都快担心疯了, 总怕你出什么事.
+探险家奈尔斯: 是啊, 能活着出来可太好了. 那座废墟差点把我留在那儿!
+[title=family_0_end]
+MUSHROOM GUY
+[title=villager_2_begin]
+村民加布: 呼...呼...嗯?! 啊...啥...呼...
+(他还在打盹呢. 还是别打扰了.)
+[title=villager_2_end]
+Toadstool Tommy
+[title=kid_4_begin]
+毒伞汤米: 你是最棒的冒险家! 全世界最棒的! 我长大也要像你一样!
+[title=kid_4_end]
+MUSHROOM MAYOR
+[title=mayor_2_begin]
+莫雷尔镇长: 哦哟, 活着回来了! 干得漂亮, 小伙子. 我从来没怀疑过你. 咱们得好好聊聊这次探险.
+莫雷尔镇长: 看你也累了, 我就不耽误你太久! 告诉我, 你找到你要找的东西了吗?
+莫雷尔镇长: [question=6]啊哈, 我就知道你能带点有意思的东西回来. 那金字塔里果然藏着宝藏!
+[choice]你能修复它吗?[newtalk start=answer_mayor_1_begin break=answer_mayor_1_end]
+[choice]这是什么?[newtalk start=answer_mayor_11_begin break=answer_mayor_11_end]
+[title=mayor_2_end]
+[title=answer_mayor_11_begin]
+莫雷尔镇长: 看起来是某件东西的碎片. 一件体积很大、想必非常重要的东西!
+莫雷尔镇长: 要我说的话, 我赌它就是你之前说的什么<color=#03cffc><b>梦之碎片</b></color>的一部分.
+莫雷尔镇长: 不管怎样, 花点功夫, 我说不定能让它重新焕发光芒.[newtalk start=mayor_22_begin break=mayor_22_end]
+[title=answer_mayor_11_end]
+[title=mayor_22_begin]
+莫雷尔镇长: [question=7]不管它是什么, 我强烈感觉它不属于这儿. 它该跟着你走.
+[choice]你能修复它吗?[newtalk start=answer_mayor_1_begin break=answer_mayor_1_end]
+[choice]这是什么?[newtalk start=answer_mayor_11_begin break=answer_mayor_11_end]
+[title=mayor_22_end]
+[title=answer_mayor_1_begin]
+莫雷尔镇长: 哦, 我也说不准, 但它肯定饱经风霜了. 毕竟这是件远古遗物, 说不定比时间本身还要古老.[event=2]
+莫雷尔镇长: 但我可以试试! 天呐, 想想看, 这东西就在我们村子外头, 不知道躺了多久了.
+莫雷尔镇长: 给我一分钟...我的修复魔法有点生疏了. 希望能让它恢复一点生机.
+莫雷尔镇长: 好了, 焕然一新. 看到没? 哪怕是最残破、最被遗忘的小物件, 只要用心照料就能重获新生. 好好收着吧.
+莫雷尔镇长: 接下来的旅途里, 请好好保管这枚碎片, 但最重要的是, 好好照顾你自己.
+莫雷尔镇长: 再会了, 年轻人!
+[title=answer_mayor_1_end]
+[title=kidrun_0_begin]
+毒伞汤米: 这边走! 这边走! 房子后面! 咱们去探险吧!
+[title=kidrun_0_end]
+[title=mountain_begin]
+你站在陡峭的悬崖边, 深吸一口气, 望向金色的地平线.
+清新凛冽的山间空气缓缓涌入肺腑. 你感到平静. 安心. 放松.
+你觉得自己可以永远待在这里, 但想起还有任务在身, 必须动身了.
+[title=mountain_end]
+[title=door_close_begin]
+怪门: 嘿嘿嘿...可别再回来了...! \n<i>(唉, 以后再也不给这些怪人开门了...)</i>
+[title=door_close_end]
+[title=secret_0_begin]
+(他正忙着跟着音乐晃, 根本没注意到你.)
+[title=secret_0_end]
+[title=gardener_scared_begin]
+园丁雀斑: [jitter=5 angle=0]嘎、嘎啊...![/jitter] 我的褐菇啊! 别吓我! 你知道我胆子小! 你就没别的事可做了吗?
+[title=gardener_scared_end]

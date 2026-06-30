@@ -1,0 +1,488 @@
+水之神殿梦境对话
+<color=#fcbe2b><b>工头弗兰的</b></color>
+<color=#03cffc><b>更亮眼的</b></color>
+备注
+- 多为谜题雕像的隐晦对话
+- 需拾取大量物品放入雕像手中
+- 潜水员正在执行探险任务，对一切事物都充满好奇
+- 巨型鳗鱼古老而友善，守护着宝藏，通过它的考验即可获取
+- 巨型琵琶鲨看似无辜、急需帮助，实则极度饥饿（会吃掉鳗鱼）
+其名吾等不敢言
+其声吾等不敢闻
+其形吾等不敢观
+第0轮
+入口雕像·外侧
+[title=hologram_0_begin]
+???: 又一颗从上方世界坠落的卵石，激起一圈影响尚不可知的涟漪。你会来到这里，全因一时误入歧途的好奇心。
+???: 切勿重蹈先前来者的覆辙。踏入此地，便是将无尽的恐惧引入你的世界。
+???: 若你执意要与我们共命运，便要承担起重塑错位形体的职责。现在离开吧。这是我等唯一的警告...
+[title=hologram_0_end]
+[title=cube_yes_red_begin]
+你从雕像手中取下<color=#f54242><b>红色方块</b></color>，收入囊中。[event=0]
+[title=cube_yes_red_end]
+[title=cube_yes_yellow_begin]
+你从雕像手中取下<color=#f5e042><b>黄色方块</b></color>，收入囊中。[event=1]
+[title=cube_yes_yellow_end]
+[title=cube_no_0_begin]
+你没有触碰方块。
+[title=cube_no_0_end]
+[title=cube_yellow_0_begin]
+一座造型怪异的雕像矗立在你面前。它的手中紧握着一块发光的<color=#f5e042><b>黄色方块</b></color>。
+[question=0]你要取出这块方块吗?
+[choice]是的。[newtalk start=cube_yes_yellow_begin break=cube_yes_yellow_end]
+[choice]不了。[newtalk start=cube_no_0_begin break=cube_no_0_end]
+[title=cube_yellow_0_end]
+[title=cube_red_0_begin]
+一座造型怪异的雕像矗立在你面前。它的手中紧握着一块发光的<color=#f54242><b>红色方块</b></color>。
+[question=1]你要取出这块方块吗?
+[choice]是的。[newtalk start=cube_yes_red_begin break=cube_yes_red_end]
+[choice]不了。[newtalk start=cube_no_0_begin break=cube_no_0_end]
+[title=cube_red_0_end]
+入口雕像·内侧
+[title=cube_mid_no_0_begin]
+你没有触碰雕像。
+[title=cube_mid_no_0_end]
+[title=cube_statue_yellow_begin]
+又一座诡异的雕像阴森伫立，空着的双手向前伸出。
+[question=2]你要试着放上找到的<color=#f5e042><b>黄色方块</b></color>吗?
+[choice]是的。[newtalk start=cube_yellow_1_begin break=cube_yellow_1_end]
+[choice]不了。[newtalk start=cube_mid_no_0_begin break=cube_mid_no_0_end]
+[title=cube_statue_yellow_end]
+[title=cube_yellow_1_begin]
+你将<color=#f5e042><b>黄色方块</b></color>放入雕像手中。[event=3]
+严丝合缝，完美契合。你听见了细微的水流冒泡声。
+[title=cube_yellow_1_end]
+[title=cube_statue_red_begin]
+又一座诡异的雕像阴森伫立，空着的双手向前伸出。
+[question=3]你要试着放上找到的<color=#f54242><b>红色方块</b></color>吗?
+[choice]是的。[newtalk start=cube_red_1_begin break=cube_red_1_end]
+[choice]不了。[newtalk start=cube_mid_no_0_begin break=cube_mid_no_0_end]
+[title=cube_statue_red_end]
+[title=cube_red_1_begin]
+你将<color=#f54242><b>红色方块</b></color>放入雕像手中。[event=4]
+严丝合缝，完美契合。你听见了细微的水流冒泡声。
+[title=cube_red_1_end]
+潜水装备
+[title=gear_0_begin]
+这里有一套<color=#fcbe2b><b>外星潜水装备</b></color>。它很沉重，但穿上它就能在水下区域通行。
+[question=4]你要装备这套潜水服吗?
+[choice]下水吧。[newtalk start=gear_yes_begin break=gear_yes_end]
+[choice]不太可信。[newtalk start=gear_no_begin break=gear_no_end]
+[title=gear_0_end]
+[title=gear_yes_begin]
+你拿起了装备。身后传来一扇闸门开启的声响。[event=2]
+[title=gear_yes_end]
+[title=gear_no_begin]
+你不确定使用这套<color=#fcbe2b><b>外星潜水设备</b></color>是否妥当，于是没有触碰它。
+[title=gear_no_end]
+第1轮
+鲨鱼之门雕像·外侧
+[title=shark_statue_middle0_begin]
+这座雕像面露惧色，似乎被某种不可言说的事物震慑。\n碑文写道——
+"她的寿命超越所有物种，身形胜过所有居所，吞噬所有仇敌。她的真名永不可被提及。"
+[title=shark_statue_middle0_end]
+[title=shark_button_no_begin]
+你没有触碰面板。
+[title=shark_button_no_end]
+[title=shark_statue_red0_begin]
+一排造型各异的雕像坐落于此。这座雕像空着双手向前伸出，仿佛在祈求什么。\n碑文写道——
+"献上谷蛇的馈赠，女神的道路将进一步开启。"
+[question=99]地板上有一块<color=#f54242><b>红色面板</b></color>。你要按下它吗?
+[choice]是的。[newtalk start=shark_button_yes_red_begin break=shark_button_yes_red_end]
+[choice]不了。[newtalk start=shark_button_no_begin break=shark_button_no_end]
+[title=shark_statue_red0_end]
+[title=shark_button_yes_red_begin]
+你按下了面板。传来石门缓缓关闭的声响。你觉得自己得加快脚步了...[event=5]
+[title=shark_button_yes_red_end]
+[title=shark_statue_yellow0_begin]
+一排造型各异的雕像坐落于此。这座雕像空着双手向前伸出，仿佛在祈求什么。\n碑文写道——
+"将巨石的宝藏归还于水，女神的道路将进一步开启。"
+[question=98]地板上有一块<color=#f5e042><b>黄色面板</b></color>。你要按下它吗?
+[choice]是的。[newtalk start=shark_button_yes_yellow_begin break=shark_button_yes_yellow_end]
+[choice]不了。[newtalk start=shark_button_no_begin break=shark_button_no_end]
+[title=shark_statue_yellow0_end]
+[title=shark_button_yes_yellow_begin]
+你按下了面板。传来石门缓缓关闭的声响。你觉得自己得加快脚步了...[event=6]
+[title=shark_button_yes_yellow_end]	
+鳗鱼房间
+宝箱·已锁定
+[title=chest_locked_begin]
+这里有一只鲜亮的蓝色宝箱。意外的是，它表面没有半点污泥。箱盖锁得严严实实。
+[title=chest_locked_end]
+[title=eel_0_begin]
+???: 是谁在我的住处外面游来游去? 哦，你好，有什么我能帮忙的吗...?
+???: 哦，真不错。居然有访客来看我这个老家伙。希望我没吓到你，亲爱的。
+???: 看你的样子，定是个好奇心很重的人。我也很好奇，你大老远跑到这底下来做什么。
+伊登: [question=5]哦，真是抱歉——我叫<color=#eda540><b>伊登</b></color>。那么，有什么我能为你效劳的吗?
+[choice]那个宝箱?[newtalk start=eel_treasure0_begin break=eel_treasure0_end]
+[choice]我该走了。[newtalk start=eel_leave0_begin break=eel_leave0_end]
+[title=eel_0_end]
+[title=eel_leave0_begin]
+伊登: 哦，那好吧，亲爱的。要是你再来的话，我就在这个角落里待着。保重啊。[event=7]
+[title=eel_leave0_end]
+[title=eel_0_repeat_begin]
+伊登: [question=6]哦，又见面了，孩子。有什么我能为你效劳的吗?
+[choice]那个宝箱?[newtalk start=eel_treasure0_begin break=eel_treasure0_end]
+[choice]我该走了。[newtalk start=eel_leave0_begin break=eel_leave0_end]
+[title=eel_0_repeat_end]
+[title=eel_treasure0_begin]
+伊登: 你是说那边长满苔藓的柱子上的那个盒子? 那东西在我来之前就在这儿了，说不定比我还古老。
+伊登: 不用多说了——你想看看里面有什么，对吧? 哎，没事的，亲爱的。
+伊登: [question=7]不过呢，咱们还不算熟，我当然想多了解你一点。你能陪陪我这个老太婆聊聊天吗?
+[choice]当然可以。[newtalk start=eel_quiz_yes_begin break=eel_quiz_yes_end]
+[choice]不了。[newtalk start=eel_leave0_begin break=eel_leave0_end]
+[title=eel_treasure0_end]
+[title=eel_quiz_yes_begin]
+伊登: 哦，太让人高兴了。好久没有路人愿意耐着性子陪我聊天了。别担心，答案没有对错之分。[newtalk start=eel_quiz0_begin break=eel_quiz0_end]
+[title=eel_quiz_yes_end]
+鳗鱼问答
+[title=eel_quiz0_begin]
+伊登: [question=8]好了，告诉我吧——你的世界是什么样的? 你人生的<i>抱负</i>是什么?
+[choice]知足常乐。[newtalk start=eden_content_begin break=eden_content_end]
+[choice]被人所爱。[newtalk start=eden_loved_begin break=eden_loved_end]
+[choice]受人赞誉。[newtalk start=eden_praised_begin break=eden_praised_end]
+[choice]我该走了。[newtalk start=eel_leave0_begin break=eel_leave0_end]
+[title=eel_quiz0_end]
+[title=eden_content_begin]
+伊登: 想要<b>知足常乐</b>吗? 是啊，要是这样安逸的状态唾手可得，那该有多好。
+伊登: 脚下暗流涌动、漩涡不断，还能保持知足，是难得的幸事。不过要我说，没了这些波澜，生活也就没那么精彩了。[newtalk start=eel_right0_begin break=eel_right0_end]
+[title=eden_content_end]
+[title=eden_loved_begin]
+伊登: 想要<b>被人所爱</b>吗? 哦，上帝保佑你这颗易碎的美好心灵。别让自己陷入这么脆弱的状态，对身体不好，对吧?
+伊登: 我们都被爱着，你更是如此。但你爱你自己吗? 只有你自己能回答这个问题。[newtalk start=eel_right0_begin break=eel_right0_end]
+[title=eden_loved_end]
+[title=eden_praised_begin]
+伊登: 想要<b>受人赞誉</b>吗? 哎——这不就是如今人们的通病吗? 总觉得自己得不到认可。
+伊登: 与其执着于赞誉本身，不如专注于赢得赞誉的过程。等你做到了，会为自己感到骄傲的。[newtalk start=eel_right0_begin break=eel_right0_end]
+[title=eden_praised_end]
+[title=eel_right0_begin]
+伊登: [question=9]再问你一个问题，孩子。你人生中最信奉的是什么? 最<i>珍视</i>的是什么?
+[choice]我的梦想。[newtalk start=eden_faith_begin break=eden_faith_end]
+[choice]我的朋友。[newtalk start=eden_friends_begin break=eden_friends_end]
+[choice]我的爱好。[newtalk start=eden_hobbies_begin break=eden_hobbies_end]
+[choice]我该走了。[newtalk start=eel_leave0_begin break=eel_leave0_end]
+[title=eel_right0_end]
+[title=eden_faith_begin]
+伊登: 是你的<b>梦想</b>吗? 在梦境之界，我们是一条奔涌不息的生命之河的旁观者，它孕育着所有超乎想象的灵感。
+伊登: 珍视你的梦想，它们便永远不会辜负你，永远为你带来灵感。[newtalk start=eel_right1_begin break=eel_right1_end]
+[title=eden_faith_end]
+[title=eden_friends_begin]
+伊登: 是你的<b>朋友</b>吗? 孩子，你如此信任他人，真是难能可贵。
+伊登: 你以诚待人，人便以诚待你，危难之时你们会成为彼此的依靠。[newtalk start=eel_right1_begin break=eel_right1_end]
+[title=eden_friends_end]
+[title=eden_hobbies_begin]
+伊登: 是你的<b>爱好</b>吗? 哎，能听到有人坚守自己的人生热爱，真是让人耳目一新。
+伊登: 哪怕身处最黑暗的水域，一点小小的消遣也能安定思绪，让心神保持专注。[newtalk start=eel_right1_begin break=eel_right1_end]
+[title=eden_hobbies_end]
+[title=eel_right1_begin]
+伊登: [question=10]好，最后一个问题。恕我冒昧，你最<i>害怕</i>的是什么?
+[choice]未知之物。[newtalk start=eden_unknown_begin break=eden_unknown_end]
+[choice]世间万象。[newtalk start=eden_world_begin break=eden_world_end]
+[choice]残酷真相。[newtalk start=eden_truth_begin break=eden_truth_end]
+[choice]我该走了。[newtalk start=eel_leave0_begin break=eel_leave0_end]
+[title=eel_right1_end]
+[title=eden_unknown_begin]
+伊登: 浩瀚的<b>未知</b>。这份恐惧，没有哪个生灵能否认它的真切。
+伊登: 敬畏未探之境，它便不再令你生畏。昂首阔步踏入其中，不要踌躇，它亦会回你同等的敬意。[newtalk start=eel_win_begin break=eel_win_end]
+[title=eden_unknown_end]
+[title=eden_world_begin]
+伊登: 变幻莫测的<b>世界</b>。世间值得恐惧的事物繁多，而世界本身，会将这些恐惧放大千万倍回响。
+伊登: 你刚摸清它的规律，它便又改头换面。保持本心，是战胜恐惧的关键。世界不会向你学习，那你何不向世界学习呢?[newtalk start=eel_win_begin break=eel_win_end]
+[title=eden_world_end]
+[title=eden_truth_begin]
+伊登: 难以言喻的<b>真相</b>。它是言语的天平，一端承载爱与希望，另一端却盛满痛苦与折磨。
+伊登: 与时间不同，它是一团混沌、瞬息万变的球体。当我们直面内心的真相，它便会收缩；当我们选择缄默不言，它便会向外膨胀。[newtalk start=eel_win_begin break=eel_win_end]
+[title=eden_truth_end]
+[title=eel_win_begin]
+伊登: 哦，真开心，你可真是个有意思的人。谢谢你愿意陪我这个海中老妇聊天。在这孤寂的深海，能找个人好好聊聊可太不容易了。
+伊登: 我的<color=#fcbe2b><b>宝藏</b></color>归你了。反正比起里面的小玩意儿，我更中意这箱子本身，所以你不用觉得不好意思。
+伊登: 听着，旅人——这座神殿绝非安宁祥和之地。深海之中沉睡着一个被永世封印的邪物。
+伊登: 待在浅滩的安全区才是明智之举。再会，保重。[event=8]
+[title=eel_win_end]
+宝箱·已开启
+[title=chest_open_begin]
+原本紧闭的宝箱已经打开。里面放着一块陌生又眼熟的<color=#f54242><b>红色方块</b></color>。\n你将它收入囊中。
+[title=chest_open_end]
+巨石房间·鲨鱼区域前
+[title=wark_0_begin]
+沃克研究员: 不久前总部派我们驻守在这片偏远海域，调查另一支队伍的失踪事件。
+沃克研究员: 很遗憾，一直没找到他们。传言说他们被巨型乌贼之类的怪物卷走了。谁知道呢。
+沃克研究员: 想来做<i>海洋考察</i>工作，总得承担些风险吧。
+[title=wark_0_end]
+[title=briles_0_begin]
+布莱尔斯研究员: 嘿，你看着不像是总部派来的后援队员啊。是自费考察的研究员路过吗?
+布莱尔斯研究员: 其他好多房间不知怎么都被封住了，我们还没搞清楚原因。你要是需要指引，可以去找罗尔克谈谈。
+[title=briles_0_end]
+[title=scotch_0_begin]
+斯科奇研究员: 我们发掘出的这块巨型巨石真是不可思议。根据我们的推算，它可能诞生于<b>原始史</b>时期。
+斯科奇研究员: 想想看...一个文明被埋葬在未知海洋的数千英里之下，历经上万年才缓缓浮出水面。
+[title=scotch_0_end]
+[title=meg_0_begin]
+梅格研究员: 我成功破译了这些符文的一小部分，内容非常诡异。
+梅格研究员: "<b>埃达克斯</b>"这个名字反复出现，每次出现都伴随着灾难性的事件。
+梅格研究员: 太让人着迷了。
+[title=meg_0_end]
+[title=rolk_0_begin]
+罗尔克队长: 嗯? 你是替补队员? 不对...但看你的装备，应该是总部派来协助我们的吧。
+罗尔克队长: 跟你直说吧，新人——我们最近发掘出了这块巨石，但一直搞不懂它的用途。
+罗尔克队长: 它给我一种很诡异的感觉...肯定有什么名堂。可惜我们人手不太够。
+罗尔克队长: 要是你方便的话，不妨帮帮忙。换个新视角总能有新发现。你要是能找到什么线索，我肯定会向总部给你请功。
+[title=rolk_0_end]
+罗尔克对话后（离开房间触发?）
+[title=rolk_1_begin]
+罗尔克队长: 嘿，小心! 支架塌了! 保护好扫描设备!
+[title=rolk_1_end]
+[title=rolk_2_begin]
+罗尔克队长: 呼，好险。巨石差点就被弄坏了! 我们必须保证它完好无损，一秒都不能大意。
+罗尔克队长: 总之，看样子没出什么问题。关于巨石我们还没找到新线索，继续搜索吧。
+[title=rolk_2_end]
+[title=scotch_1_begin]
+斯科奇研究员: 你敢信吗? 这次探险拨了数百万经费用于保护古代遗迹，结果在支撑支架上偷工减料。
+[title=scotch_1_end]
+[title=briles_1_begin]
+布莱尔斯研究员: 典型的公司预算削减。就连我们的设备都不够先进，解析不了这些数据。我们到底来这儿干嘛的?
+[title=briles_1_end]
+[title=meg_1_begin]
+梅格研究员: 我用扫描设备又破译了一些符文，说实话，内容越来越不祥了。
+梅格研究员: 这个"<b>埃达克斯</b>"似乎是某种神祇，或者半神之类的...说不清是不是邪恶的...
+梅格研究员: 我要继续深入研究，看看还能发现什么。
+[title=meg_1_end]
+[title=neolith_0_begin]
+在巨石顶端，你发现了一块陌生又眼熟的<color=#f5e042><b>黄色方块</b></color>。你将它收入囊中。
+[title=neolith_0_end]
+取得巨石方块后
+[title=scotch_11_begin]
+斯科奇研究员: 这根破柱子给我的感觉太不对劲了。它发出的声音...简直让人脊背发凉。
+斯科奇研究员: 你没听见吗? 听起来像是个信标，在向<i>深海</i>里蛰伏的什么东西发送信号...
+[title=scotch_11_end]
+[title=briles_11_begin]
+布莱尔斯研究员: 怎么我们在这儿找到的全是些瘆人的古物? 跟你说，这工作真是糟心。
+布莱尔斯研究员: 不是巨型石碑就是怪物。我就想找只友善的好鳗鱼之类的，就一次! 什么都行!
+[title=briles_11_end]
+[title=meg_11_begin]
+梅格研究员: 好了，我差不多破译完了...根据符文记载，这个"<b>埃达克斯</b>"是海洋中吞噬一切的邪物。
+梅格研究员: 上面还说，它被囚禁在一座永恒孤寂的牢笼里，以防它逃回到世间。
+梅格研究员: 谢天谢地。真是太不可思议了。
+[title=meg_11_end]
+[title=rolk_3_begin]
+罗尔克队长: 我看见你在损坏的支撑支架上跳来跳去了。这严重违反安全规定，新人! 不过既然你借此登上了巨石顶，这次我就不追究了。
+罗尔克队长: [question=11]所以，上面有什么发现吗? 还是说我们一直在白费功夫?
+[choice]有东西。[newtalk start=rolk_yes_begin break=rolk_yes_end]
+[choice]没什么。[newtalk start=rolk_no_begin break=rolk_no_end]
+[title=rolk_3_end]
+[title=rolk_no_begin]
+罗尔克队长: 什么都没有? 该死! 我们花了好几个月把这块破石头翻了个遍，连根有用的毛都没找到。
+罗尔克队长: 好吧，还是谢谢你。要是你打算继续探查这座巨型建筑，有任何发现都欢迎告诉我。
+[title=rolk_no_end]
+[title=rolk_yes_begin]
+罗尔克队长: 真的?! 是什么?! 快给我看看...
+（罗尔克看着你收集的<color=#f5e042><b>古物</b></color>，用扫描仪仔细检查。）
+罗尔克队长: 嗯。初步扫描没有读数。奇怪...好吧，我会把这个消息转告给其他队员。你先保管好这件古物。
+罗尔克队长: 从现在起，要是你再发现任何异常，直接向我汇报。
+[title=rolk_yes_end]
+鲨鱼外侧雕像·完成后
+[title=shark_statue_red11_begin]
+又一座诡异的雕像阴森伫立，空着的双手向前伸出。
+[question=33]你要试着放上收集到的<color=#f54242><b>红色方块</b></color>吗?
+[choice]是的。[newtalk start=cube_red_11_begin break=cube_red_11_end]
+[choice]不了。[newtalk start=cube_no_1_begin break=cube_no_1_end]
+[title=shark_statue_red11_end]
+[title=shark_statue_yellow11_begin]
+又一座诡异的雕像阴森伫立，空着的双手向前伸出。
+[question=33]你要试着放上收集到的<color=#f5e042><b>黄色方块</b></color>吗?
+[choice]是的。[newtalk start=cube_yellow_11_begin break=cube_yellow_11_end]
+[choice]不了。[newtalk start=cube_no_1_begin break=cube_no_1_end]
+[title=shark_statue_yellow11_end]
+[title=cube_no_1_begin]
+你从雕像旁退开。
+[title=cube_no_1_end]
+[title=cube_red_11_begin]
+你将<color=#f54242><b>红色方块</b></color>放入雕像手中。[event=10]
+严丝合缝，完美契合。你听见了细微的石块摩擦声。
+[title=cube_red_11_end]
+[title=cube_yellow_11_begin]
+你将<color=#f5e042><b>黄色方块</b></color>放入雕像手中。[event=9]
+严丝合缝，完美契合。你听见了细微的石块摩擦声。
+[title=cube_yellow_11_end]
+鲨鱼内侧雕像
+[title=shark_statue_middle1_begin]
+这座雕像面露迷茫，似乎被某种震耳欲聋的声响逼得发狂。下方刻着一行小字——
+"我们听不见她的言语，因为她从不开口。她致命的召唤会蛊惑脆弱的心灵，因此我们不敢聆听。"
+[question=90]碑文继续写道，并提出一个问题——"你害怕吗?"
+[choice]不怕。[newtalk start=shark_middle1_no_begin break=shark_middle1_no_end]
+[choice]害怕。[newtalk start=shark_middle1_yes_begin break=shark_middle1_yes_end]
+[title=shark_statue_middle1_end]
+[title=shark_middle1_yes_begin]
+现在回头吧，否则便会坠入万劫不复的回响深渊。
+[title=shark_middle1_yes_end]
+[title=shark_middle1_no_begin]
+继续前行，知晓恐惧无法掌控一切，你将获得力量。[event=19]
+[title=shark_middle1_no_end]
+[title=shark_statue_side0_begin]
+"<color=#89c45e><b>凯尔德拉丝</b></color> // 消逝于时光之中，命运成谜。他们已与海水融为一体。"
+[title=shark_statue_side0_end]
+[title=shark_statue_side1_begin]
+"齐奥德斯 // 因真相的许诺屈服于她。他们已与她融为一体。"
+[title=shark_statue_side1_end]
+[title=shark_statue_side2_begin]
+"绍克朱 // 因恐惧屈服于她。他们已与她融为一体。"
+[title=shark_statue_side2_end]
+[title=shark_statue_side3_begin]
+"维瑟利 // 因顺从屈服于她。他们已与她融为一体。"
+[title=shark_statue_side3_end]
+鲨鱼房间·前置任务
+[title=shark_statue_middle2_begin]
+这座雕像面露痛苦，似乎因目睹了不堪承受的恐怖景象而失明。下方刻着一行小字——
+"她的双眼比至暗虚空还要漆黑，能洞穿最坚韧的灵魂。成为合格者，不靠双眼，而靠<b>感知</b>。"
+[title=shark_statue_middle2_end]
+巨型鲨鱼房间·进入
+[title=shark_0_begin]
+是谁擅闯这片圣地...\n我好饿...好饿...
+[title=shark_0_end]
+[title=shark_1_begin]
+???: 一个迷途者...漂泊到了我的十字路口...你是来献祭的吗? 还是来解放我的?
+???: 还是说你迷路了? 害怕了? 不对...千年以来，我第一次感受到了新鲜的...与众不同的气息。
+???: 我独自熬过了无数纪元，在这具无法挣脱的腐朽石壳中忍饥挨饿。
+???: 远古的文明判处我永恒监禁...这刑期漫漫无期，我永远等不到重见天日的那天。
+???: 我现在虚弱不堪，饥肠辘辘...我只想回到最深的海原，再饱餐一顿。
+???: [question=97]我问你...你愿意赐予我挣脱束缚的力量吗? 还是要对我可悲的处境置之不理...?
+[choice]不...[newtalk start=shark_no0_begin break=shark_no0_end]
+[choice]我帮你。[newtalk start=shark_yes0_begin break=shark_yes0_end]
+[choice]解释一下。[newtalk start=shark_exp0_begin break=shark_exp0_end]
+[title=shark_1_end]
+[title=shark_no0_begin]
+???: 我会继续忍受这饥饿又虚无的孤寂...滚吧...[event=13]
+[title=shark_no0_end]
+[title=shark_repeat0_begin]
+???: [question=97]我问你...你愿意赐予我挣脱束缚的力量吗? 还是要对我可悲的处境置之不理...?
+[choice]不...[newtalk start=shark_no0_begin break=shark_no0_end]
+[choice]我帮你。[newtalk start=shark_yes0_begin break=shark_yes0_end]
+[choice]解释一下。[newtalk start=shark_exp0_begin break=shark_exp0_end]
+[title=shark_repeat0_end]
+[title=shark_yes0_begin]
+???: 终于来了，一个愿意纠正历史错误的善良灵魂...
+???: 饥饿的痛苦日复一日，愈发难以忍受。帮我解除饥饿，我就有力量逃出去。
+???: 给我带一份像样的<color=#fcbe2b><b>食物</b></color>来，总比你这瘦巴巴的身子强，到时候我们再谈...[event=14]
+[title=shark_yes0_end]
+[title=shark_exp0_begin]
+???: 在深渊囚笼的岁月里，我一直与自己的本能抗争，身躯却愈发庞大，食欲愈发贪婪。
+???: 我无止境地吞噬，直到万物殆尽...严苛的头足类族群将我囚禁在这深海牢笼之中。
+???: 可他们也被我吞噬了。许多生灵都葬身于此，永眠于此，以同样的方式被囚禁。说起来，我也不该全怪他们。
+???: 从那以后，再没有活物敢踏入此地。直到你出现。你知道这些就够了...[newtalk start=shark_repeat0_begin break=shark_repeat0_end]
+[title=shark_exp0_end]
+第3轮
+鳗鱼房间
+[title=eden_final0_begin]
+伊登: 嗯...哦，又见面了，我的小宝贝。我刚才打了个盹，没事的。
+伊登: [question=95]你那天生的好奇心，有没有得到更多满足呀?
+[choice]还在探索。[newtalk start=eden_final_no_begin break=eden_final_no_end]
+[choice]有个奇怪的生物?[newtalk start=eden_final_yes_begin break=eden_final_yes_end]
+[title=eden_final0_end]
+[title=eden_final_no_begin]
+伊登: 那好吧，小家伙。想聊天的话就来找我。
+[title=eden_final_no_end]
+[title=eden_final_yes_begin]
+伊登: 我的老天爷啊，孩子——你该不会跑到神殿深处那邪物的巢穴里去了吧!
+伊登: 那只可怕的巨兽被封印是有原因的，而且原因极其恐怖。要是放她出来，我们全都得完蛋!
+伊登: 我求你了，小家伙。快离开这里，永远别回来![event=12]
+[title=eden_final_yes_end]
+潜水员房间
+[title=rolk_4_begin]
+罗尔克队长: 嘿——你去哪儿了? 你之前离开房间后，我们还以为再也见不到你了。
+罗尔克队长: 总部传来消息，探险经费大幅削减，所以他们要调我们回去了。
+罗尔克队长: 我倒是无所谓。我再干一天就正式退休了。
+罗尔克队长: [question=96]对了，我们出发前，你还有什么事吗?
+[choice]发现了些东西。[newtalk start=rolk_yes1_begin break=rolk_yes1_end]
+[choice]我忘了。[newtalk start=rolk_no1_begin break=rolk_no1_end]
+[title=rolk_4_end]
+[title=rolk_no1_begin]
+罗尔克队长: 哼，好吧。我们还要在这儿待一会儿清点物资，你要是想起来了就过来。
+[title=rolk_no1_end]
+[title=rolk_yes1_begin]
+罗尔克队长: 你说你发现了东西?! 听起来好像值得去看看。
+罗尔克队长: 布莱尔斯，把剩下的装备装好。我去看看这个新发现，马上就回来。[event=11]
+布莱尔斯研究员: 是，队长。最好快点，潜水艇马上就要开了。
+[title=rolk_yes1_end]
+鲨鱼房间最终遭遇
+[title=shark_final_0_begin]
+???: 多么...美妙的...能量奔涌啊...美味...这浓郁的赤红之血，让我在漫长岁月后重获新生...
+???: 现在...祭品的遗骸必须与神殿融为一体。那个基座...按下基座。
+???: 做完这件事，我逃脱的大门就会彻底开启。这是你为我完成的最后一项任务。
+[title=shark_final_0_end]
+[title=button_0_begin]
+[question=95]祭祀基座上嵌着一块巨大的圆形面板。要按下它吗?
+[choice]按下。[newtalk start=button_0_yes_begin break=button_0_yes_end]
+[choice]不按。[newtalk start=button_0_no_begin break=button_0_no_end]
+[title=button_0_end]
+[title=button_0_yes_begin]
+你按下了面板。[event=16][newtalk start=shark_final_1_begin break=shark_final_1_end]
+[title=button_0_yes_end]
+[title=button_0_no_begin]
+你从面板旁退开。
+[title=button_0_no_end]
+[title=shark_final_1_begin]
+???: 啊...你可真是帮了我大忙。合格的信徒... 
+???: 你激活了神殿所有的神器，为我献上了美味的祭品，现在终于赐予了我梦寐以求的东西...自由。
+???: ...现在，我要...[event=17]
+伊登: 够了!\n立刻停下这幼稚的闹剧!
+???: 啊...<color=#eda540><b>伊登</b></color>...真高兴你能在我这不公监禁的最后时刻到场。
+伊登: <b>不公?</b> 你竟敢说不公。无数生灵亲眼见证你给这个世界带来的灾难...你就该被关在这里!
+???: 你的话真伤人啊，老朋友...当我的饥饿失控时，我给了反对者公平的逃生机会。
+???: 可他们还是永远长眠于此了。很快就轮到你了...等我回到深海平原，我会继续成长。
+伊登: 我不会让你得逞的! 这个孩子不懂内情，别把他卷进来。想动他，先过<b>我这关!</b>[event=15]
+???: 乐意之至，亲爱的<color=#eda540><b>伊登</b></color>...[event=18]
+[title=shark_final_1_end]
+[title=shark_eat_begin]
+可怜又愚蠢的鳗鱼...竟以为自己能保护你...
+...终于...又尝到了久违的开阔海水的滋味...
+最后一口，结束这三道大餐...
+对不起，小家伙...
+...但我的饥饿必须得到满足。
+[title=shark_eat_end]
+[title=squid_0_begin]
+???: 我们是最后的幸存者。在无数被吞噬的生灵中，只有我们活了下来。你所知的世界已经不复存在，被整个吃掉了。
+???: 我是<color=#89c45e><b>凯尔德拉丝</b></color>。或者...曾经是? 我早该消逝了...但她留着我的命。她知道，没了我，就再也没人陪她了。
+凯尔德拉丝: 你太天真了，根本不知道那古老石殿里藏着怎样的恐怖。就算不是你，也会有别人来做同样的事。
+凯尔德拉丝: 嘘...听。你听见了吗? 她睡得正香。在我们永远无法触及的海面之下，数千英里深的某处。
+凯尔德拉丝: 是啊...会没事的。等时机一到，你我就交换位置，我终于能离开这座牢笼了。
+凯尔德拉丝: [question=91]你看起来很困惑。不然你为什么会在这里? 你是天使派来拯救我的，拯救我们所有人的。不是吗?
+[choice]我同意。[newtalk start=squid_yes_begin break=squid_yes_end]
+[choice]我拒绝。[newtalk start=squid_no_begin break=squid_no_end]
+[title=squid_0_end]
+[title=squid_yes_begin]
+凯尔德拉丝: 你是圣人，是值得铭记的牺牲者。当洪水再次降临时，我的罪孽将被洗清。[event=0]
+[title=squid_yes_end]
+[title=squid_no_begin]
+凯尔德拉丝: 不...不会的，那些声音早就预言了，我听了那么久的声音，它们不会骗我的。求求你...[event=1]
+[title=squid_no_end]
+[title=squid_1_begin]
+凯尔德拉丝: [question=89]待在这地狱般的巨鲸腹中，你的精神会比身体先崩溃。你有什么事吗?
+[choice]没事。[newtalk start=squid_yes1_begin break=squid_yes1_end]
+[choice]我要走了。[newtalk start=squid_no_begin break=squid_no_begin]
+[title=squid_1_end]
+[title=squid_yes1_begin]
+凯尔德拉丝: 很好...很好。仔细聆听巨兽舒缓的低吼...它会是洪水来临前你寻找避难所的信号。
+[title=squid_yes1_end]
+[title=squid_no1_begin]
+凯尔德拉丝: 我现在明白了...你和其他人没什么两样。这就是他们当初全都被吞噬的原因。
+凯尔德拉丝: 这个世界已经被淘汰了——在大鱼吃小鱼的竞赛中落败。而现在，那条大鱼<i>就是</i>我们的世界。
+凯尔德拉丝: 哼。滚吧。回到你的梦境里去，但愿你想起我时，心中只剩嫉妒。
+[title=squid_no1_end]
+[title=pillar_0_begin]
+这里有一根摇摇欲坠的巨大石柱。看起来很不稳固，推一下可能就会倒塌。
+[question=88]要试着推倒石柱吗?
+[choice]推...[newtalk start=pillar_yes_begin break=pillar_yes_end]
+[choice]不推...[newtalk start=pillar_no_begin break=pillar_no_end]
+[title=pillar_0_end]
+[title=pillar_yes_begin]
+你用力推了石柱一把。[event=2]
+[title=pillar_yes_end]
+[title=pillar_no_begin]
+你没有触碰石柱。
+[title=pillar_no_end]
+[title=squid_crazy_begin]
+凯尔德拉丝: 不! 住手! 你的愚蠢会提前惊醒她! 洪水会把我们俩都毁掉的!
+[title=squid_crazy_end]
+[title=squid_crazy1_begin]
+凯尔德拉丝: 别出声...别走...都消失了...那些声音...那些声音...让声音停下...
+[title=squid_crazy1_end]
