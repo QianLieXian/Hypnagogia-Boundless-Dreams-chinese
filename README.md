@@ -1,4 +1,6 @@
 # Hypnagogia-Boundless-Dreams-chinese  
+<img width="460" height="215" alt="header" src="https://github.com/user-attachments/assets/45a7bd54-aa01-4d53-b3dc-6fabb43e6015" />   
+
 無限の夢 无限之梦汉化补丁  
 感谢由lxgw大佬改良的小赖字体:https://github.com/lxgw/kose-font  
 解包：https://github.com/Perfare/AssetStudio  
