@@ -23,7 +23,7 @@
 你试着按了按按钮, 但毫无反应. 里面传来什么东西咔嗒作响的声音. 说不定...
 [title=drink_secret0_end]
 [title=drink_secret1_begin]
-等等... 听起来机器里有什么东西晃松了.[newtalk start=drink_secret1_repeat_begin break=drink_secret1_repeat_end]
+等等... 听起来，机器里好像有什么东西被摇松了。[newtalk start=drink_secret1_repeat_begin break=drink_secret1_repeat_end]
 [title=drink_secret1_end]
 [title=drink_secret1_repeat_begin]
 [question=0000]一把钥匙从饮料机里掉了出来. 你要拿走它吗?
@@ -45,7 +45,7 @@
 后面的字迹潦草难辨.
 [title=bulletin_00_end]
 [title=bulletin_1_begin]
-这里有一块公告栏. 上面贴着几张寻人启事, 但人脸都已褪色, 无法辨认.
+这里有一块公告栏. 上面贴着几张寻人启事, 可照片已经褪色，看不清是谁了。
 [title=bulletin_1_end]
 [title=door_outside_begin]
 现在外面太冷了, 没法出去.
@@ -69,7 +69,7 @@
 这扇门纹丝不动, 仿佛有什么东西在里面顶着. 门上有个小标签, 写着 "静室".
 [title=door_deadend2_end]
 [title=door_deadend3_begin]
-你没法把门开得更大了.
+这门只能开到这么大了。
 [title=door_deadend3_end]
 [title=flashlight_begin]
 [question=0]这里有一把 <b>手电筒</b> . 还有一点电, 但不多了. 你要带上它吗?

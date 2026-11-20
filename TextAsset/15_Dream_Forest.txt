@@ -79,7 +79,7 @@ MID-ROOM
 ???: 先是跑来跟我搭讪, 现在又闯进我的<b>梦境</b>里? 你疯了吧![event=12]
 ???: 哦, 我懂了. 就是对我念念不忘是吧? 不得不说, 你这操作也太怪了. <i>怪得离谱</i>. 行吧, 我就在这儿, 如假包换.
 ???: 啧, 没人教过你什么叫边界感吗? 算了, 我没空跟你扯, 我还有事要做.
-???: [question=0]不过... 话说回来, 你出现在这儿说不定也算是歪打正着. 说不定你能帮我解决个小麻烦...
+???: [question=0]不过... 话说回来, 你来得倒巧，也许正好能帮我解决个小麻烦……
 [choice]帮什么?[newtalk start=golem_yes0_begin break=golem_yes0_end]
 [choice]不用了谢谢.[newtalk start=golem_no0_begin break=golem_no0_end]
 [title=golem_1_end]
@@ -305,7 +305,7 @@ TALKHOLDER
 
 TALKTRIGGER
 [title=golem_8_0_repeat_begin]
-塞拉: 收回四颗光球中的一颗后, 养分似乎正在回流到<color=#fcba03><b>生命之树</b></color>的根系中.
+塞拉: 找回第一颗光球后，养分似乎又开始流向<color=#fcba03><b>生命之树</b></color>的根系中.
 塞拉: 但它还很虚弱, 去找剩下的几颗吧. 快点!
 [title=golem_8_0_repeat_end]
 

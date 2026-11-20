@@ -147,7 +147,7 @@ GOGI 介绍
 为了让她回来我愿意做任何事.
 ???: 如果我可以去找她, 我会的, 但是有些东西... 把我困在了这里.
 如果你看到她, 你能想办法把她送到这里来吗?
-???: 不过, 除非你有她最喜欢的闪亮的<color=#fc0328><b>红球</b></color>, 否则她可能不会听你的.
+???: 不过，你得带上她最喜欢的那颗亮闪闪的<color=#fc0328><b>红球</b></color>，她才可能听你的。
 我把它弄丢在雪地里的某个地方了.
 ???: [question=00]你能帮我吗?
 [choice]当然.[newtalk start=answer_ghost_0_begin break=answer_ghost_0_end]
@@ -169,7 +169,7 @@ GOGI 介绍
 鬼魂人
 [title=guy_ghost_1_begin]
 ???: 你有什么好运气吗?
-确保你找到了她最喜欢的<color=#fc0328><b>红球</b></color>, 否则她可能不会听你的.
+确保你找到了她最喜欢的<color=#fc0328><b>红球</b></color>，她才可能听你的。
 ???: 我希望你能找到她. 她总是习惯爬到她下不来的地方.
 [title=guy_ghost_1_end]
 
@@ -635,5 +635,5 @@ GOGI 介绍
 [title=snowball_end]
 
 [title=carrot_begin]
-地上有一根小小的... <color=#e0d33f><b>胡萝卜</b></color>? 很奇怪, 但很方便. \n你把它带在了身上.
+地上有一根小小的... <color=#e0d33f><b>胡萝卜</b></color>? 出现得有点奇怪，不过正好用得上。 \n你把它带在了身上.
 [title=carrot_end]

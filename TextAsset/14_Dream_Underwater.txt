@@ -50,7 +50,7 @@
 [title=cube_statue_yellow_end]
 [title=cube_yellow_1_begin]
 你将<color=#f5e042><b>黄色方块</b></color>放入雕像手中。[event=3]
-严丝合缝，完美契合。你听见了细微的水流冒泡声。
+刚好合上，一点缝也没有。你听见轻轻的冒泡声。
 [title=cube_yellow_1_end]
 [title=cube_statue_red_begin]
 又一座诡异的雕像阴森伫立，空着的双手向前伸出。
@@ -60,7 +60,7 @@
 [title=cube_statue_red_end]
 [title=cube_red_1_begin]
 你将<color=#f54242><b>红色方块</b></color>放入雕像手中。[event=4]
-严丝合缝，完美契合。你听见了细微的水流冒泡声。
+刚好合上，一点缝也没有。你听见轻轻的冒泡声。
 [title=cube_red_1_end]
 潜水装备
 [title=gear_0_begin]
@@ -201,7 +201,7 @@
 [title=eel_win_end]
 宝箱·已开启
 [title=chest_open_begin]
-原本紧闭的宝箱已经打开。里面放着一块陌生又眼熟的<color=#f54242><b>红色方块</b></color>。\n你将它收入囊中。
+原本紧闭的宝箱已经打开。里面放着一块看着陌生，却又似曾相识的<color=#f54242><b>红色方块</b></color>。\n你将它收入囊中。
 [title=chest_open_end]
 巨石房间·鲨鱼区域前
 [title=wark_0_begin]
@@ -248,7 +248,7 @@
 梅格研究员: 我要继续深入研究，看看还能发现什么。
 [title=meg_1_end]
 [title=neolith_0_begin]
-在巨石顶端，你发现了一块陌生又眼熟的<color=#f5e042><b>黄色方块</b></color>。你将它收入囊中。
+在巨石顶端，你发现了一块看着陌生，却又似曾相识的<color=#f5e042><b>黄色方块</b></color>。你将它收入囊中。
 [title=neolith_0_end]
 取得巨石方块后
 [title=scotch_11_begin]
@@ -306,7 +306,7 @@
 [title=cube_yellow_11_end]
 鲨鱼内侧雕像
 [title=shark_statue_middle1_begin]
-这座雕像面露迷茫，似乎被某种震耳欲聋的声响逼得发狂。下方刻着一行小字——
+这座雕像一脸茫然，仿佛快被什么震耳欲聋的声音逼疯了。下方刻着一行小字——
 "我们听不见她的言语，因为她从不开口。她致命的召唤会蛊惑脆弱的心灵，因此我们不敢聆听。"
 [question=90]碑文继续写道，并提出一个问题——"你害怕吗?"
 [choice]不怕。[newtalk start=shark_middle1_no_begin break=shark_middle1_no_end]

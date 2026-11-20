@@ -5,9 +5,9 @@ NOTES:
 GOGI INTRO
 [title=Gogi_0_begin]
 "Gogi": [jitter=5 angle=0]哇——！[/jitter] 哪个缺心眼的把重力调小了? 我居然飘起来了!
-"Gogi": 你说不定也能到处飘! 也许有办法能飞的更高!
+"Gogi": 你说不定也能到处飘! 说不定还能飞得更高！
 "Gogi": 不管怎么说, 这儿所有东西都乱七八糟的, 我可太不喜欢了!
-"Gogi": 唉算了……别掉进什么奇怪的太空虚空里啊! 除非碎片在下面!
+"Gogi": 唉算了……别掉进什么奇怪的太空深渊里啊！ 除非碎片在下面!
 "Gogi": 玩得[jitter=5 angle=0]开——心——哦！[/jitter]
 [title=Gogi_0_end]
 Dream_5_Space Dialogue DEMO
@@ -33,7 +33,7 @@ LOCKED SPACE DOOR
 [title=lockeddoor_0_end]
 CODEX KEY
 [title=codex_0_begin]
-一部记载着宇宙信息的法典。用一种你永远也看不懂的古老文字抄写而成。
+这部典籍记载着宇宙的奥秘，用的是你永远也读不懂的古老文字。
 尽管心存顾虑, 你还是触碰了它, 随即获得了继续前行的能力印记。
 [title=codex_0_end]
 SHAPEZOID 0
@@ -145,7 +145,7 @@ A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: 那就与下方的深渊融为一体吧。
 [title=eye_finish_end]
 [title=eye_repeat1_begin]
 A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: 很好。[event=5]
-A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: 你的持续存在, 扰乱了宇宙在时间中应有的秩序。
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: 你一直留在这里，扰乱了宇宙原本的时间秩序。
 A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: [question=03]你如此迫切追寻的, 究竟是什么?
 [choice]知识。[newtalk start=eye_answer1_begin break=eye_answer1_end]
 [choice]一枚梦之碎片。[newtalk start=eye_answer2_begin break=eye_answer2_end]

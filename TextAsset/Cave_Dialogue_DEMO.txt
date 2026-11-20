@@ -49,7 +49,7 @@
 工头弗兰: 哈哈! 你可真<b>敢想!</b> 太敢想了! 我唯一能给你的"休息"就是一拳揍你脸上! [newtalk start=Fran_01_begin break=Fran_01_end]
 [title=answer0_Fran_end]
 [title=answer1_Fran_begin]
-工头弗兰: 家? 这儿就是你的家, 忘恩负义的东西! 这就是你能拥有的最好的家, 给我好好习惯! [newtalk start=Fran_01_begin break=Fran_01_end]
+工头弗兰: 家? 这儿就是你的家, 忘恩负义的东西! 你这辈子也找不到比这儿更好的家。趁早给我习惯！ [newtalk start=Fran_01_begin break=Fran_01_end]
 [title=answer1_Fran_end]
 [title=answer2_Fran_begin]
 工头弗兰: 答对了! 不过有个条件... 想过去只能靠老法子——洞窟魔法。
@@ -156,7 +156,7 @@
 [title=Bernard_1_end]
 [title=answer_sage_1_begin]
 贤者伯纳德: 是啊, 每年这个时候它们都特别闪耀, 对吧? 虽然比不上上面那个奇怪的遗物, 但也够好看了。
-贤者伯纳德: 尽管跟我一起看吧, 烦恼都会烟消云散的。毕竟旁边就是岩浆, 想不化都难。[event=4]
+贤者伯纳德: 来，陪我看看吧。烦恼很快就会烟消云散。毕竟旁边就是岩浆, 想不化都难。[event=4]
 [title=answer_sage_1_end]
 [title=Bernard_repeat_begin]
 贤者伯纳德: [question=3]嗯? 还有别的事吗? 当然, 跟工头有关的事免谈。

@@ -1,7 +1,7 @@
 7_Dream_Mall_Dialogue
 备注:
-- 不确定要不要保留高吉的模仿桥段. 要不改成电梯门一开他就慌忙跑掉?
-高吉登场
+- 不确定要不要保留戈吉的模仿桥段. 要不改成电梯门一开他就慌忙跑掉?
+戈吉登场
 [title=Gogi_0_begin]
 "高吉": 嘿嘿.
 [title=Gogi_0_end]
@@ -22,7 +22,7 @@
 [title=answer_elevator_yes_end]
 导览播报
 [title=directory_begin]
-"欢迎来到 H̵Ë̵̥̰͈́̾Ḁ̸͙̆̈́V̸̧͜E͈N̸̟̈́'̶̣͙̼͌S̴͙̫̿͑̚ ̧̛̩P̴̡͓͊̿L̷̙̙̎̈́Ȁ̷͕͂̇Z̵̧̑A̧͔̎̕  购物中心."
+"欢迎来到 HEAVEN'S PLAZA 购物中心。"
 "本店即将打烊. 请选购好商品后尽快离开."
 "感谢您今日光临购物."
 [title=directory_end]
@@ -141,7 +141,7 @@
 远处传来了卷帘门升起的声音...
 [title=switch_art_yes_end]
 [title=switch_no_begin]
-你后退离开了开关.
+你从开关旁退开了。
 [title=switch_no_end]
 [title=switch_game_begin]
 [question=7]咦. 这里有个奇怪的开关. 你要拉下去吗?

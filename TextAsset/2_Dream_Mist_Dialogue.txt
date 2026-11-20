@@ -41,7 +41,7 @@ GOGI 开场
 [title=god_00_end]
 [title=god_0_begin]
 ???: 你好啊，小小的旅人。你肯定迷路了吧。
-???: [question=1]有什么我能帮到你的吗?
+???: [question=1]有什么我能帮你的？
 [choice]我听不懂。
 [choice]随你怎么说。
 ???: 看来我们没法理解彼此。
@@ -95,7 +95,7 @@ GOGI 开场
 [choice]你觉得呢![newtalk start=answer_god_2_begin break=answer_god_2_end]
 [title=god_1_repeat_end]
 [title=answer_god_0_begin]
-水神阿尔索斯: <color=#03cffc><b>梦之碎片</b></color>……是啊。这个名字我隐约还有点印象。见谅，我的记性大不如前了。
+水神阿尔索斯: <color=#03cffc><b>梦之碎片</b></color>……是啊。这个名字我隐约还有点印象。见谅，我的记性不如从前了。
 水神阿尔索斯: 很久很久以前……有个什么东西的碎片现身于此。碎成了两半，不再完整。
 水神阿尔索斯: 后来它被自然消解，精髓融入了我们的水域之中。
 水神阿尔索斯: 如果你来就是为了它，想找到实体形态的碎片恐怕很难……但也不是全无希望。[newtalk start=god_1_repeat_begin break=god_1_repeat_end]
@@ -156,7 +156,7 @@ GOGI 开场
 [choice]是归宿。[newtalk start=answer_green_seer_2_begin break=answer_green_seer_2_end]
 [title=green_seer_01_end]
 [title=answer_green_seer_0_begin]
-绿先知格里斯: 啊，是<b>安宁</b>啊。我们之中很少有人懂得放慢脚步，慢慢走，欣赏周遭的一切。但是……
+绿先知格里斯: 啊，是<b>安宁</b>啊。我们之中，很少有人懂得放慢脚步，看看沿途的风景。但是……
 绿先知格里斯: ……虽说主观上这话没错，但这并非这片土地最本真的东西。[newtalk start=green_seer_01_begin break=green_seer_01_end]
 [title=answer_green_seer_0_end]
 [title=answer_green_seer_1_begin]

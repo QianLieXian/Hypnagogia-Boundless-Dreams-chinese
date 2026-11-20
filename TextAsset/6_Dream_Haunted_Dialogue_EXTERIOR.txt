@@ -3,7 +3,7 @@ GOGI INTRO
 [title=Gogi_0_begin]
 "戈吉": 哇，瞧瞧这地方死气沉沉的样子! 要我说，也太压抑了吧!
 "戈吉": 我看到前面有好多吓人的东西，看得我毛骨悚然...! 太诡异了!
-"戈吉": 一想到死亡那冰冷无情的拥抱，我就陷入了存在困境! \n我实在搞不懂!
+"戈吉": 一想到死亡那冰冷无情的拥抱，我就忍不住怀疑人生！\n我实在想不通！
 "戈吉": 算了吧，哈哈哈. 反正这一切都只是场梦. 对，就是场梦! 好好[jitter=5 angle=0]玩吧![/jitter]
 [title=Gogi_0_end]
 HEADSTONES
@@ -67,7 +67,7 @@ GRAVEDIGGER
 ROUND 2
 [title=digger_1_begin]
 守墓人格雷迪: 啊，你试过开门了，是吗? 你以为就这么大摇大摆地闯进这地方就行?
-守墓人格雷迪: 我还以为你能聪明点，不会在这阴沉的夜晚擅自闯进来. 但我也懒得管你这蠢行.
+守墓人格雷迪: 我还以为你能聪明点，不会在这阴沉的夜晚擅自闯进来. 不过你非要犯这个傻，我也懒得拦你。
 守墓人格雷迪: 我把庭院的钥匙借给你. 希望里面的东西值得你承受即将到来的一切，小子.
 守墓人格雷迪: 不用还钥匙了. 你活不到能还钥匙的时候. 祝你今晚愉快.
 [title=digger_1_end]
@@ -86,10 +86,10 @@ ROUND 2
 [choice]稍后再说...[newtalk start=answer_mansion_0_no_begin break=answer_mansion_0_no_end]
 [title=mansion_0_leave_end]
 [title=answer_mansion_0_yes_begin]
-你满心恐惧地推开宅邸的大门. 何等恐怖正等在里面?[event=0]
+你强忍着恐惧推开宅邸的大门。里面有什么可怕的东西在等你？[event=0]
 [title=answer_mansion_0_yes_end]
 [title=answer_mansion_0_no_begin]
-你从这阴森的入口前退开，尽管它在不停引诱着你.[event=1]
+你从阴森的入口前退开了，尽管它仿佛还在召唤你。[event=1]
 [title=answer_mansion_0_no_end]
 [title=well_begin]
 井里飘着一张奇怪的纸.
@@ -114,10 +114,10 @@ ROUND 2
 [choice]稍后再说...[newtalk start=answer_mansion_0_no_begin break=answer_mansion_0_no_end]
 [title=mansion_1_leave_end]
 [title=answer_mansion_0_yes_begin]
-你满心恐惧地推开宅邸的大门. 何等恐怖正等在里面?[event=0]
+你强忍着恐惧推开宅邸的大门。里面有什么可怕的东西在等你？[event=0]
 [title=answer_mansion_0_yes_end]
 [title=answer_mansion_0_no_begin]
-你从这阴森的入口前退开，尽管它在不停引诱着你.[event=1]
+你从阴森的入口前退开了，尽管它仿佛还在召唤你。[event=1]
 [title=answer_mansion_0_no_end]
 [title=mansion_locked_begin]
 你试图推开宅邸的正门，但门被锁得死死的.

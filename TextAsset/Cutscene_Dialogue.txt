@@ -8,15 +8,15 @@ Angel intro
 [title=angel_1_end]
 [title=angel_2_begin]
 但我们还得再等一小会儿
-[title=angel_3_end]
+[title=angel_2_end]
 [title=angel_3_begin]
-你远比自己想象的更被需要
+我们比你想象的更需要你
 [title=angel_3_end]
 [title=angel_4_begin]
 你只需做一件事
 [title=angel_4_end]
 [title=angel_5_begin]
-就是 <b>入梦</b>
+那就是<b>入梦</b>
 [title=angel_5_end]
 Cutscene hub intro
 [title=avatar_0_begin]
@@ -53,7 +53,7 @@ Cutscene Final part 0
 [title=hypno_33_end]
 Cutscene Final part 1
 [title=hypno_4_begin]
-早知道当初就该趁机会彻底碾碎你。
+早知道，当初就该把你彻底碾碎。
 [title=hypno_4_end]
 [title=hypno_5_begin]
 等我解决掉你，就继续把这片梦境之地打造成噩梦的天堂。

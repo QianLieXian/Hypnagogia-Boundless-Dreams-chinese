@@ -84,7 +84,7 @@
 [choice]帮你拿过来……[newtalk start=answer2_Fran_begin break=answer2_Fran_end]
 [title=Fran_01_end]
 [title=answer0_Fran_begin]
-工头弗兰: 哈哈！真<b>好笑</b>！太好笑了！我唯一能给你的休息，就是把你脸打肿！[newtalk start=Fran_01_begin break=Fran_01_end]
+工头弗兰: 哈哈！真<b>好笑</b>！太好笑了！想休息？我能让你肿着脸躺一会儿！[newtalk start=Fran_01_begin break=Fran_01_end]
 [title=answer0_Fran_end]
 [title=answer1_Fran_begin]
 工头弗兰: 家？这儿就是你的家，忘恩负义的东西！这就是你能拥有的最好的家，好好适应吧！[newtalk start=Fran_01_begin break=Fran_01_end]
@@ -225,7 +225,7 @@
 [title=answer_sage_yes_begin]
 贤者伯纳德: 除非……你赶在她前面把碎片拿走！带着它离开这个又潮又恶心的洞穴，再也别回来。
 贤者伯纳德: 就这么说定了？好！我要给弗兰一个教训。不能什么东西都被她看上就归她。
-贤者伯纳德: 我活了这么久，悟出一个道理：东西得靠自己挣！得付出努力才行！
+贤者伯纳德: 我活了这么久，悟出一个道理：想要什么，就得靠自己去挣！
 贤者伯纳德: 弗兰那副什么都理所当然的样子，我早就看烦了。正好治治她。
 贤者伯纳德: 行了！就这么定了。我们上面见。回去的时候小心我身后那堆烫人的东西，听见没？[event=3]
 [title=answer_sage_yes_end]

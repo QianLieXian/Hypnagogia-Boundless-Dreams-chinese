@@ -1,7 +1,7 @@
-高吉试炼 对话文本
+戈吉试炼 对话文本
 梦境水晶 前置任务引言
 [title=gem_int0_begin]
-一枚失落沉寂的<color=#03cffc><b>梦境水晶</b></color>... 它在某种凝滞状态下失去了力量.
+一枚失落已久的<color=#03cffc><b>梦境水晶</b></color>……它陷入沉寂，失去了力量。
 来自异处, 异时... 另一位造梦者. 重拾梦境的自由, 藏于两条纯净之途之间.
 [title=gem_int0_end]
 右侧梦境水晶
@@ -9,7 +9,7 @@
 一枚被滔天梦魇幻象侵蚀的<color=#03cffc><b>梦境水晶</b></color>.
 它是无数不眠夜的根源, 将梦境揉进现实, 将现实融于梦境.
 它的求生意志早已消磨殆尽. 但它仍可重归纯净.
-[question=0]净化这份腐化?
+[question=0]要净化这枚水晶吗？
 [choice]是.[newtalk start=gem_right0_yes_begin break=gem_right0_yes_end]
 [choice]否.[newtalk start=gem_right0_no_begin break=gem_right0_no_end]
 [title=gem_right0_end]
@@ -19,20 +19,20 @@
 [title=gem_right0_yes_end]
 右侧梦境水晶 选择否
 [title=gem_right0_no_begin]
-你跳着离开了这枚腐化的水晶.[event=2]
+你从这枚遭到侵蚀的水晶旁跳开了。[event=2]
 [title=gem_right0_no_end]
 右侧梦境水晶 重复对话
 [title=gem_right0_repeat_begin]
-[question=0]净化这份腐化?
+[question=0]要净化这枚水晶吗？
 [choice]是.[newtalk start=gem_right0_yes_begin break=gem_right0_yes_end]
 [choice]否.[newtalk start=gem_right0_no_begin break=gem_right0_no_end]
 [title=gem_right0_repeat_end]
 左侧梦境水晶
 [title=gem_left0_begin]
 一枚开裂被弃的<color=#03cffc><b>梦境水晶</b></color>, 孑然一身, 了无生机.
-它曾赠予无数爱与欢愉, 如今却只余下悲伤.
+它曾带给人们无尽的爱与欢乐，如今只剩悲伤。
 空洞的外壳深处, 仍藏着一丝希望的火种. 它的灵光可以重归完整.
-[question=0]净化这份腐化?
+[question=0]要净化这枚水晶吗？
 [choice]是.[newtalk start=gem_left0_yes_begin break=gem_left0_yes_end]
 [choice]否.[newtalk start=gem_left0_no_begin break=gem_left0_no_end]
 [title=gem_left0_end]
@@ -42,18 +42,18 @@
 [title=gem_left0_yes_end]
 左侧梦境水晶 选择否
 [title=gem_left0_no_begin]
-你跳着离开了这枚腐化的水晶.[event=3]
+你从这枚遭到侵蚀的水晶旁跳开了。[event=3]
 [title=gem_left0_no_end]
 左侧梦境水晶 重复对话
 [title=gem_left0_repeat_begin]
-[question=0]净化这份腐化?
+[question=0]要净化这枚水晶吗？
 [choice]是.[newtalk start=gem_left0_yes_begin break=gem_left0_yes_end]
 [choice]否.[newtalk start=gem_left0_no_begin break=gem_left0_no_end]
 [title=gem_left0_repeat_end]
 梦境水晶 任务后引言
 [title=gem_int1_begin]
-<color=#03cffc><b>梦境水晶</b></color>重新脉动起微弱的生命气息. 复苏之路漫长, 但终将圆满.
-随着生机复苏, 它离开这片险地, 踏上归途. 你的目标也大抵如此.
+<color=#03cffc><b>梦境水晶</b></color>重新有了微弱的脉动。它还需要很长时间，才能完全恢复。
+随着生机复苏, 它离开这片险地, 踏上归途. 你要走的，大概也是这样的路。
 [title=gem_int1_end]
 恶魔雕像
 [title=statue_begin]

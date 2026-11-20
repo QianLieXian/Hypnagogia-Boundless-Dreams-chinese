@@ -1,15 +1,15 @@
 DreamPreHub Dialogue
 
 [title=Gogi_0_begin]
-???: 你好呀,沉眠者,不必害怕.
-???: [question=1]你是迷失了方向还是专程而来?
+???: 你好啊，沉眠者。别怕。
+???: [question=1]你是迷了路，还是特意到这儿来的？
 [choice]你是谁?[newtalk start=answer3_begin break=answer3_end]
 [choice]我身在何处?[newtalk start=answer4_begin break=answer4_end]
 [choice]我为何会在这里?[newtalk start=Gogi_1_begin break=Gogi_1_end]
 [title=Gogi_0_end]
 
 [title=answer3_begin]
-???: 我是你 <color=#a141f0><b>记忆</b></color>的碎片. 是你从意识深处凝聚造出的虚影.
+???: 我是你<color=#a141f0><b>记忆</b></color>中的碎片，是从你意识深处浮现的虚影。
 ???: [question=4]是你决意忘却的过往,还是你竭力想起的曾经?
 [choice]继续说...[newtalk start=Gogi_1_begin break=Gogi_1_end]
 [choice]你是谁?[newtalk start=answer3_begin break=answer3_end]
@@ -17,31 +17,31 @@ DreamPreHub Dialogue
 [title=answer3_end]
 
 [title=answer4_begin]
-???: 我们身处 <color=#a141f0><b>虚无之境</b></color>. 这是一片浩瀚无垠的国度,唯有浓稠的空寂充盈其间.
-???: [question=3]唯有你踏上未启之旅的第一步,会在这里漾开回响.
+???: 我们身处 <color=#a141f0><b>虚无之境</b></color>. 这里无边无际，四下只有沉沉的寂静。
+???: [question=3]你的旅程尚未开始。只有当你迈出第一步，这里才会有回响。
 [choice]继续说...[newtalk start=Gogi_1_begin break=Gogi_1_end]
 [choice]你是谁?[newtalk start=answer3_begin break=answer3_end]
 [choice]我身在何处?[newtalk start=answer4_begin break=answer4_end]
 [title=answer4_end]
 
 [title=Gogi_1_begin]
-???: 慢慢来,沉眠者.前方还有诸多事物待你亲历,诸多光景待你见证!
+???: 慢慢来，沉眠者。前面还有许多事等着你去经历，许多景象等着你亲眼去看！
 ???: [question=0]你想了解操作方式吗?
 [choice]不用了.[newtalk start=answer2_begin break=answer2_end]
 [choice]好的.[newtalk start=answer1_begin break=answer1_end]
 [title=Gogi_1_end]
 
 [title=answer1_begin]
-???: 看来你是第一次来到这里?也好,我来为你说明一二.[event=0]
-???: 请稍作查看,了解这些 <b>操作方式</b>. 你也可以随时在暂停菜单中调整视野与其他设置.[event=2]
-???: 对了,游戏进度会通过 <color=#49FF1C><b>自动存档</b></color> 功能保存.当左下角出现该图标时,你就可以放心退出.[event=1]
-???: 最后提醒一句:倘若你感到迷茫,就朝着 <b>光</b> 的方向前行. 见到它你便会了然.目前我能告知你的就这些了.
-???: <b>记住这点</b>, 沉眠者: 你会遇到形形色色的人,展开许许多多的对话,还请多些耐心.
-???: 请走过前方的桥,踏入为你开启的门扉.我们都满怀期待,想见证你将走出怎样的旅途.
+???: 看来你是第一次来？那我给你说说吧。[event=0]
+???: 先看看这些<b>操作方式</b>吧。你也可以随时在暂停菜单里调整视野和其他设置。[event=2]
+???: 对了，游戏会<color=#49FF1C><b>自动存档</b></color>。退出前，记得留意左下角的存档图标。[event=1]
+???: 最后提醒你一句：要是迷了路，就朝<b>光</b>走。见到它，你就明白了。我现在能告诉你的只有这些。
+???: <b>记住这点</b>, 沉眠者: 你会遇到形形色色的人，要跟不少人交谈。请耐心听一听。
+???: 过了前面的桥，就能看见为你打开的门。我们都想看看，你会走出一条怎样的路。
 [title=answer1_end]
 
 [title=answer2_begin]
-???: 这么心急吗?也好,不过我得提醒你 <b>梦境</b> 本就不该匆匆而过.
-???: 你会遇到形形色色的人,展开许许多多的对话,还请多些耐心. <b>切记这点</b>, 沉眠者.
-???: 请走过前方的桥,踏入为你开启的门扉.我们都满怀期待,想见证你将走出怎样的旅途.
+???: 这么急吗？也好。不过，<b>梦境</b>值得你慢慢体会。
+???: 你会遇到形形色色的人，要跟不少人交谈。请耐心听一听。 <b>切记这点</b>, 沉眠者.
+???: 过了前面的桥，就能看见为你打开的门。我们都想看看，你会走出一条怎样的路。
 [title=answer2_end]
