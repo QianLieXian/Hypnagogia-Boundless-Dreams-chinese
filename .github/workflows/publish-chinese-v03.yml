@@ -1,0 +1,56 @@
+name: Publish Chinese v0.3
+
+on:
+  push:
+    tags:
+      - Chinese-v0.3
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Get verified patch bundle
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: 00acda8db67e12b74a9d646a3fd315adef0ccd9c
+          lfs: true
+          persist-credentials: false
+
+      - name: Package and verify Windows patch
+        shell: bash
+        run: |
+          sha256sum --check SHA256SUMS
+          curl --fail --location --retry 3 \
+            'https://github.com/QianLieXian/Hypnagogia-Boundless-Dreams-chinese/releases/download/Chinese-v0.2/Hypnagogia.Boundless.Dreams_Data-Chinese-v0.2.7z' \
+            --output base.7z
+          printf '%s\n' '4de75a178ec35fc3aa2edcb3df2b8af13ba808f21dccdf9175879130cac512a8  base.7z' | sha256sum --check
+          game_dir='Hypnagogia Boundless Dreams_Data'
+          7z x -y base.7z "$game_dir/Resources/unity default resources"
+          cp data.fixed.unity3d "$game_dir/data.unity3d"
+          archive='Hypnagogia.Boundless.Dreams_Data-Chinese-v0.3.zip'
+          zip -1 -q "$archive" "$game_dir/data.unity3d" "$game_dir/Resources/unity default resources"
+          unzip -t "$archive"
+          sha256sum "$archive" > SHA256SUMS.txt
+
+      - name: Publish release and assets
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cat > release-notes.md <<'NOTES'
+          ## 中文补丁 v0.3
+
+          - 调整 TextMeshPro 的字形图集和后备字体，修复鬼屋与商场部分特效文字的缺字，改善切换地图时的汉字显示。
+          - 润色 23 个对话文件，补充竹林谜语的双关说明，修正开场字幕的结束标签。
+          - 已核验资源包及对话跳转。切图后的字体表现仍待游戏内验证，太空关卡角色名的装饰字符仍可能显示为方框。
+
+          安装前请备份游戏目录中的 `Hypnagogia Boundless Dreams_Data`。解压 ZIP，将同名目录覆盖到 Windows 版游戏目录。
+          NOTES
+          gh release create Chinese-v0.3 \
+            Hypnagogia.Boundless.Dreams_Data-Chinese-v0.3.zip SHA256SUMS.txt \
+            --repo "$GITHUB_REPOSITORY" --verify-tag --latest \
+            --title 'Chinese v0.3 汉化补丁' --notes-file release-notes.md
