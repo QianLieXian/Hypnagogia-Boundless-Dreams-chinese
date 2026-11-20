@@ -8,7 +8,8 @@ net6：https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/6.0.36/windowsd
 打包：https://github.com/nesrak1/UABEA/releases  
 老钱亲情汉化，有bug或者字体错误请提出，有时间会优化  
   
-汉化补丁覆盖下载链接:https://github.com/QianLieXian/Hypnagogia-Boundless-Dreams-chinese/releases  
+[下载 v0.3 汉化补丁](https://github.com/QianLieXian/Hypnagogia-Boundless-Dreams-chinese/releases/tag/Chinese-v0.3) · [历史版本](https://github.com/QianLieXian/Hypnagogia-Boundless-Dreams-chinese/releases)
+
 汉化TextAsset文件链接(正常玩家不需要):https://github.com/QianLieXian/Hypnagogia-Boundless-Dreams-chinese/tree/main/TextAsset  
 
 
@@ -17,13 +18,13 @@ net6：https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/6.0.36/windowsd
 ~(确保自动保存后，重启游戏即可解决方框的问题，似乎每次进入新游戏，载入新地图时字体不会自动跟过来，重启解决！)~   
 ~~燃尽了，基本可以确定是缓存原因，游戏先载入的字符，1帧后再挂载的字体，导致的会有方框，目前只能重启游戏解决~~
 
-**完美解决**（候选修复，待游戏内验证）
+**完美解决**（修复已随 v0.3 发布，切图效果待游戏内验证）
 
-v0.2 的补丁已经内嵌小赖字体。检查发布包时发现，动态字形图集只能使用一页，部分图集也无法让 TextMeshPro 在运行时写入新字形。候选修复开放多页图集、启用相关纹理的读写，并把内嵌的小赖字体设为全局后备字体。鬼屋和商场对白中两个使用缺失字形的特效段也已改写。太空关卡的特效角色名保留，原有装饰字符依然可能显示为方框。
+v0.2 的补丁已经内嵌小赖字体。检查发布包时发现，动态字形图集只能使用一页，部分图集也无法让 TextMeshPro 在运行时写入新字形。v0.3 开放多页图集、启用相关纹理的读写，并把内嵌的小赖字体设为全局后备字体。鬼屋和商场对白中两个使用缺失字形的特效段也已改写。太空关卡的特效角色名保留，原有装饰字符依然可能显示为方框。
 
-#### 从 v0.2 重建候选补丁
+#### 从 v0.2 重建 v0.3 资源包
 
-解压上方的 v0.2 补丁，在仓库根目录用 Python 3.12 执行以下命令。脚本读取原包的 `data.unity3d` 和当前仓库的 `TextAsset/`，生成一个新的游戏资源包。
+从历史版本下载并解压 v0.2 补丁，在仓库根目录用 Python 3.12 执行以下命令。脚本读取原包的 `data.unity3d` 和当前仓库的 `TextAsset/`，生成一个新的游戏资源包。
 
 ```bash
 python -m pip install UnityPy==1.25.4
